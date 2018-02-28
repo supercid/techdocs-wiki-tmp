@@ -3,15 +3,15 @@
 ```html
 <div class="nosto_product"> 
 <!-- Open product tagging. -->
-	<span class="id">Canoe123</span> <!-- Unique ID of product. -->
-	<span class="name">Acme Canoe</span> <!-- Name of product. -->
-	<span class="url">https://example.com/canoe123</span> <!-- Url to product eg. This page.	-->
-	<span class="image">https://image.example.com/canoe1.jpg</span> <!-- Url to product image. -->
-	<span class="availability">Instock</span> <!-- Availability eg. Instock, Outofstock, Discontinued. -->
-	<span class="price">999,00</span> <!-- Current price or price after discount applied. -->
-	<span class="currency-code">USD</span> <!-- ISO-4471 format eg. USD, EUR, SEK etc.
-	<span class="categories">/interior</span> <!-- Output associated categories. --> 
-	<span class="categories">/interior/towels</span> <!-- Also loop out all associated the sub-categories. -->
+  <span class="id">Canoe123</span> <!-- Unique ID of product. -->
+  <span class="name">Acme Canoe</span> <!-- Name of product. -->
+  <span class="url">https://example.com/canoe123</span> <!-- Url to product eg. This page.	-->
+  <span class="image">https://image.example.com/canoe1.jpg</span> <!-- Url to product image. -->
+  <span class="availability">Instock</span> <!-- Availability eg. Instock, Outofstock, Discontinued. -->
+  <span class="price">999,00</span> <!-- Current price or price after discount applied. -->
+  <span class="currency-code">USD</span> <!-- ISO-4471 format eg. USD, EUR, SEK etc.
+  <span class="categories">/interior</span> <!-- Output associated categories. --> 
+  <span class="categories">/interior/towels</span> <!-- Also loop out all associated the sub-categories. -->
 </div>
 <!-- End product tagging. -->
 ```

@@ -22,14 +22,14 @@ Please note that the meta attributes need to exist within the page source when t
 Nosto also supports multiple optional values which may enrich the usage of the service, but are not required. These span elements should be inserted into the "nosto_product" parent container.
 
 ```html
-<span class="brand>Acme</span>
+<span class="brand">Acme</span>
 <span class="description">This is a great product!</span>
 <span class="list-price">1299.00</span>
 <span class="tag1">Aluminium</span>
 <span class="tag2">Charcoal Black</span>
 <span class="tag3">Outdoor</span>
 <span class="tag3">Canoeing</span>
-<span class="rating-value>3.8</span>
+<span class="rating-value">3.8</span>
 <span class="review-count">36</span>
 <span class="alternate-image-url"> https://image.example.com/canoe2.jpg</span>
 <span class="alternate-image-url"> https://image.example.com/canoe3.jpg</span>

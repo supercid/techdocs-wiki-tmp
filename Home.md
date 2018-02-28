@@ -9,6 +9,7 @@ First its important to understand a few of the concepts before delving in to the
 In case you have already implemented Nosto and established continuous data exchange you can find more information related to troubleshooting or setting up features at [help.nosto.com](https://help.nosto.com/). 
 
 **Implementation Checklist**
+
 As a first step, please check if your e-commerce platform or software is already supported by a Nosto extension or integration. In case the platform is supported we warmly recommend to use an extension and reading the platform specific guide as this saves you some manual effort and time, since the implementation process differs a bit from the one described in this article series and practically automates all the steps.
 
 Second, make sure that you have a Nosto account and if not, sign up on Nosto home page or contact Nosto sales.

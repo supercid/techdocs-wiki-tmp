@@ -34,4 +34,6 @@ Please note that the meta attributes need to exist within the page source when t
 
 **Troubleshooting order tagging:**
 
-Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see order contents being picked up under "Tagging" → "Order" then the order details are correctly set up in the source code. You can further verify your session in the Nosto admin by using the live feed under: https://my.nosto.com/admin/$accountID/liveFeed to see if Nosto correctly picks up product view → product carted → product bought events. You can export all the order history from the store under Settings → Other → Order report under https://my.nosto.com/admin/$account/account/orders/report
+Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see order contents being picked up under "Tagging" → "Order" then the order details are correctly set up in the source code. 
+
+You can further verify your session in the Nosto admin by using the live feed under: https://my.nosto.com/admin/$accountID/liveFeed to see if Nosto correctly picks up product view → product carted → product bought events. You can export all the order history from the store under Settings → Other → Order report under https://my.nosto.com/admin/$account/account/orders/report

@@ -4,7 +4,7 @@ The SKU attributes should be listed on the last row of the `nosto_product` block
 
 **What is a SKU?**
 
-Many e-commerce stores have a parent product with individual child products. The parent product is usually something along the lines of "Ski Jacket" whereas the SKUs would then be "Ski Jacket, Blue, Small", "Ski Jacket, Red, Medium". If your store uses SKUs you should add the following attributes to your product tagging.
+Many e-commerce stores have a parent product with individual child products. The parent product is usually something along the lines of "Ski Jacket" whereas the SKUs would then be "Ski Jacket, Blue, Small", "Ski Jacket, Red, Medium". If your store uses SKUs you should add the following attributes to extend your product tagging.
 
 ```html
 <div class="nosto_product" style="display:none">

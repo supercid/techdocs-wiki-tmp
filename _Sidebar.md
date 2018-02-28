@@ -1,4 +1,4 @@
-* [Manual Tagging] (Manual-implementation)
+* [Manual Tagging](Manual-implementation)
   * [Adding the Nosto Script](Add-Nosto-script)
   * [Adding the Product Tagging](Product-Tagging)
   * [Adding the Category Tagging](Category-Tagging)

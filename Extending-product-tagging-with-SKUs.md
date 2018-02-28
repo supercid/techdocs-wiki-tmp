@@ -16,7 +16,8 @@ The SKU attributes should be listed on the last row of the `nosto_product` block
         <span class="size">S</span>
         <span class="color">Orange</span>
       </span>
-    </span>
+  </span>
+
   <span class="nosto_sku">
     <span class="id">2</span>
       <span class="name">S-Blue</span>
@@ -30,6 +31,7 @@ The SKU attributes should be listed on the last row of the `nosto_product` block
         <span class="color">Blue</span>
       </span>
    </span>
+
 </div>
 ```
 

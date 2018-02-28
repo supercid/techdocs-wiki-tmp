@@ -8,7 +8,7 @@ To implement Nosto manually you will need to go through the following steps to e
 * Cart tagging
 * Order tagging
 
-**Bulk uploading product data using API methods: **
+**Bulk uploading product data using API methods:**
 * When and why to implement API methods?
 * Augmenting with Recrawl API
 * Augmenting with Products API

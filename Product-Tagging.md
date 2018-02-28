@@ -16,7 +16,7 @@ Please note that the meta attributes need to exist within the page source when t
 </div>
 ```
 > **Note:** There are a few product attributes that need to be annotated in a certain format.
-> Currency: ISO-4471 format eg. USD, EUR, SEK etc.
+> Currency: ISO-4471 format eg. USD, EUR, SEK etc. <br>
 > Availability: Instock, Outofstock, Discontinued
 
 Nosto also supports multiple optional values which may enrich the usage of the service, but are not required. These span elements should be inserted into the "nosto_product" parent container.

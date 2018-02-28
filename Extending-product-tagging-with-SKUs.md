@@ -4,6 +4,7 @@ The SKU attributes should be listed on the last row of the `nosto_product` block
 
 ```html
 <div class="nosto_product" style="display:none">
+
   <span class="nosto_sku">
     <span class="id">1</span>
       <span class="name">S-Orange</span>

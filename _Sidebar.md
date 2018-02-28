@@ -6,4 +6,4 @@
   * [Adding the Order Tagging](Order-Tagging)
 * [Data Exchange](Data-exchange)
   * [Nosto Crawler](Nosto-crawler)
-  * [Sending-products-manually-with-the-Products-API](Sending products manually with the Products API]
+  * [Sending-products-manually-with-the-Products-API](Sending products manually with the Products API)

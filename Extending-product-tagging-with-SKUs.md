@@ -44,7 +44,9 @@ Many e-commerce stores have a parent product with individual child products. The
 
 **Troubleshooting SKU tagging**
 
-Once included you can review if the SKUs are picked up by using the [Nosto Debug Toolbar](https://help.nosto.com/get-started/guides/how-to-use-the-nosto-debug-toolbar). If you can see individual SKUs being picked up below the original product details then this is correctly set up. You can further verify that products are being indexed to the catalogue under the Nosto admin by navigating to Tools → Products: https://my.nosto.com/admin/$accountID/campaigns/products/list
+Once included you can review if the SKUs are picked up by using the [Nosto Debug Toolbar](https://help.nosto.com/get-started/guides/how-to-use-the-nosto-debug-toolbar). If you can see individual SKUs being picked up below the original product details then this is correctly set up. 
+
+You can further verify that products are being indexed to the catalogue under the Nosto admin by navigating to Tools → Products: https://my.nosto.com/admin/$accountID/campaigns/products/list
 
 ![Sku debug toolbar](https://nosto-campaign-assets.s3.amazonaws.com/images/sku-toolbar.png)
 ![Sku product catalogue](https://nosto-campaign-assets.s3.amazonaws.com/images/sku-catalogue.png)

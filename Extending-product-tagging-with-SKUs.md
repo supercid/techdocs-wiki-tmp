@@ -37,3 +37,7 @@ The SKU attributes should be listed on the last row of the `nosto_product` block
 ```
 
 >**Note:** The attribute `custom_fields` can contain whatever unique information for individual SKUs that you can >consider helpful. Frequently used attributes would be size, color, material.
+
+![Sku debug toolbar](https://nosto-campaign-assets.s3.amazonaws.com/images/sku-toolbar.png)
+
+![Sku product catalogue](https://nosto-campaign-assets.s3.amazonaws.com/images/sku-catalogue.png)

@@ -21,3 +21,5 @@ In XHTML, attribute minimization is forbidden, and the async attribute must be d
 
 **Troubleshooting Nosto script:**
 Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If the debug toolbar executes and shows up on the page Nosto can track visits on the page. You can further verify your session in the Nosto admin by using the live feed under: https://my.nosto.com/admin/$accountID/liveFeed
+
+[Nosto debug toolbar](https://nosto-campaign-assets.s3.amazonaws.com/images/nosto-embed-script-debug.png)

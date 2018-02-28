@@ -9,7 +9,7 @@ Page type tagging should be exposed whenever a user is interacting with a page s
 <div class="nosto_page_type" style="display:none">product</div>
 ```
 
->**Note:*** The accepted values for page type are: front, category, product, cart, order, search, notfound
+>**Note:** The accepted values for page type are: front, category, product, cart, order, search, notfound
 
 **Troubleshooting category/page type tagging:**
 

@@ -6,10 +6,10 @@ To start tracking visits and content the Nosto script needs to be active on all 
 
 The script should be added as high up in to the `<head>` portion of the page so the connection is initialised as soon as possible. This is because Nosto first creates the initial connection between the service and the store and populates the recommendation elements when the site has loaded. If you add the script lower down in the content there might be a visible delay between page load and loading the recommendations.
 
-**Note: There are several ways an external script can be executed:**
-* If async tag is present (recommended): The script is executed asynchronously with the rest of the page (the script will be executed while the page continues the parsing)
-* If async is not present and defer is present: The script is executed when the page has finished parsing
-* If neither async or defer is present: The script is fetched and executed immediately, before the browser continues parsing the page
+>**Note: There are several ways an external script can be executed:**
+>* If async tag is present (recommended): The script is executed asynchronously with the rest of the page (the >script will be executed while the page continues the parsing)
+>* If async is not present and defer is present: The script is executed when the page has finished parsing
+>* If neither async or defer is present: The script is fetched and executed immediately, before the browser >continues parsing the page
 
 ```html
 <script src="//connect.nosto.com/include/$accountID" defer></script>

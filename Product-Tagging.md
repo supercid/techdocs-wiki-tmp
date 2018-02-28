@@ -43,4 +43,6 @@ Once included on all pages, you can review if the site is transmitting data usin
 ![Nosto debug toolbar / products](https://nosto-campaign-assets.s3.amazonaws.com/images/nosto-product-tagging.png)
 
 ![Nosto product catalogue](https://nosto-campaign-assets.s3.amazonaws.com/images/nosto-product-catalogue.png)
+
+![live-feed-product-view](https://nosto-campaign-assets.s3.amazonaws.com/images/live-feed-view.png)
  

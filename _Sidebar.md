@@ -5,4 +5,4 @@
   * [Adding the Cart Tagging](Cart-Tagging)
   * [Adding the Order Tagging](Order-Tagging)
 * [Data Exchange](Data-exchange)
-  * [Crawler](Crawler)
+  * [Nosto Crawler](Nosto-crawler)

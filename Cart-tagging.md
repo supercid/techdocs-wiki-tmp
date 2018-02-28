@@ -4,7 +4,7 @@ Please note that the meta attributes need to exist within the page source when t
 
 The cart tagging should be looped out whenever the user has added something in the cart and the information is loopable into the source code. This should be looped out on all pages and not just on the cart page so Nosto can pick up abandoned cart events in all possible situations. 
 
-```
+```html
 <div class="nosto_cart" style="display:none">
  
     <div class="line_item">

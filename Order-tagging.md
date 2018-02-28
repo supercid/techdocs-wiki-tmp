@@ -39,4 +39,4 @@ Once included on all pages, you can review if the site is transmitting data usin
 You can further verify your session in the Nosto admin by using the live feed under: https://my.nosto.com/admin/$accountID/liveFeed to see if Nosto correctly picks up product view → product carted → product bought events. You can export all the order history from the store under Settings → Other → Order report under https://my.nosto.com/admin/$account/account/orders/report
 
 ![Nosto debug toolbar order](https://nosto-campaign-assets.s3.amazonaws.com/images/nosto-debug-toolbar-order.png)
-
+![live-feed-product-order](https://nosto-campaign-assets.s3.amazonaws.com/images/live-feed-order.png)

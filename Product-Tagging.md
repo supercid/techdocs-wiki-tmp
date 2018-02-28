@@ -30,7 +30,9 @@ Nosto also supports multiple optional values which may enrich the usage of the s
 <span class=”review-count”>36</span> <!-- How many reviews the above score is based on. -->
 <span class=”alternate-image-url”> https://image.example.com/canoe2.jpg</span> <!-- Alternate images of the product that can be used for example on a hover-effect. -->
 <span class=”alternate-image-url”> https://image.example.com/canoe3.jpg</span> <!-- Nosto supports mapping of multiple images and these are accessible through templating. -->
-Troubleshooting product tagging:
+```
+
+## Troubleshooting product tagging:
 Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see product attributes being picked up under "Tagging" then the product details are correctly set up. You can further verify that products are being indexed to the catalogue under the Nosto admin by navigating to Tools → Products: https://my.nosto.com/admin/$accountID/campaigns/products/list
 
  

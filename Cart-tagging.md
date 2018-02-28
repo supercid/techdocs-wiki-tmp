@@ -37,3 +37,4 @@ If the platform itself has support for persistent shopping cart or other technol
 Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see cart contents being picked up under "Tagging" → "Cart" then the cart details are correctly set up in the source code. You can further verify your session in the Nosto admin by using the live feed under: https://my.nosto.com/admin/$accountID/liveFeed to see if Nosto correctly picks up product view → product carted events. 
 
 ![Nosto debug toolbar cart](https://nosto-campaign-assets.s3.amazonaws.com/images/nosto-embed-script-cart.png)
+![live-feed-product-cart](https://nosto-campaign-assets.s3.amazonaws.com/images/live-feed-cart.png)

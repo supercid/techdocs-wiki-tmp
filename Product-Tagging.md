@@ -37,6 +37,8 @@ Nosto also supports multiple optional values which may enrich the usage of the s
 >**Note:** Tags1, tags2, tags3 are wildcard attributes that accepts any value you give them. Used mainly for filtering and reporting. Common use-cases for these are to annotate colour, material or other grouping attributes.
 
 ## Troubleshooting product tagging:
-Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see product attributes being picked up under "Tagging" then the product details are correctly set up. You can further verify that products are being indexed to the catalogue under the Nosto admin by navigating to Tools → Products: https://my.nosto.com/admin/$accountID/campaigns/products/list
+Once included on all pages, you can review if the site is transmitting data using the [Nosto Debug Toolbar](https://help.nosto.com/get-started/guides/how-to-use-the-nosto-debug-toolbar). If you can see product attributes being picked up under "Tagging" then the product details are correctly set up. You can further verify that products are being indexed to the catalogue under the Nosto admin by navigating to Tools → Products: https://my.nosto.com/admin/$accountID/campaigns/products/list
+
+![Nosto debug toolbar](https://nosto-campaign-assets.s3.amazonaws.com/docs.nosto.com/Screen%20Shot%202018-02-28%20at%2012.02.50.png)
 
  

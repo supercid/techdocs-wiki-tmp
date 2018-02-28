@@ -39,6 +39,8 @@ Nosto also supports multiple optional values which may enrich the usage of the s
 ## Troubleshooting product tagging:
 Once included on all pages, you can review if the site is transmitting data using the [Nosto Debug Toolbar](https://help.nosto.com/get-started/guides/how-to-use-the-nosto-debug-toolbar). If you can see product attributes being picked up under "Tagging" then the product details are correctly set up. You can further verify that products are being indexed to the catalogue under the Nosto admin by navigating to Tools → Products: https://my.nosto.com/admin/$accountID/campaigns/products/list
 
-![Nosto debug toolbar](https://nosto-campaign-assets.s3.amazonaws.com/docs.nosto.com/Screen%20Shot%202018-02-28%20at%2012.02.50.png)
 
+![Nosto debug toolbar / products](https://nosto-campaign-assets.s3.amazonaws.com/images/Screen%20Shot%202018-02-28%20at%2012.02.50.png)
+
+![Nosto product catalogue](https://nosto-campaign-assets.s3.amazonaws.com/images/Screen%20Shot%202018-02-28%20at%2013.12.56.png)
  

@@ -22,6 +22,7 @@ With the example above, the extended product page would be the following:
   <!-- Variation ID for the primary currency --> 
   <span class="variation_id">USD</span>
 </div>
+```
 
 > **Note:** The code in the `variation_id` element must remain static, regardless of the currency active on-site. This is the primary currency of your catalog.
 

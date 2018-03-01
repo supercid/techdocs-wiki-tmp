@@ -90,10 +90,10 @@ Once you enabled multi-currency and made an API call, you can review the exchang
 
 ![](https://user-images.githubusercontent.com/327432/36842599-d47f1748-1d54-11e8-9880-5250b129e62d.png)
  
-You can also review if product information are correctly updated. This can be reviewed under Tools > Products. Select a product and you will be able to see the product information for the secondary currencies at the bottom of the page. One or several dropdown menus will be listed under the product information including the secondary currencies product information:
+You can also preview the product prices for different currencies by navigating to **Tools** > **Products** and choosing a product.
 
- 
-If you select a secondary currency, you can review the related information and the exchange rate in use:
+You will see one or more dropdowns that contain the prices and price calculation for the currency. 
 
- 
-When you have reviewed your set-up, Nosto updates in real-time product prices for all the currencies and display the appropriate currency to the right target groups of users. You’re all set and ready to go live with our features!
+![](https://user-images.githubusercontent.com/327432/36842669-15cb7412-1d55-11e8-8b48-5f769bb4ecd2.png)
+
+When you have reviewed your set-up, Nosto updates in real-time product prices for all the currencies and display the appropriate currency to the right target groups of users. You’re all set and ready to go live with our features.

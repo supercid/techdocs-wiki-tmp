@@ -34,3 +34,64 @@ Once you have amended the product tagging, an additional DIV element must be add
 
 For example, on the site of a US-based retailer who sells in Euros (EUR) and Sterling Pounds (GBP), if the customer changes the currency to Sterling Pounds (GBP), the `nosto_variation` element should show `GBP`. If the customer changes the currency to Euros (EUR), the `nosto_variation` element should show `EUR`. 
 
+
+## Sending the exchange-rates
+
+In order to send the exchange rate multipliers to Nosto, you will need to use our Exchange Rate API. The exchange rates must be included within a JSON message and an authenticated HTTP request must be executed. 
+
+An API Token is required. Please contact support@nosto.com to get an API Token. Please inform our Support Team about your Nosto Account ID and request an API_RATES Token.
+
+Once you have the token in hands, you can proceed to the API calls. Use an empty string as the username, and the API token provided by Nosto as the password. The authenticated HTTP POST request must be made to:
+
+https://api.nosto.com/exchangerates
+Including a JSON message body following the structure:
+
+{
+  "rates": {
+    "GBP": {
+      "rate": 0.77,
+      "price_currency_code": "GBP"
+    },
+    "EUR": {
+      "rate": 0.91,
+      "price_currency_code": "EUR"
+    }
+  },
+  "valid_until": "2015-02-27T12:00:00Z"
+}
+
+> **Note:** The request must be made in HTTPS exclusively. You can view your API token value by signing up to your Nosto back-end at https://my.nosto.com and go to Settings > Other > Authentication Tokens.
+
+In the example above, 0.77 is the exchange rate to get the price value in British pound from US Dollar and 0.91 is the exchange rate to get the price in Euro from US Dollar.
+
+The `valid_until` entry defines the expiration date. When the expiration date is reached, the exchange rates won't be applied anymore and prices will be hidden for all the secondary currencies to prevent displaying outdated prices.
+
+When Nosto recommendations are loaded, exchange rates are dynamically applied to the price variable in use in the recommendation templates. The variable is $!product.price.
+
+Here is an example of the request above as a cURL command line invocation:
+
+curl -v -X POST -H 'Content-Type: application/json'-d '{"rates": {"GBP": {"rate": 0.77, "price_currency_code": "GBP"}, "EUR": {"rate": 0.91, "price_currency_code": "EUR"}}, "valid_until": "2015-02-27T12:00:00Z"}' -u ':tokenSecretHere' https://api.nosto.com/exchangerates
+
+
+## Enabling multi-currency from the admin
+
+When the tagging has been extended, you need to adjust the settings in your admin panel under Settings > Other > Multi-Currency. Toggle the multiple currencies switch on. Set the variation ID of the primary currency via the input field and toggle on the exchange rates switch:
+
+ 
+Note: Make sure the variation ID of the primary currency matches the values sent via the Nosto product page tagging through the variation_id tag and sent via all pages through the nosto_variation tag.
+
+Set up the Price formats according to your primary currency and secondary currencies:
+
+ 
+## Reviewing your changes
+
+Once you are done with the settings in your Nosto admin panel, you can review if exchange rates are correctly received by Nosto. You can review it in the admin panel under Settings > Other > Multi-currency:
+
+ 
+You can also review if product information are correctly updated. This can be reviewed under Tools > Products. Select a product and you will be able to see the product information for the secondary currencies at the bottom of the page. One or several dropdown menus will be listed under the product information including the secondary currencies product information:
+
+ 
+If you select a secondary currency, you can review the related information and the exchange rate in use:
+
+ 
+When you have reviewed your set-up, Nosto updates in real-time product prices for all the currencies and display the appropriate currency to the right target groups of users. You’re all set and ready to go live with our features!

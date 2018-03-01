@@ -8,6 +8,8 @@ As a merchant looking to support the add-to-cart feature, you'll need to follow 
 
 We recommend exposing a function named `Nosto.addProductToCart('<product-id')`. This function or (an equivalent one) must be responsible for making the POST (or an AJAX POST) request to add the specified product to the cart.
 
+As a best practice, we advise that you add this function to your page and not into your recommendation template. Adding it to the page decouples it from the recommendation look and feel and allows the function to be accessible by all recommendations across your site.
+
 ## Amending the recommendation templates
 
 The next step to amend the recommendation templates to contain a button that invokes the function.

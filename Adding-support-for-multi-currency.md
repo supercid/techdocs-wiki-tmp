@@ -76,10 +76,9 @@ curl -v -X POST -H 'Content-Type: application/json'-d '{"rates": {"GBP": {"rate"
 
 ## Enabling multi-currency from the admin
 
-When the tagging has been extended, you need to adjust the settings in your admin panel under Settings > Other > Multi-Currency. Toggle the multiple currencies switch on. Set the variation ID of the primary currency via the input field and toggle on the exchange rates switch:
+Once the tagging changed have been done and the API implemented, you need to configure and enable it from your admin panel under **Settings** > **Other** > **Multi-Currency**. Toggle the multiple currencies switch on and set the variation ID of the primary currency via the input field and toggle on the exchange rates switch:
 
- 
-Note: Make sure the variation ID of the primary currency matches the values sent via the Nosto product page tagging through the variation_id tag and sent via all pages through the nosto_variation tag.
+> **Note:** Ensure that the Variation ID of the primary currency matches the value sent via the `variation_id` element in the product tagging.
 
 Set up the Price formats according to your primary currency and secondary currencies:
 

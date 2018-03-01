@@ -39,8 +39,6 @@ For example, on the site of a US-based retailer who sells in Euros (EUR) and Ste
 
 In order to send the exchange rate multipliers to Nosto, you will need to use our Exchange Rate API. The exchange rates must be included within a JSON message and an authenticated HTTP request must be executed. 
 
-An API Token is required. Please contact support@nosto.com to get an API Token. Please inform our Support Team about your Nosto Account ID and request an API_RATES Token.
-
 Once you have the token in hands, you can proceed to the API calls. Use an empty string as the username, and the API token provided by Nosto as the password. The authenticated HTTP POST request must be made to:
 
 https://api.nosto.com/exchangerates
@@ -60,11 +58,13 @@ Including a JSON message body following the structure:
   "valid_until": "2015-02-27T12:00:00Z"
 }
 
-> **Note:** The request must be made in HTTPS exclusively. You can view your API token value by signing up to your Nosto back-end at https://my.nosto.com and go to Settings > Other > Authentication Tokens.
-
 In the example above, 0.77 is the exchange rate to get the price value in British pound from US Dollar and 0.91 is the exchange rate to get the price in Euro from US Dollar.
 
 The `valid_until` entry defines the expiration date. When the expiration date is reached, the exchange rates won't be applied anymore and prices will be hidden for all the secondary currencies to prevent displaying outdated prices.
+
+### How can I get an API token?
+
+You can request an API token (API_RATES) by getting in touch with our support personnel. Once the token has been granted, you will be able to find it listed in the [authentication tokens section in the admin.](https://help.nosto.com/settings-and-troubleshooting-faq/settings-authentication-tokens)
 
 When Nosto recommendations are loaded, exchange rates are dynamically applied to the price variable in use in the recommendation templates.
 

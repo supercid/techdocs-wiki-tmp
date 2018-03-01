@@ -5,9 +5,9 @@
   * [Adding the Cart Tagging](Cart-Tagging)
   * [Adding the Order Tagging](Order-Tagging)
 * [Manual Tagging - Advanced](Manual-implementation-advanced)
-  * [Extending Product tagging with SKUs](Extending-product-tagging-with-SKUs)
-  * [Adding Support for multi-currency](Adding-support-for-multi-currency)
-  * [Adding Support for customer group pricing](Adding-support-for-customer-group-pricing)
+  * [Extending product tagging with SKUs](Extending-product-tagging-with-SKUs)
+  * [Adding support for multi-currency](Adding-support-for-multi-currency)
+  * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing)
 * Data Exchange
   * [How does the Nosto crawler work?](Nosto-crawler)
   * [When should you send us products manually?](When-should-you-send-us-products-manually?)

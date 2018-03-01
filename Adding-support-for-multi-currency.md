@@ -44,25 +44,27 @@ Once you have the token in hands, you can proceed to the API calls. Use an empty
 https://api.nosto.com/exchangerates
 Including a JSON message body following the structure:
 
+```json
 {
-  "rates": {
-    "GBP": {
-      "rate": 0.77,
-      "price_currency_code": "GBP"
+  "rates":{
+    "GBP":{
+      "rate":0.77,
+      "price_currency_code":"GBP"
     },
-    "EUR": {
-      "rate": 0.91,
-      "price_currency_code": "EUR"
+    "EUR":{
+      "rate":0.91,
+      "price_currency_code":"EUR"
     }
   },
-  "valid_until": "2015-02-27T12:00:00Z"
+  "valid_until":"2015-02-27T12:00:00Z"
 }
+```
 
-In the example above, 0.77 is the exchange rate to get the price value in British pound from US Dollar and 0.91 is the exchange rate to get the price in Euro from US Dollar.
+In the example above, `0.77` is the exchange rate from US Dollars (USD) to British Pounds (GBP) and `0.91` is the exchange rate from US Dollars (USD) to Euros (EUR).
 
 The `valid_until` entry defines the expiration date. When the expiration date is reached, the exchange rates won't be applied anymore and prices will be hidden for all the secondary currencies to prevent displaying outdated prices.
 
-When Nosto recommendations are loaded, exchange rates are dynamically applied to the price variable in use in the recommendation templates.
+When recommendations are served, then exchange rates are dynamically applied to the product prices to reflect the proces in the active currency.
 
 Here is an example of the request above as a cURL:
 

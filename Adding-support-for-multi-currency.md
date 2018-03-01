@@ -86,8 +86,9 @@ You will also need to configure the price formatting for your primary and second
 
 ## Reviewing your changes
 
-Once you are done with the settings in your Nosto admin panel, you can review if exchange rates are correctly received by Nosto. You can review it in the admin panel under Settings > Other > Multi-currency:
+Once you enabled multi-currency and made an API call, you can review the exchange rates received by Nosto by navigating to **Settings** > **Other** > **Multi-currency**.
 
+![](https://user-images.githubusercontent.com/327432/36842599-d47f1748-1d54-11e8-9880-5250b129e62d.png)
  
 You can also review if product information are correctly updated. This can be reviewed under Tools > Products. Select a product and you will be able to see the product information for the secondary currencies at the bottom of the page. One or several dropdown menus will be listed under the product information including the secondary currencies product information:
 

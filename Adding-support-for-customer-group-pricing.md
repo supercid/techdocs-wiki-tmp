@@ -2,6 +2,8 @@ In this article, you will learn how to implement multi-variants in Nosto. When t
 
 > **Note:** You can only change the pricing and the availabilities using this feature.
 
+> **Note:** You cannot use SKUs with this feature at the time of writing.
+
 You will need to implement the multi-variate tagging if you have any such scenarios:
 
 * Your store has different prices for B2B and B2C customers

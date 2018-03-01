@@ -12,7 +12,7 @@
   * [How does the Nosto crawler work?](Nosto-crawler)
   * [When should you send us products manually?](When-should-you-send-us-products-manually?)
   * [Sending products manually with the Products API](Sending-products-manually-with-the-Products-API)
-  * [Marking crawlable products with the Recrawl API](Marking-crawlable-products-with-the-Recrawl-API)
+  * [Updating products using the Recrawl API](Updating-products-using-the-Recrawl-API)
 * [Handling Dynamic use-cases](Handling-dynamic-use-cases)
   * [Sending dynamically created/updated tagging](Sending-dynamically-created/updated-tagging)
   * [Sending email addresses to Nosto](Sending-email-addresses-to-Nosto)

@@ -37,12 +37,7 @@ For example, on the site of a US-based retailer who sells in Euros (EUR) and Ste
 
 ## Sending the exchange-rates
 
-In order to send the exchange rate multipliers to Nosto, you will need to use our Exchange Rate API. The exchange rates must be included within a JSON message and an authenticated HTTP request must be executed. 
-
-Once you have the token in hands, you can proceed to the API calls. Use an empty string as the username, and the API token provided by Nosto as the password. The authenticated HTTP POST request must be made to:
-
-https://api.nosto.com/exchangerates
-Including a JSON message body following the structure:
+In order to send the exchange rate multipliers to Nosto, you will need to use our Exchange Rate API. The exchange rates must be included within a JSON message and an authenticated HTTP request must be executed. You will need to make an authenticated POST request to https://api.nosto.com/exchangerates with a JSON payload in the given structure:
 
 ```json
 {
@@ -64,7 +59,7 @@ In the example above, `0.77` is the exchange rate from US Dollars (USD) to Briti
 
 The `valid_until` entry defines the expiration date. When the expiration date is reached, the exchange rates won't be applied anymore and prices will be hidden for all the secondary currencies to prevent displaying outdated prices.
 
-When recommendations are served, then exchange rates are dynamically applied to the product prices to reflect the proces in the active currency.
+When recommendations are served, then exchange rates are dynamically applied to the product prices to reflect the active currency.
 
 Here is an example of the request above as a cURL:
 

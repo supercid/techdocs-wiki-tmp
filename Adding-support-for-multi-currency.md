@@ -68,10 +68,11 @@ The `valid_until` entry defines the expiration date. When the expiration date is
 
 When Nosto recommendations are loaded, exchange rates are dynamically applied to the price variable in use in the recommendation templates. The variable is $!product.price.
 
-Here is an example of the request above as a cURL command line invocation:
+Here is an example of the request above as a cURL:
 
+```
 curl -v -X POST -H 'Content-Type: application/json'-d '{"rates": {"GBP": {"rate": 0.77, "price_currency_code": "GBP"}, "EUR": {"rate": 0.91, "price_currency_code": "EUR"}}, "valid_until": "2015-02-27T12:00:00Z"}' -u ':tokenSecretHere' https://api.nosto.com/exchangerates
-
+```
 
 ## Enabling multi-currency from the admin
 

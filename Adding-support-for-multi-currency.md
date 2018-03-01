@@ -22,6 +22,10 @@ An additional span tag must be placed within the product page tagging with a cla
 
 > **Note:** The code in the `variation_id` element must remain static, regardless of the currency active on-site. This is the primary currency of your catalog. Although `variation_id` element often has the same currency code as in the `price_currency_code` element and may seem redundant, they support different use cases and both need to be tagged.
 
+### Do child-products (SKUs) support multi-currency?
+
+Yes. Prices for all SKUs will automatically be converted using the same logic. As long as your SKUs are tagged, no additional changes are needed.
+
 ### What about the prices in the cart and the order tagging?
 
 The cart and order tagging can be left as-is but the prices must be in the customer's currently active currency. For example, a customer shopping in Swiss Francs (CHF) should have all the cart items tagged in Swiss Francs (CHF). Failure to do so will result in incorrect prices in any triggered mails such as abandoned cart or order followup.

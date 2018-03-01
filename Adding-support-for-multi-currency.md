@@ -1,4 +1,4 @@
-In this article, you will learn how to implement multi-currency in Nosto. When the implementation is complete, you will be able to display product prices (in any feature) in different currencies to relevant target groups.
+In this article, you will learn how to implement multi-currency in Nosto. When the implementation is complete, you will be able to display product prices (in any feature) in different currencies.
 
 Prior to the multi-currency implementation, ensure that the Nosto tagging is correctly in place. Some of the tagging must be slightly amended to support multi-currency.
 

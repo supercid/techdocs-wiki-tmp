@@ -79,7 +79,7 @@ You can send exchange rates as often as you like but at the bare minimum, the ex
 
 ## Enabling multi-currency from the admin
 
-Once the tagging changed have been done and the API implemented, you need to configure and enable it from your admin panel under **Settings** > **Other** > **Multi-Currency**. Toggle the multiple currencies switch on and set the variation ID of the primary currency via the input field and toggle on the exchange rates switch.
+Once the tagging changed have been done and the API implemented, you need to configure and enable it from your admin panel under **Settings** > **Other** > **Multi-Currency**. Toggle the **Use Multiple Currencies** and **Use Exchange Rates** switches on and set the variation ID of the primary currency via the input field and toggle on the exchange rates switch.
 
 ![](https://user-images.githubusercontent.com/327432/36842403-419416ae-1d54-11e8-9bea-a979d7896977.png)
 

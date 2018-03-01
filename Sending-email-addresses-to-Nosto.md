@@ -4,7 +4,7 @@ In this article, you will learn how to collect email addresses from other source
 
 If your website has a form field that accepts email address, you can capture email addresses using our JS API. Here's a small example on how to accomplish that:
 
-```
+```javascript
 jQuery("form input.nosto_email_capture").each(function(idx, input) {
     if (!input.form) {
         return;

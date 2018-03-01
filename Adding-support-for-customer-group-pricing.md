@@ -1,7 +1,10 @@
-In this article, you will learn how to implement multi-variants in Nosto. When the implementation is complete, you will be able to display different products in different prices to the different customer groups.
+In this article, you will learn how to implement multi-variants in Nosto. When the implementation is complete, you will be able to display different products at different prices to the different customer groups. 
+
+> **Note:** You can only change the pricing and the availabilities using this feature.
 
 You will need to implement the multi-variate tagging if you have any such scenarios:
 
+* Your store has different prices for B2B and B2C customers
 * Your store has different prices for logged-in and logged-out customers
 * Your store has different prices for loyalty customers
 * Your store has different prices and availabilities for different locations

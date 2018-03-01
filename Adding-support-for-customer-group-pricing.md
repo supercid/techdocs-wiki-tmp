@@ -61,7 +61,7 @@ Once you have amended the product tagging, an additional DIV element must be add
 
 For example, on the site of a retailer, who has different prices for normal (GENERAL) and loyal (LOYAL) customers, if the customer is a logged in customer and is a known loyalty customer, the `nosto_variation` element should show `LOYAL`. If the customer logs out or a new customer visits, and there is no way to identify him as a loyal customer, the `nosto_variation` element should show `GENERAL`.
 
-## Enabling multi-currency from the admin
+## Enabling multi-variants from the admin
 
 Once the tagging changed have been done and the API implemented, you need to configure and enable it from your admin panel under **Settings** > **Other** > **Multi-Currency**. Toggle the **Use Multiple Currencies** switch on and **Use Exchange Rates** switch off and set the variation ID of the primary currency via the input field and toggle on the exchange rates switch.
 
@@ -72,3 +72,13 @@ Once the tagging changed have been done and the API implemented, you need to con
 > **Note:** Multi-variants cannot be used in conjunction with exchange-rates based multi-currency feature. You must keep the **Use Exchange Rates** switch off.
 
 You will also need to configure the price formatting for your primary and secondary currencies.
+
+## Reviewing your changes
+
+Once you enabled multi-variants you can preview the product prices for different groups by navigating to **Tools** > **Products** and choosing a product.
+
+You will see one or more dropdowns that contain the prices and the availability for that group. 
+
+![](https://user-images.githubusercontent.com/327432/36842669-15cb7412-1d55-11e8-8b48-5f769bb4ecd2.png)
+
+When you have reviewed your set-up, you’re all set and ready to go live with our features. Nosto will automatically handle the different customer groups across it's feature set.

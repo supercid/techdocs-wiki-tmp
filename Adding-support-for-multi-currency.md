@@ -1,8 +1,6 @@
 In this article, you will learn how to implement multi-currency in Nosto. When the implementation is complete, you will be able to display product prices (in any feature) in different currencies to relevant target groups.
 
-Prior to the multi-currency implementation, ensure that the Nosto tagging is correctly in place. Once the tagging has been implemented.
-
-The tagging must be slightly amended to add support for multiple currencies.
+Prior to the multi-currency implementation, ensure that the Nosto tagging is correctly in place. Some of the tagging must be slightly amended to support multi-currency.
 
 ## Changes to the product tagging
 
@@ -23,6 +21,10 @@ An additional span tag must be placed within the product page tagging with a cla
 ```
 
 > **Note:** The code in the `variation_id` element must remain static, regardless of the currency active on-site. This is the primary currency of your catalog. Although `variation_id` element often has the same currency code as in the `price_currency_code` element and may seem redundant, they support different use cases and both need to be tagged.
+
+### What about the prices in the cart and the order tagging?
+
+The cart and order tagging can be left as-is but the prices must be in the customer's currently active currency. For example, a customer shopping in Swiss Francs (CHF) should have all the cart items tagged in Swiss Francs (CHF). Failure to do so will result in incorrect prices in any triggered mails such as abandoned cart or order followup.
 
 ## Specifying the active currency
 

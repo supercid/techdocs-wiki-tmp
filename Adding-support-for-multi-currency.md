@@ -66,13 +66,17 @@ In the example above, 0.77 is the exchange rate to get the price value in Britis
 
 The `valid_until` entry defines the expiration date. When the expiration date is reached, the exchange rates won't be applied anymore and prices will be hidden for all the secondary currencies to prevent displaying outdated prices.
 
-When Nosto recommendations are loaded, exchange rates are dynamically applied to the price variable in use in the recommendation templates. The variable is $!product.price.
+When Nosto recommendations are loaded, exchange rates are dynamically applied to the price variable in use in the recommendation templates.
 
 Here is an example of the request above as a cURL:
 
 ```
 curl -v -X POST -H 'Content-Type: application/json'-d '{"rates": {"GBP": {"rate": 0.77, "price_currency_code": "GBP"}, "EUR": {"rate": 0.91, "price_currency_code": "EUR"}}, "valid_until": "2015-02-27T12:00:00Z"}' -u ':tokenSecretHere' https://api.nosto.com/exchangerates
 ```
+
+### How often should I send exchange-rates?
+
+You can send exchange rates as often as you like but at the bare minimum, the exchange rates should be sent when they are changed.
 
 ## Enabling multi-currency from the admin
 

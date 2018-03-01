@@ -8,7 +8,9 @@ Many e-commerce stores have a parent product with individual child products. The
 
 ```html
 <div class="nosto_product" style="display:none">
-
+  ...
+  ...
+  ...
   <span class="nosto_sku">
     <span class="id">1</span>
       <span class="name">S-Orange</span>

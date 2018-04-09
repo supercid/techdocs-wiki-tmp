@@ -10,7 +10,7 @@ Please note that the meta attributes need to exist within the page source when t
   <span class="image">https://image.example.com/canoe1.jpg</span>
   <span class="availability">Instock</span>
   <span class="price">999.50</span>
-  <span class="currency-code">USD</span>
+  <span class="price_currency_code">USD</span>
   <span class="categories">/interior</span>
   <span class="categories">/interior/towels</span>
 </div>
@@ -24,15 +24,15 @@ Nosto also supports multiple optional values which may enrich the usage of the s
 ```html
 <span class="brand">Acme</span>
 <span class="description">This is a great product!</span>
-<span class="list-price">1299.00</span>
+<span class="list_price">1299.00</span>
 <span class="tag1">Aluminium</span>
 <span class="tag2">Charcoal Black</span>
 <span class="tag3">Outdoor</span>
 <span class="tag3">Canoeing</span>
-<span class="rating-value">3.8</span>
-<span class="review-count">36</span>
-<span class="alternate-image-url"> https://image.example.com/canoe2.jpg</span>
-<span class="alternate-image-url"> https://image.example.com/canoe3.jpg</span>
+<span class="rating_value">3.8</span>
+<span class="review_count">36</span>
+<span class="alternate_image_url"> https://image.example.com/canoe2.jpg</span>
+<span class="alternate_image_url"> https://image.example.com/canoe3.jpg</span>
 ```
 >**Note:** Tags1, tags2, tags3 are wildcard attributes that accepts any value you give them. Used mainly for filtering and reporting. Common use-cases for these are to annotate colour, material or other grouping attributes.
 

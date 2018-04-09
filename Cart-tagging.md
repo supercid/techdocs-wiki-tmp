@@ -25,6 +25,8 @@ The cart tagging should be looped out whenever the user has added something in t
  
 </div>
 
+> **Note:** The product ID of the product tagging, cart tagging and order tagging must match.
+
 ```
 If the platform itself has support for persistent shopping cart or other technologies that remember the users cart contents you do not need to worry about filling out the cart when a user returns to the site. If your platform generates a restore cart link you can also send that to Nosto by adding it as a new attribute within the parent container "nosto_cart". 
 

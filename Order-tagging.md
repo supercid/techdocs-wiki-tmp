@@ -31,6 +31,7 @@ Please note that the meta attributes need to exist within the page source when t
     </div>
 </div>
 ```
+> **Note:** The product ID of the product tagging, cart tagging and order tagging must match.
 
 **Troubleshooting order tagging:**
 

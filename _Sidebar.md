@@ -4,6 +4,7 @@
   * [Adding the Category Tagging](Category-Tagging)
   * [Adding the Cart Tagging](Cart-Tagging)
   * [Adding the Order Tagging](Order-Tagging)
+  * [Adding the Customer information](Adding-the-customer-information)
 * [Manual Tagging - Advanced](Manual-implementation-advanced)
   * [Extending product tagging with SKUs](Extending-product-tagging-with-SKUs)
   * [Adding support for multi-currency](Adding-support-for-multi-currency)

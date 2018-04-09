@@ -8,6 +8,7 @@ To implement Nosto manually you will need to go through the following steps to e
   * [Add the Category Tagging](Category-Tagging)
   * [Add the Cart Tagging](Cart-Tagging)
   * [Add the Order Tagging](Order-Tagging)
+  * [Adding the Customer Information](Adding-the-customer-information)
 
 If the store is built on explicitly supported platforms like Magento, Magento 2, Shopify, Prestashop or Shopware you should go through their platform specific guides instead.
 

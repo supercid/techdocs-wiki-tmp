@@ -12,8 +12,8 @@ The email address is the only required parameter in the tagging, but you can enr
   <span class="first_name">John</span>
   <span class="last_name">Doe</span>
   <span class="customer_reference">e18daf14-d715-4d77-82f2-93eceb4ae1ef</span>               
-  <span class="marketing_permission">true</span>
+  <span class="marketing_permission">false</span>
 ```
 
 > **Note:** Marketing permission is false by default but if this user has explicitly agreed to receive marketing 
-> then you can set it to true manually 
+> then you can set it to true manually.

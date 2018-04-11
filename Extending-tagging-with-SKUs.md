@@ -44,7 +44,7 @@ Many e-commerce stores have a parent product with individual child products. The
 
 >**Note:** The attribute `custom_fields` can contain whatever unique information for individual SKUs that you can >consider helpful. Frequently used attributes would be size, color, material.
 
-**Extending the cart tagging with SKU metadata?**
+**Extending the cart tagging with SKU metadata**
 
 When tagging the cart contents as outlined here, you can also tag information of the actual SKU that was added to cart. Notice the extra `<span class="sku_id">` attribute.
 
@@ -72,7 +72,7 @@ When tagging the cart contents as outlined here, you can also tag information of
 </div>
 ```
 
-**Extending the order tagging with SKU metadata?**
+**Extending the order tagging with SKU metadata**
 
 When tagging the order contents as outlined here, you can also tag information of the actual SKU that was added to cart. Notice the extra `<span class="sku_id">` attribute inside each of the `purchased_items`.
 

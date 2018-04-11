@@ -12,7 +12,6 @@ The email address is the only required parameter in the tagging, but you can enr
   <span class="first_name">John</span>
   <span class="last_name">Doe</span>
   <span class="customer_reference">e18daf14-d715-4d77-82f2-93eceb4ae1ef</span>               
-  <span class="birth_date">2011-12-31</span>
   <span class="marketing_underscore_permission">true</span>
 ```
 

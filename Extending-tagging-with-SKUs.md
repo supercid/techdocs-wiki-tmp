@@ -53,7 +53,16 @@ When tagging the cart contents as outlined here, you can also tag information of
  
     <div class="line_item">
         <span class="product_id">Canoe123</span>
-        <span class="sku_id">201-3</span>
+        <span class="sku_id">201-1</span>
+        <span class="quantity">1</span>
+        <span class="name">Acme Canoe</span>
+        <span class="unit_price">999.00</span>
+        <span class="price_currency_code">EUR</span>
+    </div>
+
+    <div class="line_item">
+        <span class="product_id">Canoe123</span>
+        <span class="sku_id">201-2</span>
         <span class="quantity">1</span>
         <span class="name">Acme Canoe</span>
         <span class="unit_price">999.00</span>

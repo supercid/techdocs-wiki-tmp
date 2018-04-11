@@ -44,6 +44,70 @@ Many e-commerce stores have a parent product with individual child products. The
 
 >**Note:** The attribute `custom_fields` can contain whatever unique information for individual SKUs that you can >consider helpful. Frequently used attributes would be size, color, material.
 
+**Extending the cart tagging with SKU metadata?**
+
+When tagging the cart contents as outlined here, you can also tag information of the actual SKU that was added to cart. Notice the extra `<span class="sku_id">` attribute.
+
+```html
+<div class="nosto_cart" style="display:none">
+ 
+    <div class="line_item">
+        <span class="product_id">Canoe123</span>
+        <span class="sku_id">201-3</span>
+        <span class="quantity">1</span>
+        <span class="name">Acme Canoe</span>
+        <span class="unit_price">999.00</span>
+        <span class="price_currency_code">EUR</span>
+    </div>
+ 
+    <div class="line_item">
+        <span class="product_id">Canoe245</span>
+        <span class="sku_id">101-1</span>
+        <span class="quantity">3</span>
+        <span class="name">Acme Large Canoe</span>
+        <span class="unit_price">19.00</span>
+        <span class="price_currency_code">EUR</span>
+    </div>
+ 
+</div>
+```
+
+**Extending the order tagging with SKU metadata?**
+
+When tagging the order contents as outlined here, you can also tag information of the actual SKU that was added to cart. Notice the extra `<span class="sku_id">` attribute inside each of the `purchased_items`.
+
+```html
+<div class="nosto_purchase_order" style="display:none">
+    <span class="order_number">1445</span>
+ 
+    <div class="buyer">
+        <span class="email">john.doe@example.com</span>
+        <span class="first_name">John</span>
+        <span class="last_name">Doe</span>
+    </div>
+ 
+    <div class="purchased_items">
+        <div class="line_item">
+            <span class="product_id">Canoe123</span>
+            <span class="sku_id">101-1</span>
+            <span class="quantity">1</span>
+            <span class="name">Acme Canoe</span>
+            <span class="unit_price">999.00</span>
+            <span class="price_currency_code">EUR</span>
+        </div>
+  
+        <div class="line_item">
+            <span class="product_id">Canoe245</span>
+            <span class="sku_id">101-1</span>
+            <span class="quantity">3</span>
+            <span class="name">Acme Large Canoe</span>
+            <span class="unit_price">19.00</span>
+            <span class="price_currency_code">EUR</span>
+        </div>
+    </div>
+</div>
+```
+
 **Troubleshooting SKU tagging**
 
 Once included you can review if the SKUs are picked up by using the [Nosto Debug Toolbar](https://help.nosto.com/get-started/guides/how-to-use-the-nosto-debug-toolbar). If you can see individual SKUs being picked up below the original product details then this is correctly set up. 

@@ -31,8 +31,8 @@ Nosto also supports multiple optional values which may enrich the usage of the s
 <span class="tag3">Canoeing</span>
 <span class="rating_value">3.8</span>
 <span class="review_count">36</span>
-<span class="alternate_image_url"> https://image.example.com/canoe2.jpg</span>
-<span class="alternate_image_url"> https://image.example.com/canoe3.jpg</span>
+<span class="alternate_image_url">https://image.example.com/canoe2.jpg</span>
+<span class="alternate_image_url">https://image.example.com/canoe3.jpg</span>
 <span class="custom_fields">
   <span class="material">Cotton</span>
   <span class="weather">Summer</span>

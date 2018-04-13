@@ -16,12 +16,12 @@ Example of how a overlay with Nosto recommendations could work:
 ```
 ```javascript
 
-function showOverlay(callback) {
+function showOverlay() {
   /* Here you would have all your code that creates or modifies the overlay. Simple example below. */
     
     var overlay = document.getElementById("overlay"); // Get overlay
     overlay.style.display = "block"; // Expose overlay
-    loadNosto(); // Trigger callback function to reload Nosto recommendations
+    loadNosto(); // Trigger function to reload Nosto recommendations
 }
 
 function loadNosto(){

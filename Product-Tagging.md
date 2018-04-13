@@ -3,6 +3,7 @@ Product tagging is a series of meta attributes that describe the product for Nos
 Please note that the meta attributes need to exist within the page source when the page has rendered and Nosto is unable to crawl details injected via Google Tag Manager or other dynamic sources based on Javascript.
 
 ```html
+<div class="nosto_page_type" style="display:none">product</div>
 <div class="nosto_product"> 
   <span class="id">Canoe123</span>
   <span class="name">Acme Canoe</span>

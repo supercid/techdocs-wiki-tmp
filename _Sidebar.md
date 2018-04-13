@@ -9,7 +9,7 @@
   * [Extending tagging with SKUs](Extending-tagging-with-SKUs)
   * [Adding support for multi-currency](Adding-support-for-multi-currency)
   * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing)
-* Data Exchange
+* [Data Exchange](Data-exchange)
   * [How does the Nosto crawler work?](Nosto-crawler)
   * [Sending products manually with the Products API](Sending-products-manually-with-the-Products-API)
   * [Updating products using the Recrawl API](Updating-products-using-the-Recrawl-API)

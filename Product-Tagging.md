@@ -20,9 +20,14 @@ Please note that the meta attributes need to exist within the page source when t
 
 Categories must always be delimited by a slash. For example, `/Home/Accessories` is a valid category while `Home > Accessories` is not.
 
-> **Note:** There are a few product attributes that need to be annotated in a certain format.
-> Currency: ISO-4471 format eg. USD, EUR, SEK etc. <br>
-> Availability: Instock, Outofstock, Discontinued
+### Tagging the currencies
+
+Currencies should always be represented in the ISO-4471 three-letter format. For example, use the code `USD` instead of `$` to represent the United States Dollar.
+
+### Tagging the availability
+
+The availability of a product is represented by `InStock` or `http://schema.org/InStock` for products that are in stock and saleable. For products that are out of stock or you don't want recommended, you can use `OutOfStock` or `http://schema.org/OutOfStock`
+
 
 Nosto also supports multiple optional values which may enrich the usage of the service, but are not required. These span elements should be inserted into the "nosto_product" parent container.
 

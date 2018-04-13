@@ -59,7 +59,7 @@ curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw
       "supplier_cost":1312.96
     }
   ]
-}
+}'
 ```
 
 ### How can I get an API token?

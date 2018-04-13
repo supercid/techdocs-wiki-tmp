@@ -17,18 +17,20 @@ Example of how a overlay with Nosto recommendations could work:
 ```javascript
 
 function showOverlay(callback) {
+  /* Here you would have all your code that creates or modifies the overlay. Simple example below. */
+    
     var overlay = document.getElementById("overlay"); // Get overlay
     overlay.style.display = "block"; // Expose overlay
-    callback(); // Trigger callback function to reload Nosto recommendations
+    loadNosto(); // Trigger callback function to reload Nosto recommendations
 }
 
-showOverlay(function() { 
-    // Use nostojs to loadRecommendations. The function both updates tagging and fetches new recommendations to 
-    match changes in the tagging (for example changing the cart contents)
-
-    nostojs(function(api){ 
-       api.loadRecommendations();
-    });
-});
+function loadNosto(){
+  /* Use nostojs to loadRecommendations. The function both updates tagging and fetches new recommendations to 
+    match changes in the tagging (for example changing the cart contents) */
+    
+  nostojs(function(api){
+     api.loadRecommendations();
+  });
+}
 
 ```

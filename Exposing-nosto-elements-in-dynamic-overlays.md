@@ -6,6 +6,7 @@ If you were to expose a overlay you first need to add a `<div class="nosto_eleme
 
 Example of how a overlay with Nosto recommendations could work:
 
+Html
 ```html
 <div style="display: none;" id="overlay">
   <h3>You have succesfully added a product to cart!</h3>
@@ -14,6 +15,8 @@ Example of how a overlay with Nosto recommendations could work:
 
 <button id="add-to-cart" onclick="showOverlay()">Add to cart!</button>
 ```
+
+Javascript
 ```javascript
 
 function showOverlay() {

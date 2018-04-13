@@ -34,6 +34,10 @@ Please note that the meta attributes need to exist within the page source when t
 > **Note:** The product ID of the product tagging, cart tagging and order tagging must match. Failure to do so 
 > will lead to a mismatch in both attribution and statistics across the Nosto product.
 
+### Tagging the currencies
+
+Currencies should always be represented in the ISO-4471 three-letter format. For example, use the code `USD` instead of `$` to represent the United States Dollar.
+
 **Troubleshooting order tagging:**
 
 Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see order contents being picked up under "Tagging" → "Order" then the order details are correctly set up in the source code. 

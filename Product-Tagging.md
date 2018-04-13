@@ -36,6 +36,10 @@ Nosto also supports multiple optional values which may enrich the usage of the s
 </span>
 ```
 
+### Tagging the prices
+
+Prices must always be denoted in a simple numerical form using dot as the decimal separator. For example, `1.234,45` is invalid while `1234.45` is valid. 
+
 ### Tagging the categories
 
 Categories must always be delimited by a slash. For example, `/Home/Accessories` is a valid category while `Home > Accessories` is not.

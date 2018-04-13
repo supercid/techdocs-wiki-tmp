@@ -15,6 +15,11 @@ Please note that the meta attributes need to exist within the page source when t
   <span class="categories">/interior/towels</span>
 </div>
 ```
+
+### Tagging the categories
+
+Categories must always be delimited by a slash. For example, `/Home/Accessories` is a valid category while `Home > Accessories` is not.
+
 > **Note:** There are a few product attributes that need to be annotated in a certain format.
 > Currency: ISO-4471 format eg. USD, EUR, SEK etc. <br>
 > Availability: Instock, Outofstock, Discontinued

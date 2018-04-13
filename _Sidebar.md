@@ -11,7 +11,7 @@
   * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing)
 * [Data Exchange](Data-exchange)
   * [How does the Nosto crawler work?](Nosto-crawler)
-  * [Sending products manually with the Products API](Sending-products-manually-with-the-Products-API)
+  * [Updating products using the Products API](Updating-products-using-the-Products-API)
   * [Updating products using the Recrawl API](Updating-products-using-the-Recrawl-API)
 * [Handling Dynamic use-cases](Handling-dynamic-use-cases)
   * [Sending dynamically created/updated tagging](Sending-dynamically-created/updated-tagging)

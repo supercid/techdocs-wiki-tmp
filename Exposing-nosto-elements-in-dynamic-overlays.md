@@ -7,22 +7,22 @@ If you were to expose a overlay you first need to add a `<div class="nosto_eleme
 Example of how a overlay with Nosto recommendations could work:
 
 ```html
-<div style="display: none;" id="popup">
+<div style="display: none;" id="overlay">
   <h3>You have succesfully added a product to cart!</h3>
   <div class="nosto_element" id="overlay-nosto-1"></div>
 </div>
 
-<button id="add-to-cart" onclick="showPopup()">Add to cart!</button>
+<button id="add-to-cart" onclick="showOverlay()">Add to cart!</button>
 ```
 ```javascript
 
-function showPopup(callback) {
-    var popup = document.getElementById("popup"); // Get popup
-    popup.style.display = "block"; // Expose popup
+function showOverlay(callback) {
+    var overlay = document.getElementById("overlay"); // Get overlay
+    overlay.style.display = "block"; // Expose overlay
     callback(); // Trigger callback function to reload Nosto recommendations
 }
 
-showPopup(function() { 
+showOverlay(function() { 
     // Use nostojs to loadRecommendations. The function both updates tagging and fetches new recommendations to 
     match changes in the tagging (for example changing the cart contents)
 

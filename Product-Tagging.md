@@ -16,19 +16,6 @@ Please note that the meta attributes need to exist within the page source when t
 </div>
 ```
 
-### Tagging the categories
-
-Categories must always be delimited by a slash. For example, `/Home/Accessories` is a valid category while `Home > Accessories` is not.
-
-### Tagging the currencies
-
-Currencies should always be represented in the ISO-4471 three-letter format. For example, use the code `USD` instead of `$` to represent the United States Dollar.
-
-### Tagging the availability
-
-The availability of a product is represented by `InStock` or `http://schema.org/InStock` for products that are in stock and saleable. For products that are out of stock or you don't want recommended, you can use `OutOfStock` or `http://schema.org/OutOfStock`
-
-
 Nosto also supports multiple optional values which may enrich the usage of the service, but are not required. These span elements should be inserted into the "nosto_product" parent container.
 
 ```html
@@ -48,7 +35,22 @@ Nosto also supports multiple optional values which may enrich the usage of the s
   <span class="weather">Summer</span>
 </span>
 ```
->**Note:** Tags1, tags2, tags3 are wildcard attributes that accepts any value you give them. Used mainly for filtering and reporting. Common use-cases for these are to annotate colour, material or other grouping attributes.
+
+### Tagging the categories
+
+Categories must always be delimited by a slash. For example, `/Home/Accessories` is a valid category while `Home > Accessories` is not.
+
+### Tagging the currencies
+
+Currencies should always be represented in the ISO-4471 three-letter format. For example, use the code `USD` instead of `$` to represent the United States Dollar.
+
+### Tagging the availability
+
+The availability of a product is represented by `InStock` or `http://schema.org/InStock` for products that are in stock and saleable. For products that are out of stock or you don't want recommended, you can use `OutOfStock` or `http://schema.org/OutOfStock`
+
+### Tagging the Tags
+
+The three tag fields, `tags1`, `tags2` and `tags3` are simply labels that accept any value you give them. Used mainly for filtering and reporting. Common use-cases for these are to annotate colour, material or other grouping attributes.
 
 ## Troubleshooting product tagging:
 Once included on all pages, you can review if the site is transmitting data using the [Nosto Debug Toolbar](https://help.nosto.com/get-started/guides/how-to-use-the-nosto-debug-toolbar). If you can see product attributes being picked up under "Tagging" then the product details are correctly set up. You can further verify that products are being indexed to the catalogue under the Nosto admin by navigating to Tools → Products: https://my.nosto.com/admin/$accountID/campaigns/products/list

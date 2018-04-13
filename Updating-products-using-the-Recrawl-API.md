@@ -14,7 +14,7 @@ curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw
       "url":"https://magento1.plugintest.nos.to/retro-chic-eyeglasses.html?___store=default"
     }
   ]
-}
+}'
 ```
 
 ### How can I get an API token?

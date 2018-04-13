@@ -23,10 +23,10 @@ Nosto also supports multiple optional values which may enrich the usage of the s
 <span class="brand">Acme</span>
 <span class="description">This is a great product!</span>
 <span class="list_price">1299.00</span>
-<span class="tag1">Aluminium</span>
-<span class="tag2">Charcoal Black</span>
-<span class="tag3">Outdoor</span>
-<span class="tag3">Canoeing</span>
+<span class="tag1">sporty</span>
+<span class="tag2">new-in</span>
+<span class="tag3">limited-offer</span>
+<span class="tag3">add-to-cart</span>
 <span class="rating_value">3.8</span>
 <span class="review_count">36</span>
 <span class="alternate_image_url">https://image.example.com/canoe2.jpg</span>

@@ -36,7 +36,7 @@ Please note that the meta attributes need to exist within the page source when t
 > **Note:** The product ID of the product tagging, cart tagging and order tagging must match. Failure to do so 
 > will lead to a mismatch in both attribution and statistics across the Nosto product.
 
-## Tagging the buyer
+### Tagging the buyer
 
 You can omit the buyer tagging completely if you do not want Nosto to crawl this information. The user details are stored for possible marketing purposes and mainly observed email address is used in this context. Marketing permission is false by default but if this user has explicitly agreed to receive marketing then you can set it to true manually.
 

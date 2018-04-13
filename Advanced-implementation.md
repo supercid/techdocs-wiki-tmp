@@ -10,6 +10,7 @@ Nosto also supports some advanced use-cases depending on how your store is curre
 
 The topics listed below extend the essential tagging with support for SKUs, Multi-currency and Customer group pricing. 
 
+* [Manual Tagging - Advanced](Manual-implementation-advanced)
   * [Extending tagging with SKUs](Extending-tagging-with-SKUs)
   * [Adding support for multi-currency](Adding-support-for-multi-currency)
   * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing)

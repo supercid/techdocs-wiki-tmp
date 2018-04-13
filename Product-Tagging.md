@@ -48,6 +48,10 @@ Currencies should always be represented in the ISO-4471 three-letter format. For
 
 The availability of a product is represented by `InStock` or `http://schema.org/InStock` for products that are in stock and saleable. For products that are out of stock or you don't want recommended, you can use `OutOfStock` or `http://schema.org/OutOfStock`
 
+### Tagging the Rating
+
+The rating of a product must be represented as a number between 0.0 and 5.0. For example, a product cannot be rated 9.1. You must normalize your rating value to fit our specified range.
+
 ### Tagging the Tags
 
 The three tag fields, `tags1`, `tags2` and `tags3` are simply labels that accept any value you give them. Used mainly for filtering and reporting. Common use-cases for these are to annotate colour, material or other grouping attributes.

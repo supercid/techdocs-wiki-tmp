@@ -20,7 +20,7 @@ Categories must always be delimited by a slash. For example, `/Home/Accessories`
 
 Page type tagging should be exposed whenever a user is interacting with a page so Nosto understands what kind of page this is. 
 ```html
-<div class="nosto_page_type" style="display:none">product</div>
+<div class="nosto_page_type" style="display:none">category</div>
 ```
 
 Page type is optional and used mainly for triggering popups and also to understand what kind of page the user is currently interacting with. The page type must always be lowercase and the accepted values for page type are: front, category, product, cart, order, search, notfound

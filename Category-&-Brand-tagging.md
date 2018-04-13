@@ -1,6 +1,6 @@
 Nosto utilizes meta tags to track what category a certain visitor is viewing or what page type the currently viewed page is. These values are then used for dynamic filtering for categories applied through the Nosto admin UI or exposure of certain pop-up campaigns for page types.  
 
-#Tagging the category & brand attributes
+# Tagging the category & brand attributes
 
 Category tagging should be exposed whenever a user is viewing a certain category. 
 ```html
@@ -11,7 +11,7 @@ Category tagging should be exposed whenever a user is viewing a certain category
 
 Categories must always be delimited by a slash. For example, `/Home/Accessories` is a valid category while `Home > Accessories` is not.
 
-#Tagging the current page type
+# Tagging the current page type
 
 Page type tagging should be exposed whenever a user is interacting with a page so Nosto understands what kind of page this is. 
 ```html

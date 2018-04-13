@@ -3,12 +3,14 @@ Nosto utilizes meta tags to track what category or brand a certain visitor is vi
 The category tagging should be exposed whenever a user is viewing a certain category. 
 
 ```html
+<div class="nosto_page_type" style="display:none">category</div>
 <div class="nosto_category" style="display:none">/Boats/Canoes</div>
 ```
 
 The brand tagging should be exposed whenever a user is viewing a certain brand or vendor. 
 
 ```html
+<div class="nosto_page_type" style="display:none">category</div>
 <div class="nosto_category" style="display:none">Acme</div>
 ```
 

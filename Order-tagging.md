@@ -3,6 +3,7 @@ Order tagging is a series of meta attributes that notify Nosto of what products 
 Please note that the meta attributes need to exist within the page source when the page has rendered and Nosto is unable to crawl details injected via Google Tag Manager or other dynamic sources based on Javascript.
 
 ```html
+<div class="nosto_page_type" style="display:none">order</div>
 <div class="nosto_purchase_order" style="display:none">
     <span class="order_number">1445</span>
  

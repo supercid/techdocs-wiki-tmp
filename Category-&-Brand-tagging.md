@@ -1,8 +1,15 @@
-Nosto utilizes meta tags to track what category a certain visitor is viewing or what page type the currently viewed page is. These values are then used for dynamic filtering for categories applied through the Nosto admin UI or exposure of certain pop-up campaigns for page types.  
+Nosto utilizes meta tags to track what category or brand a certain visitor is viewing or what page type the currently viewed page is. These values are then used for dynamic filtering for categories and brands applied through the Nosto admin UI or exposure of certain pop-up campaigns for page types.  
 
-Category tagging should be exposed whenever a user is viewing a certain category. 
+The category tagging should be exposed whenever a user is viewing a certain category. 
+
 ```html
 <div class="nosto_category" style="display:none">/Boats/Canoes</div>
+```
+
+The brand tagging should be exposed whenever a user is viewing a certain brand or vendor. 
+
+```html
+<div class="nosto_category" style="display:none">Acme</div>
 ```
 
 ### Tagging the categories

@@ -3,17 +3,11 @@ To implement Nosto manually you will need to go through the following steps to e
 
 **Steps needed to achieve basic data exchange between a online store and Nosto:**
 
-  * [Add the Nosto Script](Add-Nosto-script)
-  * [Add the Product Tagging](Product-Tagging)
-  * [Add the Category Tagging](Category-Tagging)
-  * [Add the Cart Tagging](Cart-Tagging)
-  * [Add the Order Tagging](Order-Tagging)
-  * [Adding the Customer Information](Adding-the-customer-information)
+  * [Adding the Nosto Script](Add-Nosto-script)
+  * [Adding the Product Tagging](Product-Tagging)
+  * [Adding the Category/Brand Tagging](Category-&-Brand-tagging)
+  * [Adding the Cart Tagging](Cart-Tagging)
+  * [Adding the Order Tagging](Order-Tagging)
+  * [Adding the Customer information](Adding-the-customer-information)
 
 If the store is built on explicitly supported platforms like Magento, Magento 2, Shopify, Prestashop or Shopware you should go through their platform specific guides instead.
-
-**Basic data exchange can also be augmented and extended following these articles:**
-  
-  * [Manual Tagging - Advanced](Manual-implementation-advanced)
-  * [Handling Dynamic use-cases](Handling-dynamic-use-cases)
-  * [Data Exchange](Data-exchange)

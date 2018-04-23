@@ -5,10 +5,10 @@ Please note that the meta attributes need to exist within the page source when t
 ```html
 <div class="nosto_page_type" style="display:none">product</div>
 <div class="nosto_product"> 
-  <span class="id">Canoe123</span>
+  <span class="product_id">Canoe123</span>
   <span class="name">Acme Canoe</span>
   <span class="url">https://example.com/canoe123</span>
-  <span class="image">https://image.example.com/canoe1.jpg</span>
+  <span class="image_url">https://image.example.com/canoe1.jpg</span>
   <span class="availability">Instock</span>
   <span class="price">999.50</span>
   <span class="price_currency_code">USD</span>

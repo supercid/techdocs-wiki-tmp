@@ -12,8 +12,8 @@ Please note that the meta attributes need to exist within the page source when t
   <span class="availability">Instock</span>
   <span class="price">999.50</span>
   <span class="price_currency_code">USD</span>
-  <span class="categories">/interior</span>
-  <span class="categories">/interior/towels</span>
+  <span class="category">/interior</span>
+  <span class="category">/interior/towels</span>
 </div>
 ```
 

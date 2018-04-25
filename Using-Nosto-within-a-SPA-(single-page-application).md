@@ -97,6 +97,8 @@ nostojs(function(api){
 });
 ```
 
+> *Note:* The product ID of the product tagging, cart tagging and order tagging must match. Failure to do so will > lead to a mismatch in both attribution and statistics across the Nosto product.
+
 You can find the full API documentation for this section here: https://developer.nosto.com/?javascript#creating-requests-manually
 
 ### Utilizing postrender callback to track, influence or render Nosto recommendations on page
@@ -139,3 +141,5 @@ nostojs(function(api){
     });
 })();
 ```
+
+You can find the full API documentation for this section and other callbacks as well here: https://developer.nosto.com/?javascript#callbacks

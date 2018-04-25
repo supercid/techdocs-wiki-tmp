@@ -2,13 +2,7 @@ Using Nosto within a SPA (single-page-application) is entirely possible. However
 
 ### Direct including Nosto:
 
-To initialize Nosto you will only need to add the Nosto embed script and the Nosto Javascript stub that initializes the service. You can use the optional disableAutoLoad if you want to have full control on when recommendations are populated. 
-
-HTML
-```html
-/* Nosto direct include script */
-<script src="//connect.nosto.com/include/$accountID" async></script>
-```
+To initialize Nosto you will only need to add the [Nosto script](https://github.com/Nosto/docs-nosto-com/wiki/Add-Nosto-script) and the Nosto Javascript stub that initializes the service. You can use the optional disableAutoLoad if you want to have full control on when recommendations are populated. 
 
 Javascript
 ```js

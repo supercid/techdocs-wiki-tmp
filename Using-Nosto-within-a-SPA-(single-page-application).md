@@ -14,8 +14,26 @@ Javascript
 nostojs.init("nostoAccountId", {disableAutoLoad:true});
 ```
 
-After doing these steps you can test if the nostojs API is available by testing a simple command.
+After doing these steps you can test if the nostojs API is available by testing a simple command. Make sure that the url in the Nosto admin UI matches the page source from where the call is made. 
 
 ```js
 nostojs(function(api){ console.log("API is functional"); });
 ```
+
+### Sending requests manually with Nostojs
+
+You will need to go through the entire tagging approach listed under [Manual Implementation](https://github.com/Nosto/docs-nosto-com/wiki/Manual-implementation) to structure the metadata on the page in a digestable format. You can utilize one of two available functions to send the tagging to Nosto.
+
+```js
+nostojs(function(api){
+  api.sendTagging();
+});
+
+nostojs(function(api){
+  api.loadRecommendations();
+});
+```
+
+The function `api.sendTagging();` will send all Nosto tagging on the page without any modifications to onpage content. However the function `api.loadRecommendations();` will both send the tagging and request recommendations for any recommendation slots currently on the page. 
+
+Using `disableAutoLoad:true` in the initialization phase will prevent Nosto recommendations being fetched on initial connection so in this case you would need to use `api.loadRecommendations();` directly when initial page content has loaded. Best practice in terms of functionality would be to utilize autoLoad on initial page load, sending tagging manually whenever a unique pageLoad happens and only using loadRecommendations when the change in tagging will also lead to a change in recommendations (for example a add to cart event). 

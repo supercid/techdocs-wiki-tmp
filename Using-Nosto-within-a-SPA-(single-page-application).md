@@ -97,7 +97,7 @@ nostojs(function(api){
 });
 ```
 
-> *Note:* The product ID of the product tagging, cart tagging and order tagging must match. Failure to do so will > lead to a mismatch in both attribution and statistics across the Nosto product.
+> **Note:** The product ID of the product tagging, cart tagging and order tagging must match. Failure to do so will > lead to a mismatch in both attribution and statistics across the Nosto product.
 
 You can find the full API documentation for this section here: https://developer.nosto.com/?javascript#creating-requests-manually
 

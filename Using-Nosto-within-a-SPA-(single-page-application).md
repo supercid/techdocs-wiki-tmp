@@ -16,6 +16,7 @@ nostojs.init("nostoAccountId", {disableAutoLoad:true});
 
 After doing these steps you can test if the nostojs API is available by testing a simple command. Make sure that the url in the Nosto admin UI matches the page source from where the call is made. 
 
+Javascript
 ```js
 nostojs(function(api){ console.log("API is functional"); });
 ```
@@ -24,6 +25,7 @@ nostojs(function(api){ console.log("API is functional"); });
 
 You will need to go through the entire tagging approach listed under [Manual Implementation](https://github.com/Nosto/docs-nosto-com/wiki/Manual-implementation) to structure the metadata on the page in a digestable format. You can utilize one of two available functions to send the tagging to Nosto.
 
+Javascript
 ```js
 nostojs(function(api){
   api.sendTagging();

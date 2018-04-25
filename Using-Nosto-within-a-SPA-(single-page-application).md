@@ -143,3 +143,9 @@ nostojs(function(api){
 ```
 
 You can find the full API documentation for this section and other callbacks as well here: https://developer.nosto.com/?javascript#callbacks
+
+### In a SPA environment, where does Nosto get the product data from?
+
+In some SPA environments parts of the needed meta-data will be accessible by crawling the page source (for example when utilizing JSP (Java server pages) for a partial SPA. Read [How does the Nosto crawler work?](https://github.com/Nosto/docs-nosto-com/wiki/Nosto-crawler) for more information around this. 
+
+However using technologies that create fully dynamic pages like NodeJS or React, product pages will most likely not be crawlable by Nosto and you will need to send the product data to Nosto manually using our [Products API](https://github.com/Nosto/docs-nosto-com/wiki/Updating-products-using-the-Products-API)

@@ -6,12 +6,23 @@ To initialize Nosto you will only need to add the Nosto embed script and the Nos
 
 HTML
 ```html
+/* Nosto direct include script */
 <script src="//connect.nosto.com/include/$accountID" async></script>
 ```
 
 Javascript
 ```js
+/* Initalize Nostojs, disableAutoLoad is a optional parameter and False by default */
 nostojs.init("nostoAccountId", {disableAutoLoad:true});
+
+/* Create a stub called nostojs to access Nosto JS API */
+(function(){
+ var name="nostojs";
+ window[name]=window[name]||function(cb){(window[name].q=window[name].q||[]).push(cb);};
+})();
+
+//Your code using the Nosto JS API
+//...
 ```
 
 After doing these steps you can test if the nostojs API is available by testing a simple command. Make sure that the url in the Nosto admin UI matches the page source from where the call is made. 
@@ -21,9 +32,13 @@ Javascript
 nostojs(function(api){ console.log("API is functional"); });
 ```
 
-### Sending requests manually with Nostojs
+### Dynamically updating tagging components
 
-You will need to go through the entire tagging approach listed under [Manual Implementation](https://github.com/Nosto/docs-nosto-com/wiki/Manual-implementation) to structure the metadata on the page in a digestable format. You can utilize one of two available functions to send the tagging to Nosto.
+In most SPA implementations this section of the guide is enough since Nosto aims to automatically send events while you can have control on when these are manually sent and also when recommendation elements should be populated on page. 
+
+You will need to go through the entire tagging approach listed under [Manual Implementation](https://github.com/Nosto/docs-nosto-com/wiki/Manual-implementation) to structure the metadata on the page in a digestable format. 
+
+You can utilize one of two available functions to send the tagging to Nosto.
 
 Javascript
 ```js
@@ -31,14 +46,56 @@ nostojs(function(api){
   api.sendTagging();
 });
 
+/* Call will read the page’s tagging information again and send it to Nosto. If for example the shopping cart information is tagged on the page, it will also update the visitor’s shopping cart. */ 
+
 nostojs(function(api){
   api.loadRecommendations();
 });
+
+/* Refreshes the recommendations on the page and reports a new page view or product view if the page’s DOM contains the product tagging. Which recommendations to update will be searched from the page DOM by finding all elements where the class is “nosto_element” and then getting their id attributes. */
 ```
 
 The function `api.sendTagging();` will send all Nosto tagging on the page without any modifications to onpage content. However the function `api.loadRecommendations();` will both send the tagging and request recommendations for any recommendation slots currently on the page. 
 
-Using `disableAutoLoad:true` in the initialization phase will prevent Nosto recommendations being fetched on initial connection so in this case you would need to use `api.loadRecommendations();` directly when initial page content has loaded. Best practice in terms of functionality would be to omit or set `disableAutoLoad:false` on initial page load, utilizing `api.sendTagging();` whenever a unique pageLoad happens and only using `api.loadRecommendations();` when the change in tagging will also lead to a change in fetched recommendations (for example a add to cart event leading to a change in cart based recommendations). 
+Using `disableAutoLoad:true` in the initialization phase will prevent Nosto recommendations being fetched on initial connection so in this case you would need to use `api.loadRecommendations();` directly when initial page content has loaded. 
+
+Best practice in terms of functionality would be to omit or set `disableAutoLoad:false` on initial page load and only using `api.loadRecommendations();` when a change in tagging will also lead to a change in fetched recommendations (for example a add to cart event leading to a change in cart based recommendations). 
 
 > **Note:** Both autoload, sendTagging and loadRecommendations all send tagging, productView, addToCart and 
 > productPurchased events automatically as long as the required tagging is available on the page. 
+
+### Creating full requests manually
+
+You can also create requests manually specifying events and slots to be populated within the call. This should be done only in cases where you have done the previous step and concluded that either Nosto is not properly sending events or you want to have more granular control of what is happening in the page context. 
+
+Javascript
+```js
+/* To create manual requests, first thing is to create a recommendation request object. */
+
+nostojs(function(api){
+  var request = api.createRecommendationRequest();
+});
+
+/* Following example creates a new request, adds view product event for productId3 and sends the event to Nosto. Request did not specify any recommendation slots, this request only submits view event to Nosto. */
+
+nostojs(function(api){
+  var request = api.createRecommendationRequest();
+  request.addEvent('vp', "productId3");
+  request.loadRecommendations(request);
+});
+
+/* Following is a more complex example which submits more information in single request to Nosto. */ 
+
+nostojs(function(api){
+   var request = api.createRecommendationRequest();
+   request.addElements(["nosto-product-page1", "nosto-product-page2"]);
+   // if viewed from nosto element, add element's id as 3rd. parameter
+   request.addEvent('vp', "productId3", "nosto-categorypage-1");
+   request.addCartItems(["productId1", "productId2"]);
+   request.loadRecommendations();
+});
+```
+
+You can find the full API documentation for this section here: https://developer.nosto.com/?javascript#creating-requests-manually
+
+### Utilizing 

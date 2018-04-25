@@ -42,17 +42,18 @@ You can utilize one of two available functions to send the tagging to Nosto.
 
 Javascript
 ```js
-nostojs(function(api){
-  api.sendTagging();
-});
 
 /* Call will read the page’s tagging information again and send it to Nosto. If for example the shopping cart information is tagged on the page, it will also update the visitor’s shopping cart. */ 
 
 nostojs(function(api){
-  api.loadRecommendations();
+  api.sendTagging();
 });
 
 /* Refreshes the recommendations on the page and reports a new page view or product view if the page’s DOM contains the product tagging. Which recommendations to update will be searched from the page DOM by finding all elements where the class is “nosto_element” and then getting their id attributes. */
+
+nostojs(function(api){
+  api.loadRecommendations();
+});
 ```
 
 The function `api.sendTagging();` will send all Nosto tagging on the page without any modifications to onpage content. However the function `api.loadRecommendations();` will both send the tagging and request recommendations for any recommendation slots currently on the page. 

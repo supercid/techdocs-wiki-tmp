@@ -99,4 +99,43 @@ nostojs(function(api){
 
 You can find the full API documentation for this section here: https://developer.nosto.com/?javascript#creating-requests-manually
 
-### Utilizing 
+### Utilizing postrender callback to track, influence or render Nosto recommendations on page
+
+Nosto leverages a callback called `postrender` to give implementors an easy way to hook onto Nosto recommendation elements after recommendations have been populated. Using this functions you can easily track what elements have been populated, change the layout depending on results or if you are outputting the results as pure JSON you can render the whole layout within your framework.
+
+Javascript
+```js
+/* Following script executes at the post-render callback. which is called right after Nosto has responded with recommendations. */ 
+
+nostojs(function(api){
+    api.listen('postrender', function(nostoPostRenderEvent){
+        console.log(nostoPostRenderEvent.filledElements);
+        console.log(nostoPostRenderEvent.unFilledElements); 
+    });
+});
+
+/* Post render callback is useful in situations when recommendation markup is rendered client-side (Browser) e.g. with customizations that are simpler to handle client-side. */ 
+
+// Extract recommendation 
+(function () {
+    // Callback which connects to postrender callback
+    // loads the raw data from recommendations,
+    // and finally converts the data to JSON object.
+    function exampleCallHandler(filledElements) {
+        // Extract the data from nosto DIV
+        var data = document.getElementById("nosto-recommendation-example");
+        var jsonObject;
+        if (data) {
+            jsonObject = JSON.parse(data.textContent);
+            ExampleRecommendationDecorator.decorateNostoSlot("nosto- recommendation - example", jsonObject);
+        }
+    }
+
+    // Register the handler to post render
+    nostojs(function (api) {
+        api.listen("postrender", function (NostoPostRenderEvent) {
+            exampleCallHandler(NostoPostRenderEvent.filledElements);
+        });
+    });
+})();
+```

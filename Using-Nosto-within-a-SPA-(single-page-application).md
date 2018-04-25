@@ -40,3 +40,5 @@ The function `api.sendTagging();` will send all Nosto tagging on the page withou
 
 Using `disableAutoLoad:true` in the initialization phase will prevent Nosto recommendations being fetched on initial connection so in this case you would need to use `api.loadRecommendations();` directly when initial page content has loaded. Best practice in terms of functionality would be to omit or set `disableAutoLoad:false` on initial page load, utilizing `api.sendTagging();` whenever a unique pageLoad happens and only using `api.loadRecommendations();` when the change in tagging will also lead to a change in fetched recommendations (for example a add to cart event leading to a change in cart based recommendations). 
 
+> **Note:** Both autoload, sendTagging and loadRecommendations all send tagging, productView, addToCart and 
+> productPurchased events automatically as long as the required tagging is available on the page. 

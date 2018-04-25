@@ -12,14 +12,14 @@ HTML
 
 Javascript
 ```js
-/* Initalize Nostojs, disableAutoLoad is a optional parameter and False by default */
-nostojs.init("nostoAccountId", {disableAutoLoad:true});
-
-/* Create a stub called nostojs to access Nosto JS API */
+/* Create a stub called nostojs to access Nosto JS API and disable auto loading recommendations */
 (function(){
  var name="nostojs";
  window[name]=window[name]||function(cb){(window[name].q=window[name].q||[]).push(cb);};
 })();
+window['nostojs'](function(api){
+  api.setAutoLoad(false);
+});  
 
 //Your code using the Nosto JS API
 //...

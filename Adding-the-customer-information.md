@@ -11,9 +11,13 @@ The email address is the only required parameter in the tagging, but you can enr
 ```html
   <span class="first_name">John</span>
   <span class="last_name">Doe</span>
-  <span class="customer_reference">e18daf14-d715-4d77-82f2-93eceb4ae1ef</span>               
   <span class="marketing_permission">false</span>
 ```
 
-> **Note:** Marketing permission is false by default but if this user has explicitly agreed to receive marketing 
-> then you can set it to true manually.
+## Tagging marketing permission
+
+The new marketing_permission flag denotes whether the customer has consented to email marketing. If the marketing_permission field is omitted, we assume that the current customer has not given their consent and Nosto will refrain from sending out any personalized triggered emails.
+
+Marketing permission is false by default but if a user has explicitly agreed to receive marketing then you can set it to true manually. In practice this means reading and mapping the value from opt-in for marketing in your platform e.g. a consumer explicitly subscribed for marketing emails when checking out.
+
+The marketing_permission should be included as a part of the customer tagging and should be rendered on all pages.

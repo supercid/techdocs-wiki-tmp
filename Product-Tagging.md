@@ -57,9 +57,11 @@ The availability of a product is represented by `InStock` or `http://schema.org/
 
 The rating of a product must be represented as a number between 0.0 and 5.0. For example, a product cannot be rated 9.1. You must normalize your rating value to fit our specified range.
 
-### Tagging the Tags
+### Tagging the Tags and/or Custom fields
 
-The three tag fields, `tags1`, `tags2` and `tags3` are simply labels that accept any value you give them. Used mainly for filtering and reporting. Common use-cases for these are to annotate colour, material or other grouping attributes.
+The three tag fields, `tags1`, `tags2` and `tags3` are simply labels that can be used to annotate tags like `discounted`, `limited collection` or other use cases where you might want to filter your Nosto recommendations by certain product groupings. 
+
+Custom fields accept a key:value pair where the `class` of the attribute is the key. Common use cases are `material`, `color` or other similar unique identifiers.
 
 ### Adding support for advanced use cases
 

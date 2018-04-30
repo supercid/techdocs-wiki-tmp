@@ -17,3 +17,4 @@
   * [Sending email addresses to Nosto](Sending-email-addresses-to-Nosto)
   * [Exposing Nosto elements in dynamic overlays](Exposing-nosto-elements-in-dynamic-overlays)
   * [Registering add-to-cart events from dynamic buttons](Registering-add-to-cart-events-from-dynamic-buttons)
+  * [Using Nosto within a SPA (single page application)](Using-Nosto-within-a-SPA-(single-page-application))

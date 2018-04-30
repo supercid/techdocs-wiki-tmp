@@ -2,6 +2,7 @@ Product tagging is a series of meta attributes that describe the product for Nos
 
 Please note that the meta attributes need to exist within the page source when the page has rendered and Nosto is unable to crawl details injected via Google Tag Manager or other dynamic sources based on Javascript.
 
+Basic tagging
 ```html
 <div class="nosto_page_type" style="display:none">product</div>
 <div class="nosto_product"> 
@@ -19,6 +20,7 @@ Please note that the meta attributes need to exist within the page source when t
 
 Nosto also supports multiple optional values which may enrich the usage of the service, but are not required. These span elements should be inserted into the "nosto_product" parent container.
 
+Tagging attribute extension
 ```html
 <span class="brand">Acme</span>
 <span class="description">This is a great product!</span>

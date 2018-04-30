@@ -1,5 +1,7 @@
 Customer information allows you to annotate contact details for the current customer. This information can be outputed from your ecommerce platfrom, CRM system or any other mechanisms you have in place onsite that can modify the tagging.
 
+The customer tagging should be exposed on every page whenever we have the necessary information available in the front-end context.
+
 ```html
 <div class="nosto_customer" style="display:none">
   <span class="email">john.doe@example.com</span>

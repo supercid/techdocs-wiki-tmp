@@ -8,7 +8,7 @@ Here's an example of a Curl request.
 
 ```
 curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw -H "Content-Type: application/json" -X POST https://api.nosto.com/v1/products/upsert -d '
-  [
+[
   {
     "url":"http://shop.example.com/product/123",
     "product_id":"123",

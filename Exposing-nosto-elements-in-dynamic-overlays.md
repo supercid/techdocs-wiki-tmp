@@ -6,7 +6,7 @@ If you were to expose a overlay you first need to add a `<div class="nosto_eleme
 
 Example of how a overlay with Nosto recommendations could work:
 
-Html
+HTML
 ```html
 <div style="display: none;" id="overlay">
   <h3>You have succesfully added a product to cart!</h3>

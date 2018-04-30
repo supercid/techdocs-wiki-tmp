@@ -7,7 +7,7 @@ For example, if you add a discount of -10% to all the products in your "Shirts" 
 Here's an example of a Curl request.
 
 ```
-curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw -H "Content-Type: application/json" -X POST https://api.nosto.com/v1/products/upsert -d '{  
+curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw -H "Content-Type: application/json" -X POST https://api.nosto.com/v1/products/upsert -d '
   [
     {
       "url":"http://shop.example.com/product/123",
@@ -83,7 +83,6 @@ curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw
       } ]
     }
   ]
-}
 ```
 
 ### How can I get an API token?

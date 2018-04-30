@@ -29,9 +29,6 @@ The marketing_permission should be included as a part of the customer tagging an
 
 You can use the customer reference attribute to match the customer across Nosto stores, devices or even between offline/online sessions if you are using a unified customer loyalty program.
 
-> **Note:** If a customer reference is in use in the customer information tagging, make sure the identifier is 
-> secure enough. Nosto recommend to use a UUID or the following if a UUID can’t be supported:
-
 ```html
 – SHA-1
 – {customer_id}_{UUID}
@@ -39,3 +36,6 @@ You can use the customer reference attribute to match the customer across Nosto 
 – {customer_id}_{merchant_specific_secret}_{customer_specific_data}_{timestamp}
 – {customer_id}_{merchant_specific_secret}_{timestamp}
 ```
+
+> **Note:** If a customer reference is in use in the customer information tagging, make sure the identifier is 
+> secure enough. Nosto recommend to use a UUID or the structure in above example if a UUID can’t be supported.

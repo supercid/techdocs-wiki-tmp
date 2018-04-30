@@ -13,3 +13,9 @@ In some instances you might need to whitelist the crawler manually if you are wo
 ```
 Mozilla/5.0 (compatible; NostoCrawlerBot/1.0; +http://my.nosto.com/tagging)
 ```
+
+### Common errors while using the crawler approach
+
+Crawling relies on tagging metadata being present in the source on pageload. Nosto crawler does not execute Javascript and hence no dynamically injected or modified information will be crawled. 
+
+Nosto crawler is mostly dispatched from Amazon Web Services - US East. This means that you will need to add an exception based on the header/agent details for any geolocation redirects affecting the stores. This can otherwise interfere with multi-currency setups by populating USD as the base currency for all products. 

@@ -15,8 +15,8 @@ Javascript
 ```javascript
 
 function productCarted(){
-// Here you add your code that adds the product to the shopping cart.
-loadNosto(); // Trigger function to reload Nosto recommendations
+  // Here you add your code that adds the product to the shopping cart.
+  loadNosto(); // Trigger function to reload Nosto recommendations
 }
 
 function loadNosto(){

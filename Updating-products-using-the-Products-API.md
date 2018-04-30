@@ -51,10 +51,39 @@ curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw
         }
       },
       "inventory_level":25,
-      "supplier_cost":1312.96
+      "supplier_cost":1312.96,
+      "custom_fields" : {
+        "material" : "Cotton",
+        "weather" : "Summer"
+      },
+      "skus" : [ {
+        "id" : "2",
+        "name" : "S-Blue",
+        "price" : 1269.0,
+        "list_price" : 1299.0,
+        "url" : "http://www.example.com/product/CANOE123#/1-size-s/14-color-blue",
+        "image_url" : "http://www.example.com/product/images/CANOE123-1.jpg",
+        "availability" : "InStock",
+        "custom_fields" : {
+          "size" : "S",
+          "color" : "Blue"
+        }
+      }, {
+        "id" : "1",
+        "name" : "S-Orange",
+        "price" : 1269.0,
+        "list_price" : 1299.0,
+        "url" : "http://www.example.com/product/CANOE123#/1-size-s/13-color-orange",
+        "image_url" : "http://www.example.com/product/images/CANOE123-1.jpg",
+        "availability" : "InStock",
+        "custom_fields" : {
+          "size" : "S",
+          "color" : "Orange"
+        }
+      } ]
     }
   ]
-}'
+}
 ```
 
 ### How can I get an API token?

@@ -61,7 +61,13 @@ The rating of a product must be represented as a number between 0.0 and 5.0. For
 
 The three tag fields, `tags1`, `tags2` and `tags3` are simply labels that accept any value you give them. Used mainly for filtering and reporting. Common use-cases for these are to annotate colour, material or other grouping attributes.
 
-## Troubleshooting product tagging:
+### Adding support for advanced use cases
+
+Many ecommerce stores utilize SKU:s or "child" products that are sorted under the same "parent" product. To extend the above example with SKU support refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Extending-tagging-with-SKUs
+
+In cases where a product might have multiple prices in differing currencies you can also add support for multi-currency. Refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Adding-support-for-multi-currency
+
+### Troubleshooting product tagging:
 Once included on all pages, you can review if the site is transmitting data using the [Nosto Debug Toolbar](https://help.nosto.com/get-started/guides/how-to-use-the-nosto-debug-toolbar). If you can see product attributes being picked up under "Tagging" then the product details are correctly set up. You can further verify that products are being indexed to the catalogue under the Nosto admin by navigating to Tools → Products: https://my.nosto.com/admin/$accountID/campaigns/products/list
 
 

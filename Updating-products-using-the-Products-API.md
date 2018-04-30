@@ -50,11 +50,6 @@ curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw
           "list_price":21.99
         }
       },
-      "google_category":"shirts",
-      "gtin":"example123",
-      "condition":"new",
-      "age_group":"adult",
-      "gender":"unisex",
       "inventory_level":25,
       "supplier_cost":1312.96
     }

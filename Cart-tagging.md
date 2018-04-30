@@ -39,11 +39,13 @@ In cases where a product might have multiple prices in differing currencies you 
 
 If the platform itself has support for persistent shopping cart or other technologies that remember the users cart contents you do not need to worry about filling out the cart when a user returns to the site. If your platform generates a restore cart link you can also send that to Nosto by adding it as a new attribute within the parent container "nosto_cart". 
 
+The following piece of code is just a rough example on how a restore cart could look like. The idea of the example is to document how this is tagged to Nosto. 
+
 ```html
 <div class="restore_link">https://example.com/cart/restore?cart=4D5C3060-1334-4C63-B6FA-D9D342D88B08</div>
 ```
 
-**Troubleshooting cart tagging:**
+### Troubleshooting cart tagging:
 
 Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see cart contents being picked up under "Tagging" → "Cart" then the cart details are correctly set up in the source code. You can further verify your session in the Nosto admin by using the live feed under: https://my.nosto.com/admin/$accountID/liveFeed to see if Nosto correctly picks up product view → product carted events. 
 

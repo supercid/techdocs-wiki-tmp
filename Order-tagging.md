@@ -44,7 +44,13 @@ You can omit the buyer tagging completely if you do not want Nosto to crawl this
 
 Currencies should always be represented in the ISO-4471 three-letter format. For example, use the code `USD` instead of `$` to represent the United States Dollar.
 
-## Troubleshooting order tagging:
+### Adding support for advanced use cases
+
+Many ecommerce stores utilize SKU:s or "child" products that are sorted under the same "parent" product. To extend the above example with SKU support refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Extending-tagging-with-SKUs
+
+In cases where a product might have multiple prices in differing currencies you can also add support for multi-currency. Refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Adding-support-for-multi-currency
+
+### Troubleshooting order tagging:
 
 Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see order contents being picked up under "Tagging" → "Order" then the order details are correctly set up in the source code. 
 

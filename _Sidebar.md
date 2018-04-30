@@ -16,5 +16,5 @@
 * [Handling Dynamic use-cases](Handling-dynamic-use-cases)
   * [Sending email addresses to Nosto](Sending-email-addresses-to-Nosto)
   * [Exposing Nosto elements in dynamic overlays](Exposing-nosto-elements-in-dynamic-overlays)
-  * [Registering add-to-cart events from dynamic buttons](Registering-add-to-cart-events-from-dynamic-buttons)
+  * [Dynamically refreshing Nosto after an add-to-cart event](Dynamically-refreshing-Nosto-after-an-add-to-cart-event)
   * [Using Nosto within a SPA (single page application)](Using-Nosto-within-a-SPA-(single-page-application))

@@ -1,4 +1,4 @@
-Customer information allows you to annotate contact details for the current customer. This information can be outputed from your ecommerce platfrom, CRM system or any other mechanisms you have in place onsite that can modify the tagging.
+Customer information allows you to annotate contact details for the current customer. This information can be outputted from your ecommerce platform, CRM system or any other mechanisms you have in place onsite that can modify the tagging.
 
 The customer tagging should be exposed on every page whenever we have the necessary information available in the front-end context.
 

@@ -11,16 +11,22 @@ The class needs to always use `"nosto_element"` so Nosto understands that the el
 Here is an example of a page with multiple `<div>` elements: 
 
 ```
-// Three separate <divs> after another one a page
+// Three separate <divs> after another on a page
+
 <div class="nosto_element" id="frontpage-nosto-1"></div>
 <div class="nosto_element" id="frontpage-nosto-2"></div>
 <div class="nosto_element" id="frontpage-nosto-3"></div>
 
 // You can also add the class and id to an element you are already using for other purposes
+
 <div class="sidebar nosto_element" id="nosto-sidebar">
+
    <h1>Hello World!</h1>
    <h2>This is the sidebar</h2>
+
    // You can also nest nosto elements within other wrapper elements
+
    <div class="nosto_element" id="nosto-sidebar-nested-1"></div>
+
 </div> 
 ```

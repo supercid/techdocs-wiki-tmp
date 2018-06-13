@@ -2,7 +2,7 @@ You can define placements for Nosto to use via a code block called div-elements.
 
 Here is an example of a `<div>` tag on the site: 
 
-```
+```html
 <div class="nosto_element" id="frontpage-nosto-1"></div>
 ```
 
@@ -10,7 +10,7 @@ The class needs to always use `"nosto_element"` so Nosto understands that the el
 
 Here is an example of a page with multiple `<div>` elements: 
 
-```
+```html
 // Three separate <divs> after another on a page
 
 <div class="nosto_element" id="frontpage-nosto-1"></div>

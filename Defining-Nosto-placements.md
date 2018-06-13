@@ -1,6 +1,6 @@
 You can define placements for Nosto to use via a code block called div-elements. Each element marks a location in your site where Nosto can hook into and expose onsite content.
 
-Here is an example of a <div> tag on the site: 
+Here is an example of a `<div>` tag on the site: 
 
 ```
 <div class="nosto_element" id="frontpage-nosto-1"></div>
@@ -8,7 +8,7 @@ Here is an example of a <div> tag on the site:
 
 The class needs to always use `"nosto_element"` so Nosto understands that the element is usable for onsite content. However the id `"frontpage-nosto-1"` is flexible but requires that each unique element-id has a matching placement defined in Nosto's admin dashboard in order to expose campaigns.
 
-Here is an example of a page with multiple <div> elements: 
+Here is an example of a page with multiple `<div>` elements: 
 
 ```
 // Three separate <divs> after another one a page

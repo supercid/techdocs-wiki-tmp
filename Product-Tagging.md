@@ -65,6 +65,10 @@ The three tag fields, `tags1`, `tags2` and `tags3` are simply labels that can be
 
 Custom fields accept a key:value pair where the `class` of the attribute is the key. Common use cases are `material`, `color` or other similar unique identifiers.
 
+### Fields that are not exposable in tagging
+
+Nosto also supports two attributes that are not crawlable through tagging. This is due to the sensitive nature of the attributes. They are: `supplier_cost` and `inventory level`. To send these two values to Nosto you will need to use the [Products API](Updating-products-using-the-Products-API).
+
 ### Adding support for advanced use cases
 
 Many ecommerce stores utilize SKU:s or "child" products that are sorted under the same "parent" product. To extend the above example with SKU support refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Extending-tagging-with-SKUs

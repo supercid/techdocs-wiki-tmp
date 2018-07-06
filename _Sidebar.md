@@ -19,5 +19,5 @@
   * [Exposing Nosto elements in dynamic overlays](Exposing-nosto-elements-in-dynamic-overlays)
   * [Dynamically refreshing Nosto after an add-to-cart event](Dynamically-refreshing-Nosto-after-an-add-to-cart-event)
   * [Using Nosto within a SPA (single page application)](Using-Nosto-within-a-SPA-(single-page-application))
-* |3rd party data integrations](3rd-party-data-integrations)
+* [3rd party data integrations](3rd-party-data-integrations)
   * [Tracking Nosto with Google Analytics Enhanced Ecommerce](Tracking-Nosto-with-Google-Analytics)

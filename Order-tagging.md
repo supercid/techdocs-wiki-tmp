@@ -38,7 +38,7 @@ Please note that the meta attributes need to exist within the page source when t
 
 ### Tagging the buyer
 
-You can omit the buyer tagging completely if you do not want Nosto to crawl this information. The user details are stored for possible marketing purposes and mainly observed email address is used in this context. Marketing permission is false by default but if this user has explicitly agreed to receive marketing then you can set it to true manually.
+You can omit the buyer tagging either partially, or completely if you do not want Nosto to crawl this information. The user details are stored for possible marketing purposes and mainly observed email address is used in this context. Marketing permission is false by default but if this user has explicitly agreed to receive marketing then you can set it to true manually.
 
 ### Tagging the currencies
 

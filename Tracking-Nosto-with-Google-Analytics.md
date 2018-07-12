@@ -164,12 +164,13 @@ Create new tag with following configuration
 - Tag type: Universal Analytics
 - Category: Ecommerce (or whatever you prefer)
 - Action: Product list impression (or whatever you prefer)
+- Non-interaction hit: True (product list impression will not be treated as interaction)
 - Google Analytics Settings: your GA account (it's highly recommended to configure GA account as a variable)
 - Enable overriding settings in this tag: checked
 - More settings > Ecommerce > Enable Enhanced Ecommerce Features: True
 - More settings > Ecommerce > Use Data Layer: checked
 
-![gtm_nosto_trigger_impressions](https://user-images.githubusercontent.com/15191701/39805616-04b684e4-5380-11e8-9801-49adb016e0f5.png)
+![google_tag_manager](https://user-images.githubusercontent.com/15191701/42629726-13c31a6c-85dd-11e8-8417-beff9f04f1fc.png)
 
 Triggering
 - Trigger type: Custom event

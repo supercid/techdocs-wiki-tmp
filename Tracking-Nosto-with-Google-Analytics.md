@@ -30,6 +30,8 @@ var nostoCurrency = '';
 
 This snippet must be placed inside the product loop, for example right in the beginning of the product loop .
 
+**Important! In order to keep you tracking and reporting consistent make sure you use the same source value for the id of the product for all tracking events** 
+
 ```html
 #set($jsonProduct = "{name: '$!product.name',id: '$!product.productId',price: '$!product.price',brand: '$!product.brand',category: '', variant: '', url: '$!product.url', position: $!velocityCount}")
 <script>

@@ -7,7 +7,7 @@ If you would like to leverage Nosto's intelligence engine in your Android app, p
 * [Android Example App Code](https://github.com/Nosto/example-android)
 * [Android Example App Docs](https://github.com/Nosto/example-android/wiki)
 
-[Apollo Android Guide](https://www.apollographql.com/docs/android/)
+* [Apollo Android Guide](https://www.apollographql.com/docs/android/)
 
 #### Building for iOS
 

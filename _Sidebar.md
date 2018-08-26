@@ -27,4 +27,4 @@
     * [Using the API](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-the-API)
     * [Using Mutations](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Mutations)
     * [Using Queries](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Queries)
-    * [GraphQL: For iOS & Android](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-For-iOS-&-Android)
+    * [For iOS & Android](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-For-iOS-&-Android)

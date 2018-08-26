@@ -2,7 +2,7 @@ GraphQL is a query language for APIs. What does this mean for you? Unlike regula
 
 As a query language, it provides you with a lot of flexibility that most normal APIs will not. Without needing to recreate endpoints, you can provide developers with the same functionality as a bulk endpoint. Your queries will be cleaner and easier to understand by combining multiple queries into one request.
 
-#### What’s the difference between Yelp's GraphQL API and the regular API?
+#### What’s the difference between GraphQL API and the regular API?
 
 The regular API is very well structured and specifically defined. The endpoints have their set requests and responses and that’s what you get whether or not that matches your usage pattern. GraphQL lets you control all of this so that the way you consume the data matches exactly what you need.
 

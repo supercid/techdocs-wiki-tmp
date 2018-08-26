@@ -28,3 +28,4 @@
     * [Using Mutations](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Mutations)
     * [Using Queries](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Queries)
     * [For iOS & Android](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-For-iOS-&-Android)
+    * [FAQ](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-FAQ)

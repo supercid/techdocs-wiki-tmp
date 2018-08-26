@@ -23,7 +23,7 @@
   * [Tracking Nosto with Google Analytics Enhanced Ecommerce](Tracking-Nosto-with-Google-Analytics)
 * GraphQL
     * [An Introduction](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-An-Introduction)
-    * [The Playground](../GraphQL:-The-Playground)
-    * [Using the API](../GraphQL:-Using-the-API)
-    * [Using Mutations](../GraphQL:-Using-Mutations)
-    * [Using Queries](../GraphQL:-Using-Queries)
+    * [The Playground](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-The-Playground)
+    * [Using the API](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-the-API)
+    * [Using Mutations](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Mutations)
+    * [Using Queries](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Queries)

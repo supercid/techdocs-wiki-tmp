@@ -22,8 +22,8 @@
 * [3rd party data integrations](3rd-party-data-integrations)
   * [Tracking Nosto with Google Analytics Enhanced Ecommerce](Tracking-Nosto-with-Google-Analytics)
 * GraphQL
-    * [GraphQL: An Introduction](GraphQL:-An-Introduction)
-    * [GraphQL: The Playground](GraphQL:-The-Playground)
-    * [GraphQL: Using the API](GraphQL:-Using-the-API)
-    * [GraphQL: Using Mutations](GraphQL:-Using-Mutations)
-    * [GraphQL: Using Queries](GraphQL:-Using-Queries)
+    * [An Introduction](../GraphQL:-An-Introduction)
+    * [The Playground](../GraphQL:-The-Playground)
+    * [Using the API](../GraphQL:-Using-the-API)
+    * [Using Mutations](../GraphQL:-Using-Mutations)
+    * [Using Queries](../GraphQL:-Using-Queries)

@@ -3,8 +3,8 @@
 You can send your GraphQL requests as JSON to our API and have it correctly interpolate variables passed into it. To do so, set the `Content-Type` header to `application/json`.
 
 Authentication |    Token      |    Method    | Endpoint
----------------|---------------|--------------|---------------------------------
-Basic          |   API_APPS    |     POST     | `https://api.nosto.com/v1/graphql`
+---------------|---------------|--------------|--------------------------------------
+Basic          |   API_APPS    |     POST     | `https://api.nosto.com/v1/graphql`   
 
 ```shell
 curl -0 -v -X POST https://api.nosto.com/v1/graphql \

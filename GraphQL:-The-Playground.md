@@ -1,4 +1,6 @@
-Start exploring Nosto's GraphQL API on your account. GraphiQL is an in-browser IDE for exploring GraphQL.
+Start exploring Nosto's GraphQL API on your account. GraphiQL is an in-browser IDE for exploring GraphQL. You don't need any access for using the GraphiQL Explorer. 
+
+Toy around, use the API and when you'd like API access to the endpoint for use through a library such as Apollo, please contact support.
 
 Use the embedded GraphiQL explorer below to run queries. The GraphiQL Explorer is accessible at https://my.nosto.com/account-id/graphql
 

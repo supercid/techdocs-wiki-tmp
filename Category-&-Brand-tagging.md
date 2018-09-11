@@ -18,6 +18,14 @@ The brand tagging should be exposed whenever a user is viewing a certain brand o
 
 Categories must always be delimited by a slash. For example, `/Home/Accessories` is a valid category while `Home > Accessories` is not.
 
+### Faceting by other attributes
+
+With Nosto you can also expose other attributes that should be used for category/brand page filtering. For example when a user clicks on a certain color, only products with that certain color attribute should be exposed by both the category list, and Nosto Onsite Recommendations. You can add a tag with any value that products are associated with. 
+```html
+<span class="nosto_tag" style="display:none">color: Red</span>
+<span class="nosto_tag" style="display:none">gender: Mens</span>
+```
+
 ### Tagging the current page type
 
 Page type tagging should be exposed whenever a user is interacting with a page so Nosto understands what kind of page this is. 

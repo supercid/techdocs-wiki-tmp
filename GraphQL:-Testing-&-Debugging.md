@@ -8,6 +8,6 @@ Using the header `X-Nosto-Ignore` will cause any traffic from being recorded. Qu
 
 ## Debugging Requests
 
-Every operation made against the GraphQL endpoint returns a unique request identifier contained in an `X-Request-Id` header.
+Every operation made against our GraphQL endpoint returns a unique request identifier contained in an `X-Request-Id` response header.
 
 While we ensure that the APIs are as robust as possible if you do encounter an HTTP 5XX response from the endpoint, simply log the request identifier along with the error as the unique request identifier allows our engineers to troubleshoot the issue swiftly.

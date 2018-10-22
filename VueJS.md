@@ -7,7 +7,7 @@ Implementing Nosto on a single-page application may seem like a daunting task bu
 * [Global Mixins](https://vuejs.org/v2/guide/mixins.html#Global-Mixin)
 * [Server Side Rendering](https://vuejs.org/v2/guide/ssr.html)
 
-We recommend looking through our companion app on Codepen.IO.
+We recommend looking through [our companion app on Codepen](https://codepen.io/mridang/project/editor/ArMkgm).
 
 <img width="1440" alt="screen shot 2018-10-22 at 14 35 43" src="https://user-images.githubusercontent.com/327432/47290372-d0bd9280-d607-11e8-9e0f-4f7447bcd4c5.png">
 

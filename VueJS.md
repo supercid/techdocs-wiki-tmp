@@ -25,12 +25,12 @@ On product and category pages, you would also need to ensure that the appropriat
       <div>
         <div class="nosto_page_type" style="display:none">{{ page_type }}</div>
         <div class="nosto_customer" style="display:none">
-		  <div class="first_name">{{ customer.first_name }}</div>
-  		  <div class="last_name">{{ customer.last_name }}</div>
-		  <div class="email">{{ customer.email }}</div>
-		  <div class="customer_reference">{{ customer.reference }}</div>
-		  <div class="marketing_permission">{{ customer.newsletter }}</div>
-		</div>
+	  <div class="first_name">{{ customer.first_name }}</div>
+  	  <div class="last_name">{{ customer.last_name }}</div>
+	  <div class="email">{{ customer.email }}</div>
+	  <div class="customer_reference">{{ customer.reference }}</div>
+	  <div class="marketing_permission">{{ customer.newsletter }}</div>
+	</div>
         <div class="nosto_cart" style="display:none">
           <div class="line_item" v-for="item in cart">
             <span class="product_id">{{ item.product_id }}</span>
@@ -42,13 +42,13 @@ On product and category pages, you would also need to ensure that the appropriat
         </div>
         <nosto-slot nid="frontpage-nosto-1" inline-template>
           <div class="nosto_element no-inject" id="frontpage-nosto-1">
-			...
+	    ...
             ...
           </div>
         </nosto-slot>
         <nosto-slot nid="frontpage-nosto-2" inline-template>
           <div class="nosto_element no-inject" id="frontpage-nosto-1">
-			...
+	    ...
             ...
           </div>
         </nosto-slot>

@@ -29,6 +29,7 @@
     * [Using the API](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-the-API)
     * [Testing and Debuging](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Testing-&-Debugging)
     * [Using Mutations](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Mutations)
+        * [Updating Products](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Updating-Products)
     * [Using Queries](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Queries)
     * [For iOS & Android](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-For-iOS-&-Android)
     * [FAQ](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-FAQ)

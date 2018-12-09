@@ -3,7 +3,7 @@
 
 ```graphql
 mutation {
-    updateProducts(products: [
+  updateProducts(products: [
     {
       id: "74"
       url: "httddps://test-store--1.mybigcommerce.com/sample-french-connection-straw-bag/"

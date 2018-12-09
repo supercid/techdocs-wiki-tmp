@@ -1,5 +1,7 @@
 Mutations can be used to update the product catalog in Nosto. The `updateProducts` mutation allows you to update one or more products at a go.
 
+Any validation errors in the product data are accessible in the response. The entire product object is accessible in the response too. In the event that a product validation error led to the product to not be updated, the response would contain the errors as well as the invalid product data.
+
 **Note:** This mutation is currently in beta and may not support mutating all product fields.
 
 The given example updates the UGC image for product #74 and requests the details of the updated products and any associated errors.
@@ -32,6 +34,6 @@ mutation {
       }
     }
   }
-}```
+}
 EOF
 ```

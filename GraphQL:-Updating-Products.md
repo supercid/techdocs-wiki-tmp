@@ -11,7 +11,6 @@ curl -0 -v -X POST https://api.nosto.com/v1/graphql \
 -u ":<token>" \
 -H 'Content-Type: application/graphql' \
 -d @- << EOF
-```graphql
 mutation {
   updateProducts(products: [
     {

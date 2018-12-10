@@ -24,6 +24,7 @@ Tagging attribute extension
 ```html
 <span class="brand">Acme</span>
 <span class="description">This is a great product!</span>
+<span class="google_category">Interior > Towels</span>
 <span class="list_price">1299.00</span>
 <span class="tag1">sporty</span>
 <span class="tag2">new-in</span>
@@ -54,6 +55,10 @@ Currencies should always be represented in the ISO-4471 three-letter format. For
 ### Tagging the availability
 
 The availability of a product is represented by `InStock` or `http://schema.org/InStock` for products that are in stock and saleable. For products that are out of stock or you don't want recommended, you can use `OutOfStock` or `http://schema.org/OutOfStock`
+
+### Tagging the Google Categories
+
+The category of your item based on the Google product taxonomy. Use the schema provided by Google here (https://support.google.com/merchants/answer/6324436?hl=en)
 
 ### Tagging the Rating
 

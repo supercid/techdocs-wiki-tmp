@@ -99,3 +99,11 @@ The Products API takes an array of product metadata and has no hard limit on the
 ### How often can I update products?
 
 You can update products as often as you need.
+
+### When should I make an API call?
+
+You should make an API call when any product information changes. If a non-critical field of the product e.g. description, has changed, you can delay the product update as descriptions are rarely visible to the end customer. When the price or availability of the product changes, you should make an API call right away as this will instantly reflect in the recommendations.
+
+### Is there any additional benefit of using the product API?
+
+While the product API contains the full superset of the information in the tagging, it also allows you to pass sensitive information to us. Sensitive information is fields such as the supplier cost (margin) and the inventory level. These fields are only mutable via the API.

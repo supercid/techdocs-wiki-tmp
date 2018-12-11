@@ -25,6 +25,7 @@ Tagging attribute extension
 <span class="brand">Acme</span>
 <span class="description">This is a great product!</span>
 <span class="google_category">Interior > Towels</span>
+<span class="date_published">2018-06-17</span>
 <span class="list_price">1299.00</span>
 <span class="tag1">sporty</span>
 <span class="tag2">new-in</span>
@@ -51,6 +52,10 @@ Categories must always be delimited by a slash. For example, `/Home/Accessories`
 ### Tagging the currencies
 
 Currencies should always be represented in the ISO-4471 three-letter format. For example, use the code `USD` instead of `$` to represent the United States Dollar.
+
+### Tagging the date published
+
+This controls the "filter by new" functionality within Nosto and annotates when the product was added to the catalogue. Data follows ISO date format: YYYY-MM-DD. (https://www.w3.org/QA/Tips/iso-date)
 
 ### Tagging the availability
 

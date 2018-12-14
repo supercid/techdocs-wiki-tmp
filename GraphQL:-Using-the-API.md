@@ -1,3 +1,5 @@
+In order to use the GraphQL endpoints, you'll need to [authenticate yourself](https://developer.nosto.com/#authentication). You will need a **Apps** [token](https://help.nosto.com/settings-and-troubleshooting-faq/settings-authentication-tokens) to access this endpoint.
+
 ## Sending JSON GraphQL queries
 
 You can send your GraphQL requests as JSON to our API and have it correctly interpolate variables passed into it. To do so, set the `Content-Type` header to `application/json`.

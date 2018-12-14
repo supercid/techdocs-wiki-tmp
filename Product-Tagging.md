@@ -33,6 +33,7 @@ Tagging attribute extension
 <span class="tag3">add-to-cart</span>
 <span class="rating_value">3.8</span>
 <span class="review_count">36</span>
+<span class="google_category">Apparel &amp; Accessories &gt; Clothing</span>
 <span class="alternate_image_url">https://image.example.com/canoe2.jpg</span>
 <span class="alternate_image_url">https://image.example.com/canoe3.jpg</span>
 <span class="custom_fields">
@@ -55,11 +56,11 @@ Currencies should always be represented in the ISO-4471 three-letter format. For
 
 ### Tagging the date published
 
-This controls the "filter by new" functionality within Nosto and annotates when the product was added to the catalogue. Data follows ISO date format: YYYY-MM-DD. (https://www.w3.org/QA/Tips/iso-date)
+This controls the "filter by new" functionality within Nosto and annotates when the product was added to the catalog. Data follows ISO date format: YYYY-MM-DD. (https://www.w3.org/QA/Tips/iso-date)
 
 ### Tagging the availability
 
-The availability of a product is represented by `InStock` or `http://schema.org/InStock` for products that are in stock and saleable. For products that are out of stock or you don't want recommended, you can use `OutOfStock` or `http://schema.org/OutOfStock`
+The availability of a product is represented by `InStock` or `http://schema.org/InStock` for products that are in stock and saleable. For products that are out of stock or you don't want to be recommended, you can use `OutOfStock` or `http://schema.org/OutOfStock`
 
 ### Tagging the Google Categories
 
@@ -83,10 +84,10 @@ Nosto also supports two attributes that are not crawlable through tagging. This 
 
 Many ecommerce stores utilize SKU:s or "child" products that are sorted under the same "parent" product. To extend the above example with SKU support refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Extending-tagging-with-SKUs
 
-In cases where a product might have multiple prices in differing currencies you can also add support for multi-currency. Refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Adding-support-for-multi-currency
+In cases where a product might have multiple prices in differing currencies, you can also add support for multi-currency. Refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Adding-support-for-multi-currency
 
 ### Troubleshooting product tagging:
-Once included on all pages, you can review if the site is transmitting data using the [Nosto Debug Toolbar](https://help.nosto.com/get-started/guides/how-to-use-the-nosto-debug-toolbar). If you can see product attributes being picked up under "Tagging" then the product details are correctly set up. You can further verify that products are being indexed to the catalogue under the Nosto admin by navigating to Tools → Products: https://my.nosto.com/admin/$accountID/campaigns/products/list
+Once included on all pages, you can review if the site is transmitting data using the [Nosto Debug Toolbar](https://help.nosto.com/get-started/guides/how-to-use-the-nosto-debug-toolbar). If you can see product attributes being picked up under "Tagging" then the product details are correctly set up. You can further verify that products are being indexed to the catalog under the Nosto admin by navigating to Tools → Products: https://my.nosto.com/admin/$accountID/campaigns/products/list
 
 
 ![Nosto debug toolbar / products](https://nosto-campaign-assets.s3.amazonaws.com/images/nosto-product-tagging.png)

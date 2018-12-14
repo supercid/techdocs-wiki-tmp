@@ -5,6 +5,7 @@
   * [Adding the Cart Tagging](Cart-Tagging)
   * [Adding the Order Tagging](Order-Tagging)
   * [Adding the Customer information](Adding-the-customer-information)
+  * [Adding the Search Tagging](Search-Tagging)
   * [Defining Nosto placements](Defining-Nosto-placements)
 * [Manual Tagging - Advanced](Advanced-implementation)
   * [Extending tagging with SKUs](Extending-tagging-with-SKUs)

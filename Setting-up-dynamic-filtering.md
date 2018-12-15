@@ -59,7 +59,7 @@ You can even use multiple
 
 ## Dynamically reloading
 
-If you want to refresh the recommendations with new facet constraints, the simplest way would be to set update the value of the filters on the page and then reload the recommendations.
+If you want to refresh the recommendations with new facet constraints, the simplest way would be to update the value of the filters in the page and then reload the recommendations.
 
 The following example illustrates a simple way of modifying the current category tagging and then using the JS API to reload the recommendations.
 

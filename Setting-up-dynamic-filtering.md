@@ -37,7 +37,7 @@ You can even use multiple
 You can filter by categories to narrow down the recommendation results to only show products from the specified category or categories. If multiple categories are specified, the products must be in each of those categories.
 
 ```html
-<div class="nosto_custom_field" style="display:none">/Men's/Shirts</div>
+<div class="nosto_category" style="display:none">/Men's/Shirts</div>
 ```
 
 You can even use multiple

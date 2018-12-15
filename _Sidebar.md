@@ -25,7 +25,19 @@
 * [3rd party data integrations](3rd-party-data-integrations)
   * [Tracking Nosto with Google Analytics Enhanced Ecommerce](Tracking-Nosto-with-Google-Analytics)
 * SPAs & PWAs
-    * [Implementing on a Vue SPA](https://github.com/Nosto/docs-nosto-com/wiki/VueJS)
+    * [Implementing on a Vue SPA](VueJS)
+* APIs
+  * GDPR
+    * Redacting customer data
+    * Initiating data takeouts 
+  * Customers
+    * Blacklisting Customers
+    * Toggling marketing consent
+  * Products
+    * Updating Products
+    * Recrawling Products
+  * Other
+    * Updating Rates
 * GraphQL
     * [An Introduction](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-An-Introduction)
     * [The Playground](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-The-Playground)

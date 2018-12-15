@@ -10,7 +10,7 @@ Tagging the current category is often for most retailers to add personalisation 
 
 
 
-## **Filtering by categories**
+#### **Filtering by categories**
 
 You can filter by categories to narrow down the recommendation results to only show products from the specified category or categories. If multiple categories are specified, the products must be in each of those categories.
 
@@ -27,7 +27,7 @@ You can even use multiple
 
 **Note:** Remember to tag the categories exactly as they are tagged in your product pages. If you've omitted the leading `/Home` from your category tagging on the product pages, you'll need to tag them in a similar format here.
 
-## Filtering by tags
+#### Filtering by tags
 
 You can filter by tags to narrow down the recommendation results to only show products containing the specified tag or tags. If multiple tags are specified, the products must contain all the specified tags.
 
@@ -42,7 +42,7 @@ You can even use multiple
 <div class="nosto_tag" style="display:none">shiny</div>
 ```
 
-## Filtering by attributes
+#### Filtering by attributes
 
 You can filter by attributes to narrow down the recommendation results to only show products containing the specified attributes. If multiple attributes are specified, the products must contain all the attributes.
 

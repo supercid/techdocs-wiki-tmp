@@ -2,7 +2,28 @@ In this article, you will learn to use certain tags and fields to dynamically fi
 
 You can use any combination of the different filtering mechanisms outlined below. For example, you can use category and the tag filtering to constrain the recommendation results.
 
-## Filtering by tags
+**Note:** In order to leverage dynamic filtering please read our guide on configuring the filtering behaviour.
+
+All category pages already leverage dynamic filtering. As documented in our guide to tagging categories, the `nosto_category` tagging constraints Nosto to show recommendations from only the current category.
+
+Tagging the current category is often for most retailers to add personalisation to the category pages. If your store uses faceting and you would like Nosto to respect the faceting constraints, you may  to use either the attribute or tag filtering mechanims to achieve the desired result.
+
+### **Filtering by categories**
+
+You can filter by categories to narrow down the recommendation results to only show products from the specified category or categories. If multiple categories are specified, the products must be in each of those categories.
+
+```html
+<div class="nosto_category" style="display:none">/Men's/Shirts</div>
+```
+
+You can even use multiple
+
+```html
+<div class="nosto_category" style="display:none">/Men's/Shirts</div>
+<div class="nosto_category" style="display:none">/Men's/Sale</div>
+```
+
+### Filtering by tags
 
 You can filter by tags to narrow down the recommendation results to only show products containing the specified tag or tags. If multiple tags are specified, the products must contain all the specified tags.
 
@@ -17,7 +38,7 @@ You can even use multiple
 <div class="nosto_tag" style="display:none">shiny</div>
 ```
 
-## Filtering by attributes
+### Filtering by attributes
 
 You can filter by attributes to narrow down the recommendation results to only show products containing the specified attributes. If multiple attributes are specified, the products must contain all the attributes.
 
@@ -30,19 +51,4 @@ You can even use multiple
 ```html
 <div class="nosto_custom_field" style="display:none">gender:male</div>
 <div class="nosto_custom_field" style="display:none">material:cotton</div>
-```
-
-## Filtering by categories
-
-You can filter by categories to narrow down the recommendation results to only show products from the specified category or categories. If multiple categories are specified, the products must be in each of those categories.
-
-```html
-<div class="nosto_category" style="display:none">/Men's/Shirts</div>
-```
-
-You can even use multiple
-
-```html
-<div class="nosto_category" style="display:none">/Men's/Shirts</div>
-<div class="nosto_category" style="display:none">/Men's/Sale</div>
 ```

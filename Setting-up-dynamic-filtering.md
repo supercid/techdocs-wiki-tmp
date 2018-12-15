@@ -6,7 +6,7 @@ You can use any combination of the different filtering mechanisms outlined below
 
 All category pages already leverage dynamic filtering. As documented in our guide to tagging categories, the `nosto_category` tagging constraints Nosto to show recommendations from only the current category.
 
-Tagging the current category is often for most retailers to add personalisation to the category pages. If your store uses faceting and you would like Nosto to respect the faceting constraints, you may  to use either the attribute or tag filtering mechanims to achieve the desired result.
+Tagging the current category is often for most retailers to add personalisation to the category pages. If your store uses faceting and you would like Nosto to respect the faceting constraints, you may need to use either the attribute or tag filtering mechanisms to achieve the desired result.
 
 ### **Filtering by categories**
 
@@ -22,6 +22,8 @@ You can even use multiple
 <div class="nosto_category" style="display:none">/Men's/Shirts</div>
 <div class="nosto_category" style="display:none">/Men's/Sale</div>
 ```
+
+**Note:** Remember to tag the categories exactly as they are tagged in your product pages. If you've omitted the leading `/Home` from your category tagging on the product pages, you'll need to tag them in a similar format here.
 
 ### Filtering by tags
 

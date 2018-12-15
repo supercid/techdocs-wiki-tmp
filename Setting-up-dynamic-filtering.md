@@ -54,3 +54,8 @@ You can even use multiple
 <div class="nosto_custom_field" style="display:none">gender:male</div>
 <div class="nosto_custom_field" style="display:none">material:cotton</div>
 ```
+
+### Dynamically reloading
+
+If you want to refresh the recommendations with new facet constraints, the simplest way would be to set update the value of the filters on the page and then reload the recommendations.
+

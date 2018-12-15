@@ -11,8 +11,6 @@ Here is a list of all the valid page types:
 * All no-found pages should be tagged as `notfound`.
 * All the remaining pages that should be tagged as `other`.
 
-The following markup is used to for tagging the different page types
-
 ```
  <div class="nosto_page_type" style="display:none">product</div>
 ```

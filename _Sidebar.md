@@ -17,6 +17,7 @@
   * [Updating products using the Products API](Updating-products-using-the-Products-API)
   * [Updating products using the Recrawl API](Updating-products-using-the-Recrawl-API)
 * [Handling Dynamic use-cases](Handling-dynamic-use-cases)
+  * [Setting up dynamic filtering](Setting-up-dynamic-filtering)
   * [Sending email addresses to Nosto](Sending-email-addresses-to-Nosto)
   * [Exposing Nosto elements in dynamic overlays](Exposing-nosto-elements-in-dynamic-overlays)
   * [Dynamically refreshing Nosto after an add-to-cart event](Dynamically-refreshing-Nosto-after-an-add-to-cart-event)

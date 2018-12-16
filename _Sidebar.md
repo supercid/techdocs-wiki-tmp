@@ -26,7 +26,7 @@
     * [Implementing on a Vue SPA](VueJS)
 * APIs
   * GDPR
-    * Redacting customer data
+    * [Redacting customer data](Sanitizing-customer-data-using-the-Redaction-API)
     * [Initiating data takeouts](Initiating-data-takeouts-via-the-Takeout-APIs)
   * Customers
     * Blacklisting Customers

@@ -1,28 +1,12 @@
-When using multi-currency, this endpoint is used to update the exchange rates for your account. When new rates are sent via this endpoint, the changes will reflect instantly on your store as the product prices are multiplied with the provided rates in real-time.
-
-**Note:** This endpoint should only be used when using multi-currency. Please refer to our multi-currency guide prior to using this endpoint. Incorrect usage of these endpoints will result in a total outage of your personalisation setup.
+This endpoint is used for redacting all personal data associated with an email. All requests to these endpoints are asynchronous and simply enqueue the email address for redaction. It may take up to 24 hours for the redaction process to complete. If the email address is found, a notification email (informing you about the redaction) will be sent once the process has completed.
 
 #### Token
 
-This endpoint requires a Rates token.
+This endpoint requires an Email token.
 
 ### Usage
 
 ```shell
-curl -v -X DELETE https://api.nosto.com/exchangerates \
---user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw \
--H "Content-Type: application/json" -d '
-{
-  "rates":{
-    "GBP":{
-      "rate":0.77,
-      "price_currency_code":"GBP"
-    },
-    "EUR":{
-      "rate":0.91,
-      "price_currency_code":"EUR"
-    }
-  },
-  "valid_until":"2015-02-27T12:00:00Z"
-}'
+curl -v -X DELETE https://api.nosto.com/v1/customers/redact/john.doe@nosto.com \
+--user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw
 ```

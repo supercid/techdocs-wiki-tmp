@@ -30,7 +30,7 @@
     * [Initiating data takeouts](Initiating-data-takeouts-via-the-Takeout-APIs)
   * Customers
     * Blacklisting Customers
-    * Toggling marketing consent
+    * [Toggling marketing consent](Toggling-email-opt-in-using-the-Consent-API)
   * Products
     * [Updating Products](Updating-products-using-the-Products-API)
     * [Recrawling Products](Recrawling-products-using-the-Recrawl-API)

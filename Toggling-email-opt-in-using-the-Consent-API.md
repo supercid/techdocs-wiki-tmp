@@ -1,4 +1,6 @@
-This endpoint is used for toggling the email consent for an email. 
+This endpoint is used for toggling the marketing permission for an email. The marketing permission for an email is normally gathered [via the customer tagging](Adding-the-customer-information).
+
+This endpoint is only intended for use when the consent needs to be programmatically managed and should be a considered an advanced use case.
 
 #### Token
 

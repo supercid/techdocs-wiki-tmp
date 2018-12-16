@@ -27,7 +27,7 @@
 * APIs
   * GDPR
     * Redacting customer data
-    * Initiating data takeouts 
+    * [Initiating data takeouts](Initiating-data-takeouts-via-the-Takeout-APIs)
   * Customers
     * Blacklisting Customers
     * Toggling marketing consent

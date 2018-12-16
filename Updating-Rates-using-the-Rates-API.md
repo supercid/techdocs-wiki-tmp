@@ -4,12 +4,14 @@ When using multi-currency, this endpoint is used to update the exchange rates fo
 
 #### Token
 
-These endpoints require a Rates token.
+This endpoint requires a Rates token.
 
 ### Usage
 
 ```shell
-curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw -H "Content-Type: application/json" -X POST https://api.nosto.com/exchangerates -d '
+curl -v -X POST https://api.nosto.com/exchangerates \
+--user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw \
+-H "Content-Type: application/json" -d '
 {
   "rates":{
     "GBP":{

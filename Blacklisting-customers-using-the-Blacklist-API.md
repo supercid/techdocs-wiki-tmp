@@ -1,4 +1,4 @@
-This endpoint is used for blacklisting email addresses from receiving Nosto's triggered emails.
+This endpoint is used for blacklisting email addresses from receiving Nosto's triggered emails such as cart-abandonment emails, order-follow emails, and we-miss-you emails.
 
 #### Token
 

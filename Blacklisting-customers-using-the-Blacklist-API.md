@@ -1,5 +1,7 @@
 This endpoint is used for blacklisting email addresses from receiving Nosto's triggered emails such as cart-abandonment emails, order-follow emails, and we-miss-you emails.
 
+Having the corresponding email address in our system prior to blacklisting or unblacklisting is not a prerequisite. If the specified email record does not exist in our system, it will be created.
+
 #### Token
 
 This endpoint requires an Email token.

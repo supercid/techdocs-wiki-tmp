@@ -29,7 +29,7 @@
     * [Redacting customer data](Sanitizing-customer-data-using-the-Redaction-API)
     * [Initiating data takeouts](Initiating-data-takeouts-via-the-Takeout-APIs)
   * Customers
-    * Blacklisting Customers
+    * [Blacklisting Customers](Blacklisting-customers-using-the-Blacklist-API)
     * [Toggling marketing consent](Toggling-email-opt-in-using-the-Consent-API)
   * Products
     * [Updating Products](Updating-products-using-the-Products-API)

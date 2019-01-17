@@ -36,8 +36,7 @@
     * [Recrawling Products](Recrawling-products-using-the-Recrawl-API)
   * Other
     * [Updating Rates](Updating-Rates-using-the-Rates-API)
-* GraphQL
-    * [An Introduction](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-An-Introduction)
+* [GraphQL](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-An-Introduction)
     * [The Playground](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-The-Playground)
     * [Using the API](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-the-API)
     * [Testing and Debuging](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Testing-&-Debugging)

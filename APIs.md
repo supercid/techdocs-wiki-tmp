@@ -4,7 +4,7 @@ All the APIs reside at `https://api.nosto.com` and must be accessed over HTTPS.
 
 **Note:** If you happen to call the interface via HTTP using a valid API key, that API key will be invalidated immediately and a notice of the token revocation will be sent to the account owner.
 
- ## Authentication
+## Authentication
 
 Authenticating with the API is done by using ["Basic" authentication](https://tools.ietf.org/html/rfc7617). You authenticate by using your API key as the password and the username is left empty.
 
@@ -38,3 +38,7 @@ You can get token values from [authentication tokens](https://help.nosto.com/man
 | API_OMNICHANNEL | A token for accessing the new Omni-channel API               |
 | API_RATES       | A token for updating rates using the Exchange Rates API      |
 | API_SETTINGS    | A token for configuring your account using the Settings API  |
+
+## Rate Limits
+
+Nosto does not rate-limit the API usage but follows a fair-use policy. Nosto reserves the right to revoke API access for any abusive API usage patterns.

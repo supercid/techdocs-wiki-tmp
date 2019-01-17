@@ -35,7 +35,7 @@ Page type tagging should be exposed whenever a user is interacting with a page s
 
 Page type is optional and used mainly for triggering popups and also to understand what kind of page the user is currently interacting with. The page type must always be lowercase and the accepted values for page type are: front, category, product, cart, order, search, notfound
 
-### Troubleshooting category/page type tagging
+## Troubleshooting
 
 Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see order contents being picked up under "Tagging" → "Category" then the category and page type tagging are correctly set up in the source code.
 

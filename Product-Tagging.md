@@ -33,7 +33,6 @@ Tagging attribute extension
 <span class="tag3">add-to-cart</span>
 <span class="rating_value">3.8</span>
 <span class="review_count">36</span>
-<span class="google_category">Apparel &amp; Accessories &gt; Clothing</span>
 <span class="alternate_image_url">https://image.example.com/canoe2.jpg</span>
 <span class="alternate_image_url">https://image.example.com/canoe3.jpg</span>
 <span class="custom_fields">

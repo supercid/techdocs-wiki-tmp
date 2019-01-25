@@ -1,4 +1,5 @@
 * [Manual Tagging - Essentials](Manual-implementation)
+  * [Setting up your account](Setting-up-your-account)
   * [Adding the Nosto Script](Add-Nosto-script)
   * [Adding the Product Tagging](Product-Tagging)
   * [Adding the Category/Brand Tagging](Category-&-Brand-tagging)

@@ -48,5 +48,6 @@
     * [Using Queries](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Queries)
         * [Querying Products](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Products)
         * [Querying Orders](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Orders)
+        * [Querying Recommendations](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Recommendations)
     * [For iOS & Android](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-For-iOS-&-Android)
     * [FAQ](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-FAQ)

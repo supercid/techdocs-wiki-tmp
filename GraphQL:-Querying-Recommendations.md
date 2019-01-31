@@ -5,7 +5,7 @@ You can generic recommendations using the GraphQL orders endpoint. The recommend
 The endpoint can be used to fetch toplist recommendations i.e. best-sellers. Toplists recommendations are either sorted by views or buys.
 
 ```shell
-curl -0 -v -X GET https://api.nosto.com/v1/graphql \
+curl -0 -v -X POST https://api.nosto.com/v1/graphql \
 -u ":<token>" \
 -H 'Content-Type: application/graphql' \
 -d @- << EOF
@@ -30,7 +30,7 @@ EOF
 The endpoint can be used to fetch random recommendations i.e. previews. Random recommendations are a totally randomized selection of products and often used for testing purposes.
 
 ```shell
-curl -0 -v -X GET https://api.nosto.com/v1/graphql \
+curl -0 -v -X POST https://api.nosto.com/v1/graphql \
 -u ":<token>" \
 -H 'Content-Type: application/graphql' \
 -d @- << EOF
@@ -59,7 +59,7 @@ The endpoint can be used to fetch related recommendations i.e. cross-sellers. Cr
 **Example:** If you were to use this to add recommendations to an order-follow email, the `productIds` parameter would be an array containing the product identifiers of the products that were purchased.
 
 ```shell
-curl -0 -v -X GET https://api.nosto.com/v1/graphql \
+curl -0 -v -X POST https://api.nosto.com/v1/graphql \
 -u ":<token>" \
 -H 'Content-Type: application/graphql' \
 -d @- << EOF
@@ -91,7 +91,7 @@ The endpoint can be used to fetch recommendations related to a search term.
 **Note:** This endpoint cannot be used for building auto-complete style integrations.
 
 ```shell
-curl -0 -v -X GET https://api.nosto.com/v1/graphql \
+curl -0 -v -X POST https://api.nosto.com/v1/graphql \
 -u ":<token>" \
 -H 'Content-Type: application/graphql' \
 -d @- << EOF

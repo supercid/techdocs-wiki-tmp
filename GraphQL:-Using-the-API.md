@@ -95,7 +95,7 @@ fetch('https://api.nosto.com/v1/graphql', {
   method: 'POST',
   headers: new Headers({
     'Content-Type': 'application/json',
-    'Authorization': 'Basic ' + btoa(":" + "uW8272PhDI4jS07jjVFAKtbohxJfYW8qF1DHIjiPvh2xW0TnkwBGcPL9W91XM1EF")
+    'Authorization': 'Basic ' + btoa(":" + "<token>")
   }),
   mode: 'cors',
   body

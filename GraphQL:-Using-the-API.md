@@ -23,9 +23,7 @@ EOF
 
 If you want to send raw GraphQL queries to the API, you can still do so but you must set the `Content-Type` header to `application/graphql`.
 
-<aside class="warning">
-<b>NOTE:</b>If you do not set the correct Content-Type header, the request will be interpreted as JSON and will fail.
-</aside>
+**Note:** If you do not set the correct Content-Type header, the request will be interpreted as JSON and will fail.
 
 Authentication |    Token      |    Method    | Endpoint
 ---------------|---------------|--------------|---------------------------------

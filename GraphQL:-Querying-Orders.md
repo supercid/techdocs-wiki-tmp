@@ -1,7 +1,7 @@
 You can query orders using the GraphQL orders endpoint. So long as you are able to specify the order number or an external order reference, you will be able to query the order.
 
 ```graphql
-curl -0 -v -X GET https://api.nosto.com/v1/graphql \
+curl -0 -v -X POST https://api.nosto.com/v1/graphql \
 -u ":<token>" \
 -H 'Content-Type: application/graphql' \
 -d @- << EOF

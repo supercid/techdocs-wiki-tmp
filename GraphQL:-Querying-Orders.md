@@ -1,4 +1,10 @@
+You can query orders using the GraphQL orders endpoint. So long as you are able to specify the order number or an external order reference, you will be able to query the 
+
 ```graphql
+curl -0 -v -X GET https://api.nosto.com/v1/graphql \
+-u ":<token>" \
+-H 'Content-Type: application/graphql' \
+-d @- << EOF
 query {
   order(id: "M2_2") {
     number
@@ -24,4 +30,5 @@ query {
     }
   }
 }
+EOF
 ```

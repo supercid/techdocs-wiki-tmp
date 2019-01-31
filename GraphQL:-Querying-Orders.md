@@ -4,7 +4,7 @@ query {
     number
     reference
     items {
-			productId
+      productId
       skuId
       unitPrice
       priceCurrencyCode

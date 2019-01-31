@@ -1,6 +1,6 @@
 You can generic recommendations using the GraphQL orders endpoint. The recommendations offered here don't use sessions so they aren't personalized but still offer enough flexibility to support a multitude of use-cases.
 
-### Fetching toplists
+### Fetching toplists recommendations
 
 The endpoint can be used to fetch toplist recommendations i.e. best-sellers. Toplists recommendations are either sorted by views or buys.
 

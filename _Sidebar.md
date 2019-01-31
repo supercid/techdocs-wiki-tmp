@@ -46,5 +46,7 @@
         * [GraphQL: Onsite Sessions
 ](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Onsite-Sessions)
     * [Using Queries](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Queries)
+        * [Querying Products](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Products)
+        * [Querying Orders](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Orders)
     * [For iOS & Android](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-For-iOS-&-Android)
     * [FAQ](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-FAQ)

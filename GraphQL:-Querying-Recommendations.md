@@ -81,3 +81,33 @@ query {
 }
 EOF
 ```
+
+### Fetching search recommendations
+
+The endpoint can be used to fetch recommendations related to a search term.
+
+**Example:** If you were to use this to add recommendations to a search page, the `term` parameter would be the entire search term as queries by the user.
+
+**Note:** This endpoint cannot be used for building auto-complete style integrations.
+
+```shell
+curl -0 -v -X GET https://api.nosto.com/v1/graphql \
+-u ":<token>" \
+-H 'Content-Type: application/graphql' \
+-d @- << EOF
+query {
+  recos (preview: true, image: VERSION_7_200_200) {
+    search(term: "shoes",
+    params: {
+      minProducts: 1
+      maxProducts: 10
+    }) {
+      primary {
+        name 
+        productId
+      }
+    }
+  }
+}
+EOF
+```

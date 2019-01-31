@@ -2,6 +2,11 @@ You can generic recommendations using the GraphQL orders endpoint. The recommend
 
 ### Fetching bestsellers
 
+```graphql
+curl -0 -v -X GET https://api.nosto.com/v1/graphql \
+-u ":<token>" \
+-H 'Content-Type: application/graphql' \
+-d @- << EOF
 query {
   recos (preview: false, image: VERSION_7_200_200) {
     toplist(hours: 168, sort: BUYS, params: {
@@ -15,3 +20,5 @@ query {
     }
   }
 }
+EOF
+```

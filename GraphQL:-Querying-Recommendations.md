@@ -2,7 +2,7 @@ You can generic recommendations using the GraphQL orders endpoint. The recommend
 
 ### Fetching toplists
 
-The endpoint can be used to fetch toplist recommendations. Toplists recommendations are either sorted by views or buys.
+The endpoint can be used to fetch toplist recommendations i.e. best-sellers. Toplists recommendations are either sorted by views or buys.
 
 ```graphql
 curl -0 -v -X GET https://api.nosto.com/v1/graphql \
@@ -25,9 +25,9 @@ query {
 EOF
 ```
 
-## Fetching random recommendations
+### Fetching random recommendations
 
-The endpoint can be used to fetch random recommendations. Random recommendations are a totally randomized selection of products and often used for testing purposes.
+The endpoint can be used to fetch random recommendations i.e. previews. Random recommendations are a totally randomized selection of products and often used for testing purposes.
 
 ```
 curl -0 -v -X GET https://api.nosto.com/v1/graphql \
@@ -37,6 +37,38 @@ curl -0 -v -X GET https://api.nosto.com/v1/graphql \
 query {
   recos (preview: true, image: VERSION_7_200_200) {
     random(params: {
+      minProducts: 1
+      maxProducts: 10
+    }) {
+      primary {
+        name 
+        productId
+      }
+    }
+  }
+}
+EOF
+```
+
+### Fetching related recommendations
+
+The endpoint can be used to fetch related recommendations i.e. cross-sellers. Cross-sell recommendations allow you fetch related products to a given set of products.
+
+**Example:** If you were to use this to add recommendations to a product page, the `productIds` parameter would be a single-item array containing the product identifiers of the product that is being viewed.
+
+**Example:** If you were to use this to add recommendations to an order-follow email, the `productIds` parameter would be an array containing the product identifiers of the products that were purchased.
+
+```
+curl -0 -v -X GET https://api.nosto.com/v1/graphql \
+-u ":<token>" \
+-H 'Content-Type: application/graphql' \
+-d @- << EOF
+query {
+  recos (preview: true, image: VERSION_7_200_200) {
+    related(relationship: VIEWED_TOGETHER, productIds: [
+    	"8685560646"  
+    ],
+    params: {
       minProducts: 1
       maxProducts: 10
     }) {

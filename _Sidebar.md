@@ -43,6 +43,7 @@
     * [Testing and Debuging](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Testing-&-Debugging)
     * [Using Mutations](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Mutations)
         * [Updating Products](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Updating-Products)
+        * [Updating Identities](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Updating-Identities)
         * [GraphQL: Onsite Sessions
 ](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Onsite-Sessions)
     * [Using Queries](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Queries)

@@ -2,6 +2,8 @@ Mutations can be used to update the email identities in Nosto. The `upsertIdenti
 
 The given example updates the customer attributes for the email john.doe@nosto.com and requests the details of all the attributes of the identity.
 
+**Note:** If a specified attribute already exists on that identity, it will be overwritten.
+
 ```shell
 curl -0 -v -X POST https://api.nosto.com/v1/graphql \
 -u ":<token>" \

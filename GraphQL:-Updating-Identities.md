@@ -1,4 +1,8 @@
-Mutations can be used to update the email identities in Nosto. The `upsertIdentity` mutation allows you to upsert the details of an identity.
+Mutations can be used to update the email identities in Nosto. 
+
+### Upserting Identities
+
+The `upsertIdentity` mutation allows you to upsert the details of an identity.
 
 The given example updates the customer attributes for the email john.doe@nosto.com and requests the details of all the attributes of the identity.
 
@@ -28,3 +32,7 @@ mutation {
 }
 EOF
 ```
+
+### Deleting Identities
+
+There is currently no way to delete an identity.

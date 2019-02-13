@@ -2,6 +2,8 @@ Mutations can be used to update the email identities in Nosto. The `upsertIdenti
 
 The given example updates the customer attributes for the email john.doe@nosto.com and requests the details of all the attributes of the identity.
 
+If the identity for john.doe@nosto.com does not exist, a new identity will be created. 
+
 **Note:** If a specified attribute already exists on that identity, it will be overwritten.
 
 ```shell

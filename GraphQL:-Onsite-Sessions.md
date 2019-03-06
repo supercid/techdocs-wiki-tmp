@@ -10,3 +10,56 @@ When a customer logs in, you can update the existing customer with the customer-
 
 ## Working with recommendations
 
+### On the Product Page
+
+```graphql
+mutation {
+  updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
+    params: {
+      event: {
+        type: VIEWED_PRODUCT
+        target: "11923861519"
+      }
+    }
+  ) {
+    pages {
+      forProductPage(params: {
+        isPreview: false, imageVersion:  VERSION_8_400_400
+      }, product: "11923861519") {
+        divId
+        resultId
+        primary {
+          productId
+        }
+      }
+    }
+  }
+}
+```
+
+### On the Category Page
+
+```graphql
+mutation {
+  updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
+    params: {
+      event: {
+        type: VIEWED_CATEGORY
+        target: "Shorts"
+      }
+    }
+  ) {
+    pages {
+      forCategoryPage(params: {
+        isPreview: false, imageVersion:  VERSION_8_400_400
+      }, category: "Shorts") {
+        divId
+        resultId
+        primary {
+          productId
+        }
+      }
+    }
+  }
+}
+```

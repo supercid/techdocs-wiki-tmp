@@ -117,3 +117,30 @@ mutation {
   }
 }
 ```
+
+### On the Front Page
+
+```graqpl
+mutation {
+  updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
+    params: {
+      event: {
+        type: SEARCHED_FOR
+        target: "black shoes"
+      }
+    }
+  ) {
+    pages {
+      forFrontPage(params: {
+        isPreview: false, imageVersion:  VERSION_8_400_400
+      }) {
+        divId
+        resultId
+        primary {
+          productId
+        }
+      }
+    }
+  }
+}
+```

@@ -63,3 +63,30 @@ mutation {
   }
 }
 ```
+
+### On the Search Page
+
+```graphql
+mutation {
+  updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
+    params: {
+      event: {
+        type: SEARCHED_FOR
+        target: "black shoes"
+      }
+    }
+  ) {
+    pages {
+      forSearchPage(params: {
+        isPreview: false, imageVersion:  VERSION_8_400_400
+      }, term: "black shoes") {
+        divId
+        resultId
+        primary {
+          productId
+        }
+      }
+    }
+  }
+}
+```

@@ -93,6 +93,7 @@ mutation {
 
 ### On the Cart Page
 
+```graphql
 mutation {
   updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
     params: {
@@ -115,3 +116,4 @@ mutation {
     }
   }
 }
+```

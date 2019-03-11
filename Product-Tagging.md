@@ -5,7 +5,7 @@ Please note that the meta attributes need to exist within the page source when t
 Basic tagging
 ```html
 <div class="nosto_page_type" style="display:none">product</div>
-<div class="nosto_product"> 
+<div class="nosto_product" style="display:none"> 
   <span class="product_id">Canoe123</span>
   <span class="name">Acme Canoe</span>
   <span class="url">https://example.com/canoe123</span>

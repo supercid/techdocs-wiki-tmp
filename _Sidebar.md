@@ -27,6 +27,7 @@
     * [Implementing on a Vue SPA](VueJS)
 * [JS API](JS-APIs)
   * [Initializing Nosto](Initializing-Nosto)
+  * [Loading Recommendations](Loading-Recommendations)
 * [APIs](APIs)
   * GDPR
     * [Redacting customer data](Sanitizing-customer-data-using-the-Redaction-API)

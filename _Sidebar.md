@@ -32,6 +32,7 @@
     * [Sending Product-View Events](Sending-Product-View-Events)
     * [Sending Add-To-Cart Events](Sending-Add-To-Cart-Events)
     * [Sending Customer Information](Sending-customer-information)
+    * [Manully Sending Tagging](Manully-Sending-Tagging)
 * [APIs](APIs)
   * GDPR
     * [Redacting customer data](Sanitizing-customer-data-using-the-Redaction-API)

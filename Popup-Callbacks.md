@@ -2,7 +2,7 @@ The JS API can be used to register callbacks to hook into the popup events.
 
 To register listener to a callback, use api.listen(callbackId, callbackFunction).
 
-
+## Post Render Callback
 
 ```js
  nostojs(function(api){
@@ -12,13 +12,22 @@ To register listener to a callback, use api.listen(callbackId, callbackFunction)
   });
 ```
 
+#### Fields
+
+## Email Given Callback
+
 ```js
 nostojs(function(api){
   api.listen("emailgiven", function(emailSubscriptionEvent){
   console.log(emailSubscriptionEvent.email);
   console.log(emailSubscriptionEvent.newsletter);
   });
-});```
+});
+```
+
+#### Fields
+
+## Popup Opened Callback
 
 ```js
 api.listen("popupOpened", function(popupEvent) {
@@ -31,11 +40,17 @@ api.listen("popupOpened", function(popupEvent) {
   });
 ```
 
+## Popup Ribbon Callback
+
 ```js
   api.listen("popupRibbonShown", function(ribbonEvent) {
     console.log(ribbonEvent.campaignId);
   });
 ```
+
+#### Fields
+
+## Popup Minimised Callback
 
 ```js
   api.listen("popupMinimized", function(popupEvent) {
@@ -43,17 +58,29 @@ api.listen("popupOpened", function(popupEvent) {
   });
 ```
 
+#### Fields
+
+## Popup Maximised Callback
+
 ```js
   api.listen("popupMaximized", function(popupEvent) {
     console.log(popupEvent.campaignId);
   });
 ```
 
+#### Fields
+
+## Popup Closed Callback
+
 ```js
   api.listen("popupClosed", function(popupEvent) {
     console.log(popupEvent.campaignId);
   });
 ```
+
+#### Fields
+
+## Coupon Given Callback
 
 ```js
   api.listen("couponGiven", function(couponEvent) {
@@ -67,6 +94,12 @@ api.listen("popupOpened", function(popupEvent) {
   });
 ```
 
+#### Fields
+
+### Cart Abandonment Callback
+
+The callback will be called when a customer clicks a button inside a Nosto abandoned cart pop-up to get an abandoned cart email.
+
 ```js
   api.listen("sendabandonedcartemail", function(sendMailEvent) {
     if (!sendMailEvent.sent) {
@@ -77,3 +110,12 @@ api.listen("popupOpened", function(popupEvent) {
     }
   });
 ```
+
+#### Fields
+
+| Field      | Type    | Reason                                           |
+|------------|---------|--------------------------------------------------|
+| sent       | boolean | A boolean indicating whether the email was sent  |
+| campaignId | String  | The identifier of the popup campaign             |
+| email      | String  | The email address to which the email was sent    |
+| message    | String  | Any error messages relating to the email sending |

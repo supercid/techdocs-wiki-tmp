@@ -31,7 +31,11 @@ nostojs(function(api) {
 });
 ```
 
-| Field   | Type      | Reason                                                                                                                                                                                                     |
-|---------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| effects | object    | Describes the effects that should be used displaying the pop-up. If given, overrides the effects set up for the campaign in the Nosto Administration. See below for the description of the effects object. |
-| preview | boolean   | If true, an actual discount coupon won’t be given and the pop-up display won’t count in the analytics. Use this to preview the pop-up on your site.                                                        |
+##### Parameters
+
+| Field          | Type      | Default | Reason                                                                                                                                                                                                     |
+|----------------|-----------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| effects        | Read-Only |         | Describes the effects that should be used displaying the pop-up. If given, overrides the effects set up for the campaign in the Nosto Administration. See below for the description of the effects object. |
+| preview        | boolean   |         | If true, an actual discount coupon won’t be given and the pop-up display won’t count in the analytics. Use this to preview the pop-up on your site.                                                        |
+| overlayOpacity | number    | 0.8     | How opaque, or non-transparent, the background should look like when showing the pop-up. Value can range from 0.0 to 1.0                                                                                   |
+| fadeInDelayMs  | number    | 0       | How many milliseconds to take to fade in the pop-up.                                                                                                                                                       |

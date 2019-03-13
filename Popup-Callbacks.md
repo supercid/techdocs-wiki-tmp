@@ -139,6 +139,13 @@ The callback will be called when a customer clicks a button inside a Nosto behav
 
 #### Fields
 
+| Field      | Type   | Reason                                                          |
+|------------|--------|-----------------------------------------------------------------|
+| campaignId | String | The identifier of the popup campaign.                           |
+| couponCode | String | The trigger-type of the popup campaign.                         |
+| origin     | String | Where the coupon code originated from. Always `popup`.          |
+| error      | String | Description of the error in the case the pop-up failed to open. |
+
 ### Cart Abandonment Callback
 
 The callback will be called when a customer clicks a button inside a Nosto abandoned cart pop-up to get an abandoned cart email.

@@ -25,7 +25,7 @@
   * [Tracking Nosto with Google Analytics Enhanced Ecommerce](Tracking-Nosto-with-Google-Analytics)
 * SPAs & PWAs
     * [Implementing on a Vue SPA](VueJS)
-* JS API
+* (JS API)[JS-APIs]
   * [Initializing Nosto](Initializing-Nosto)
   * [Loading Recommendations](Loading-Recommendations)
   * Common Examples

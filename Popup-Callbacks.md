@@ -56,6 +56,8 @@ api.listen("popupOpened", function(popupEvent) {
 
 ## Popup Minimised Callback
 
+The customer can minimize a Nosto behavioral pop-up into a ribbon to be shown at the edge of the viewport. This callback will be called when the customer clicks the minimize button on the pop-up.
+
 ```js
   api.listen("popupMinimized", function(popupEvent) {
     console.log(popupEvent.campaignId);
@@ -69,6 +71,8 @@ api.listen("popupOpened", function(popupEvent) {
 | campaignId | String | The identifier of the popup campaign |
 
 ## Popup Maximised Callback
+
+The customer can minimize a Nosto behavioral pop-up into a ribbon to be shown at the edge of the viewport. When they click on this ribbon, the pop-up will be maximized again to be shown in full size. This callback will be called when the customer clicks the ribbon to maximize the pop-up.
 
 ```js
   api.listen("popupMaximized", function(popupEvent) {
@@ -84,6 +88,8 @@ api.listen("popupOpened", function(popupEvent) {
 
 ## Popup Closed Callback
 
+The customer can click a “close permanently” button or link in a Nosto behavioral pop-up to dismiss the pop-up permanently. This callback is called when the customer clicks on that button or link.
+
 ```js
   api.listen("popupClosed", function(popupEvent) {
     console.log(popupEvent.campaignId);
@@ -97,6 +103,8 @@ api.listen("popupOpened", function(popupEvent) {
 | campaignId | String | The identifier of the popup campaign |
 
 ## Coupon Given Callback
+
+The callback will be called when a customer clicks a button inside a Nosto behavioral pop-up to get their discount coupon code.
 
 ```js
   api.listen("couponGiven", function(couponEvent) {

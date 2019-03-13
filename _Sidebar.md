@@ -29,6 +29,7 @@
   * [Initializing Nosto](Initializing-Nosto)
   * [Loading Recommendations](Loading-Recommendations)
   * [Popups](Popups)
+    * [Listing Popup Campaigns](Listing-Popup-Campaigns)
     * [Opening a Popup](Opening-a-Popup)
     * [Enabling & Disabling Popups](Enabling-&-Disabling-Popups)
   * Common Examples

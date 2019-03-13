@@ -23,8 +23,12 @@
   * [Using Nosto within a SPA (single page application)](Using-Nosto-within-a-SPA-(single-page-application))
 * [3rd party data integrations](3rd-party-data-integrations)
   * [Tracking Nosto with Google Analytics Enhanced Ecommerce](Tracking-Nosto-with-Google-Analytics)
+* Physical Retail
+  * [Sending Offline Orders](Sending-Offline-Orders)
 * SPAs & PWAs
-    * [Implementing on a Vue SPA](VueJS)
+  * [Implementing on a Vue SPA](VueJS)
+* Native Mobile
+  * [Implementing on iOS and Android](Implementing-on-iOS-and-Android)
 * [JS API](JS-APIs)
   * [Initializing Nosto](Initializing-Nosto)
   * [Loading Recommendations](Loading-Recommendations)

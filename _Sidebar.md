@@ -28,6 +28,7 @@
 * [JS API](JS-APIs)
   * [Initializing Nosto](Initializing-Nosto)
   * [Loading Recommendations](Loading-Recommendations)
+  * [Popups](Popups)
   * Common Examples
     * [Sending Product-View Events](Sending-Product-View-Events)
     * [Sending Add-To-Cart Events](Sending-Add-To-Cart-Events)

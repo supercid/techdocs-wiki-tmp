@@ -28,6 +28,9 @@
 * [JS API](JS-APIs)
   * [Initializing Nosto](Initializing-Nosto)
   * [Loading Recommendations](Loading-Recommendations)
+  * Common Examples
+    * [Sending Product-View Events](Sending-Product-View-Events)
+    * [Sending Add-To-Cart Events](Sending-Product-View-Events)
 * [APIs](APIs)
   * GDPR
     * [Redacting customer data](Sanitizing-customer-data-using-the-Redaction-API)
@@ -43,7 +46,7 @@
 * [GraphQL](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-An-Introduction)
     * [The Playground](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-The-Playground)
     * [Using the API](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-the-API)
-    * [Testing and Debuging](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Testing-&-Debugging)
+    * [Testing and Debugging](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Testing-&-Debugging)
     * [Using Mutations](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Mutations)
         * [Updating Products](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Updating-Products)
         * [Updating Identities](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Updating-Identities)

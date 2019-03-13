@@ -50,6 +50,10 @@ api.listen("popupOpened", function(popupEvent) {
 
 #### Fields
 
+| Field      | Type   | Reason                               |
+|------------|--------|--------------------------------------|
+| campaignId | String | The identifier of the popup campaign |
+
 ## Popup Minimised Callback
 
 ```js
@@ -59,6 +63,10 @@ api.listen("popupOpened", function(popupEvent) {
 ```
 
 #### Fields
+
+| Field      | Type   | Reason                               |
+|------------|--------|--------------------------------------|
+| campaignId | String | The identifier of the popup campaign |
 
 ## Popup Maximised Callback
 
@@ -70,6 +78,10 @@ api.listen("popupOpened", function(popupEvent) {
 
 #### Fields
 
+| Field      | Type   | Reason                               |
+|------------|--------|--------------------------------------|
+| campaignId | String | The identifier of the popup campaign |
+
 ## Popup Closed Callback
 
 ```js
@@ -79,6 +91,10 @@ api.listen("popupOpened", function(popupEvent) {
 ```
 
 #### Fields
+
+| Field      | Type   | Reason                               |
+|------------|--------|--------------------------------------|
+| campaignId | String | The identifier of the popup campaign |
 
 ## Coupon Given Callback
 

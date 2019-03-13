@@ -16,9 +16,11 @@ To register listener to a callback, use api.listen(callbackId, callbackFunction)
 
 ## Email Given Callback
 
+Whenever customer has input their email address into a Nosto behavioral pop-up that asked whether they want to subscribe to an email newsletter.
+
 ```js
 nostojs(function(api){
-  api.listen("emailgiven", function(emailSubscriptionEvent){
+  api.listen("emailgiven", function(emailSubscriptionEvent) {
   console.log(emailSubscriptionEvent.email);
   console.log(emailSubscriptionEvent.newsletter);
   });
@@ -26,6 +28,11 @@ nostojs(function(api){
 ```
 
 #### Fields
+
+| Field      | Type   | Reason                                                                                                                                                                                                                                                                                                    |
+|------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| email      | String | The email address in the user input.                                                                                                                                                                                                                                                                      |
+| newsletter | String | Whether the user gave their consent to subscribing to a newsletter. E.g. either the pop­up prompting for the email address input was worded similarly to “Please enter your email address to subscribe to our newsletter:” or there was an explicit checkbox that the user checked to give their consent. |
 
 ## Popup Opened Callback
 

@@ -12,9 +12,9 @@ nostojs(function(api) {
 
 #### Parameters
 
-| Field | Type   | Default | Reason                               |
-|-------|--------|---------|--------------------------------------|
-| id    | String |         | The identifier of the popup campaign |
+| Field | Type   | Required | Default | Reason                               |
+|-------|--------|----------|---------|--------------------------------------|
+| id    | String | ✔        |         | The identifier of the popup campaign |
 
 ## Disabling a Popup
 
@@ -28,6 +28,6 @@ nostojs(function(api) {
 
 #### Parameters
 
-| Field | Type   | Default | Reason                               |
-|-------|--------|---------|--------------------------------------|
-| id    | String |         | The identifier of the popup campaign |
+| Field | Type   | Required | Default | Reason                               |
+|-------|--------|----------|---------|--------------------------------------|
+| id    | String | ✔        |         | The identifier of the popup campaign |

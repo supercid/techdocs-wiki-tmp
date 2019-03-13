@@ -32,6 +32,7 @@
     * [Listing Popup Campaigns](Listing-Popup-Campaigns)
     * [Opening a Popup](Opening-a-Popup)
     * [Enabling & Disabling Popups](Enabling-&-Disabling-Popups)
+    * [Popup Callbacks](Popup-Callbacks)
   * Common Examples
     * [Sending Product-View Events](Sending-Product-View-Events)
     * [Sending Add-To-Cart Events](Sending-Add-To-Cart-Events)

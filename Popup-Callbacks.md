@@ -1,18 +1,4 @@
-The JS API can be used to register callbacks to hook into the popup events.
-
-To register listener to a callback, use api.listen(callbackId, callbackFunction).
-
-## Post Render Callback
-
-```js
- nostojs(function(api){
-   api.listen("postrender", function(nostoPostRenderEvent) { 
-     console.log("Callback");
-    });
-  });
-```
-
-#### Fields
+The JS API can be used to register callbacks to hook into the popup events. To register listener to a callback, use `api.listen(callbackId, callbackFunction)` function.
 
 ## Email Given Callback
 

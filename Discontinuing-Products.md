@@ -1,8 +1,6 @@
 While Nosto's crawler attempts to keep its copy of your catalog as fresh as possible, there are scenarios where we may not be able to update all the information as quickly as needed.
 
-In these scenarios, we recommend that you implement our enhanced Products API which allows you push all your product metadata and have the changes instantly reflect across our entire engine.
-
-For example, if you add a discount of -10% to all the products in your "Shirts" category, you can use the Products API to bulk update all the products.
+In these scenarios, we recommend that you implement our Discontinue API which allows you to push all your product identifiers to discontinue them and have the changed instantly reflect across our entire engine.
 
 Here's an example of a Curl request.
 

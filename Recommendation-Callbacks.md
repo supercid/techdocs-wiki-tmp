@@ -15,7 +15,7 @@ nostojs(function(api) {
 
 #### Fields
 
-| Field      | Type   | Reason                                                                                                                                                                                                                                                                                                    |
-|------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| email      | String | The email address in the user input.                                                                                                                                                                                                                                                                      |
-| newsletter | String | Whether the user gave their consent to subscribing to a newsletter. E.g. either the pop­up prompting for the email address input was worded similarly to “Please enter your email address to subscribe to our newsletter:” or there was an explicit checkbox that the user checked to give their consent. |
+| Field            | Type          | Reason                                                                          |
+|------------------|---------------|---------------------------------------------------------------------------------|
+| filledElements   | Array<String> | Contains a list of recommendation slots that contain recommendations            |
+| unFilledElements | Array         | Contains a list of recommendations slots that did not have get recommendations. |

@@ -2,7 +2,7 @@ To support AJAX implementation of add to cart functionality inside product recom
 
 
 ```js
-nostojs(function(api){
+nostojs(function(api) {
   api.recommendedProductAddedToCart("productId1", "nosto-categorypage-1");
 });
 ```

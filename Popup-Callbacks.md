@@ -47,7 +47,19 @@ api.listen("popupOpened", function(popupEvent) {
   });
 ```
 
+#### Fields
+
+| Field      | Type   | Reason                                                          |
+|------------|--------|-----------------------------------------------------------------|
+| campaignId | String | The identifier of the popup campaign                            |
+| type       | String | The trigger-type of the popup campaign                          |
+| error      | String | Description of the error in the case the pop-up failed to open. |
+
 ## Popup Ribbon Callback
+
+The customer can minimize a Nosto behavioral pop-up into a ribbon to be shown at the edge of the viewport. The pop-up is also changed to be shown in its minimized ribbon form after a page load is done after a pop-up has been shown.
+
+This callback will be called whenever the ribbon is rendered onto screen after a page load.
 
 ```js
   api.listen("popupRibbonShown", function(ribbonEvent) {

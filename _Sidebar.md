@@ -53,6 +53,7 @@
     * [Toggling marketing consent](Toggling-email-opt-in-using-the-Consent-API)
   * Products
     * [Updating Products](Updating-products-using-the-Products-API)
+    * [Discontinuing Products](Discontinuing-Products)
     * [Recrawling Products](Recrawling-products-using-the-Recrawl-API)
   * Other
     * [Updating Rates](Updating-Rates-using-the-Rates-API)

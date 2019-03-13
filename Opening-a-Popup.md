@@ -33,5 +33,5 @@ nostojs(function(api) {
 
 | Field   | Type      | Reason                                                                                                                                                                                                     |
 |---------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| effects | Read-Only | Describes the effects that should be used displaying the pop-up. If given, overrides the effects set up for the campaign in the Nosto Administration. See below for the description of the effects object. |
+| effects | object    | Describes the effects that should be used displaying the pop-up. If given, overrides the effects set up for the campaign in the Nosto Administration. See below for the description of the effects object. |
 | preview | boolean   | If true, an actual discount coupon won’t be given and the pop-up display won’t count in the analytics. Use this to preview the pop-up on your site.                                                        |

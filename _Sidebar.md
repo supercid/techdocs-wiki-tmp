@@ -29,6 +29,8 @@
   * [Initializing Nosto](Initializing-Nosto)
   * [Loading Recommendations](Loading-Recommendations)
   * [Popups](Popups)
+    * [Opening a Popup](Opening-a-Popup)
+    * [Enabling & Disabling Popups](Enabling-&-Disabling-Popups)
   * Common Examples
     * [Sending Product-View Events](Sending-Product-View-Events)
     * [Sending Add-To-Cart Events](Sending-Add-To-Cart-Events)

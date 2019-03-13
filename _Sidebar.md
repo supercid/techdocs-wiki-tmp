@@ -16,7 +16,6 @@
 * [Data Exchange](Data-exchange)
   * [How does the Nosto crawler work?](Nosto-crawler)
 * [Handling Dynamic use-cases](Handling-dynamic-use-cases)
-  * [Sending email addresses to Nosto](Sending-email-addresses-to-Nosto)
   * [Exposing Nosto elements in dynamic overlays](Exposing-nosto-elements-in-dynamic-overlays)
   * [Dynamically refreshing Nosto after an add-to-cart event](Dynamically-refreshing-Nosto-after-an-add-to-cart-event)
   * [Using Nosto within a SPA (single page application)](Using-Nosto-within-a-SPA-(single-page-application))
@@ -43,6 +42,7 @@
     * [Sending Product-View Events](Sending-Product-View-Events)
     * [Sending Add-To-Cart Events](Sending-Add-To-Cart-Events)
     * [Sending Customer Information](Sending-customer-information)
+    * [Sending email addresses to Nosto](Sending-email-addresses-to-Nosto)
     * [Manully Sending Tagging](Manully-Sending-Tagging)
 * [APIs](APIs)
   * GDPR

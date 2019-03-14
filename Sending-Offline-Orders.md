@@ -42,7 +42,7 @@ mutation {
         message
       }
       data {
-        productId
+        orderNumber
       }
     }
   }

@@ -33,7 +33,11 @@ mutation {
         lastName: "Smith",
         email: "j.smith@example.com"
       },
-      customerId: "5c897d600000000000000000"
+      customerId: "5c897d600000000000000000",
+      meta: {
+        pos_id: "1",
+        pos_description: "Helsinki city center outlet"
+      }
     }
   ]) {
     result {

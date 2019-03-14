@@ -4,7 +4,7 @@ Any validation errors in the order data are accessible in the response. The enti
 
 **Note:** This mutation is currently in closed beta.
 
-The given example creates a single order #74 and requests the details of created updated order and any associated errors.
+The given example creates a single order #74 and requests the details of the created order and any associated errors.
 
 ```shell
 curl -0 -v -X POST https://api.nosto.com/v1/graphql \

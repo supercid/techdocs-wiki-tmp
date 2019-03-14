@@ -6,8 +6,15 @@ Typically calling the API should be approached only after the normal tagging imp
 
 JavaScript API works only in on-site context. Using the API does not require authentication but requires that Nosto embed script is included.
 
-Nosto embed script needs to be recent enough. The easiest way to check that you are using a recent version enough, is to view your site’s html source and make sure it includes the text nostojs.init. In case that is there you are using the version that supports the Nosto Javascript API.
+Nosto embed script needs to be recent enough. The easiest way to check that you are using a recent version enough is to view your site’s HTML source and make sure it includes the text nostojs.init. In case that is there you are using the version that supports the Nosto Javascript API.
 
-If you are using Nosto with a async script tag (AKA Direct Include), then you must add a javascript stub as an inline script block before you call the Nosto Javascript API (see the Javascript examples). You do not need to call nostojs.init() when using Direct Include.
+If you are using Nosto with a async script tag (AKA Direct Include), then you must add a javascript stub as an inline script block before you call the Nosto Javascript API (see the Javascript examples). You do not need to call `nostojs.init()` when using Direct Include.
+
+```js
+(function() {
+ var name="nostojs";
+ window[name]=window[name]||function(cb){(window[name].q=window[name].q||[]).push(cb);};
+})();
+```
 
 Using the stub ensures that your code will be executed correctly even if you call the Nosto JS API before the Nosto script has loaded.

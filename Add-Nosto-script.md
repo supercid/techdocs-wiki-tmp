@@ -1,6 +1,9 @@
 To start tracking visits and content the Nosto script needs to be active on all pages within the store where the user might navigate. Replace $accountID from the code below with your own account ID and place the code within the `<head>` section of your sites HTML content. You can find your stores account IDs from the account list within the Nosto admin.
 
 ```html
+<script type="text/javascript">
+    (function(){var name="nostojs";window[name]=window[name]||function(cb){(window[name].q=window[name].q||[]).push(cb);};})();
+</script>
 <script src="//connect.nosto.com/include/$accountID" async></script>
 ```
 

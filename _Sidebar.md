@@ -62,6 +62,8 @@
         * [Updating Identities](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Updating-Identities)
         * [GraphQL: Onsite Sessions
 ](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Onsite-Sessions)
+        * [GraphQL: Placing Orders
+](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Placing-Orders)
     * [Using Queries](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Using-Queries)
         * [Querying Products](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Products)
         * [Querying Orders](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Orders)

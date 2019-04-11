@@ -19,6 +19,7 @@ mutation {
       event: {
         type: VIEWED_PRODUCT
         target: "11923861519"
+        ref: "front-page-slot-1"
       }
     }
   ) {

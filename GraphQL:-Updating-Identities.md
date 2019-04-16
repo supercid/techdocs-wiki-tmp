@@ -19,7 +19,7 @@ mutation {
   upsertIdentity(identity: {
     email: "john.doe@nosto.com",
     attributes: [
-      {name: "brand-affinity", value: "Adidas"},
+      {name: "loyalty-tier", value: "Gold"},
       {name: "shoe-size", value: "42"},
     ]
   }) {

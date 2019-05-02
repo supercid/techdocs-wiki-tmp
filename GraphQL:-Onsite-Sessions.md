@@ -2,7 +2,13 @@
 
 ## Creating a session
 
-When a new user comes to the app, you can use this parameterless method to get a new session. It will return you a customer-id that can save on the device and use for future requests. This would be ideal.
+When a new user comes to the app, you can use this method to get a new session. It will return you a customer-id that can save on the device and use for future requests. This would be ideal.
+
+```graphql
+mutation {
+  newSession(referer: "https://google.com?q=shoes")
+}
+```
 
 ## Updating a session
 

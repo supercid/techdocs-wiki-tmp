@@ -18,6 +18,8 @@ When a customer logs in, you can update the existing customer with the customer-
 
 ### On the Product Page
 
+In order to use the GraphQL session mutation to fetch recommendations for your search page, the event, in this case, must be `VIEWED_PRODUCT` and you should specify the product-identifier of the current product being viewed.
+
 ```graphql
 mutation {
   updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
@@ -46,13 +48,15 @@ mutation {
 
 ### On the Category Page
 
+In order to use the GraphQL session mutation to fetch recommendations for your category page, the event, in this case, must be `VIEWED_CATEGORY` and you should specify a fully qualified category path of the current category. For example, if you have a category called "Dresses" under the category "Women", the FQCN would be "/Women/Dresses".
+
 ```graphql
 mutation {
   updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
     params: {
       event: {
         type: VIEWED_CATEGORY
-        target: "Shorts"
+        target: "/Shorts"
       }
     }
   ) {
@@ -72,6 +76,8 @@ mutation {
 ```
 
 ### On the Search Page
+
+In order to use the GraphQL session mutation to fetch recommendations for your search page, the event, in this case, must be `SEARCHED_FOR` and you should specify the search term of the query.
 
 ```graphql
 mutation {

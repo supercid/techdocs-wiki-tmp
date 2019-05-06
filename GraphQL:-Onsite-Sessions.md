@@ -100,6 +100,8 @@ mutation {
 
 ### On the Cart Page
 
+In order to use the GraphQL session mutation to fetch recommendations for your cart or checkout page, the event, in this case, must be `VIEWED_PAGE` and you should specify a fully qualified URL of the page as the target.
+
 ```graphql
 mutation {
   updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
@@ -126,6 +128,8 @@ mutation {
 ```
 
 ### On the Front Page
+
+In order to use the GraphQL session mutation to fetch recommendations for your home or front page, the event, in this case, must be `VIEWED_PAGE` and you should specify a fully qualified URL of the page as the target
 
 ```graphql
 mutation {

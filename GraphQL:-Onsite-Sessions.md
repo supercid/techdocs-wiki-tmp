@@ -105,8 +105,8 @@ mutation {
   updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
     params: {
       event: {
-        type: SEARCHED_FOR
-        target: "black shoes"
+        type: VIEWED_PAGE
+        target: "https://example.com/cart"
       }
     }
   ) {
@@ -132,8 +132,8 @@ mutation {
   updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
     params: {
       event: {
-        type: SEARCHED_FOR
-        target: "black shoes"
+        type: VIEWED_PAGE
+        target: "https://example.com"
       }
     }
   ) {

@@ -278,7 +278,7 @@ mutation {
 }
 ```
 
-##### Fetching Recos
+#### Fetching Recos
 
 The `forSearchPage` field will return the result of all the recommendations that are configured for the search page.
 

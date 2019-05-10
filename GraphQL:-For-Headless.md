@@ -3,10 +3,10 @@ Each customer who visits a site is uniquely identified with a session identifier
 Since the session-duration is 30 minutes from the last activity, When a customer returns to the site
 
 1. Read the session-identifier from the cookie.
-2. If the session-identifer doesn't exist, initiate a new session and store the resultant session identifier in a cookie.
+2. If the session-identifier doesn't exist, initiate a new session and store the resultant session identifier in a cookie.
 3. Read the session identifier from the cookie, and leverage the mutations for the outlined page types.
 
-##### Starting a new session
+#### Starting a new session
 
 In order to start a new session when a session-identifier doesn't exist, you'll need to use the `newSession` mutation
 
@@ -20,7 +20,7 @@ The `newSession` mutation will return a unique session-identifier that you must 
 
 ⚠️ How you persist the session-identifier is entirely dependant upon your implementation. For example, you can persist it into a cookie or even application storage. 
 
-##### Using a session
+#### Using a session
 
 If you already have a session-identifier, you can pass that using the `updateSession` mutation.
 
@@ -51,7 +51,7 @@ These events are used to pass intelligence to Nosto's intelligence engine.
 
 Each of the page-specific mutations also allows you to fetch the recommendations for the given page type.
 
-##### Sending the cart
+#### Sending the cart
 
 When you mutate a session, it is imperative that you send the <u>full</u> cart contents.
 
@@ -92,7 +92,7 @@ mutation MySession {
 }
 ```
 
-##### Sending the customer
+#### Sending the customer
 
 When you mutate a session, it is imperative that you send the details of the currently logged-in customer. If no customer if currently logged in, this can be omitted.
 
@@ -139,11 +139,11 @@ mutation MySession {
 
 ⚠️ If you do not pass the attribution parameter, the recommendations statistics will be inaccurate but will not affect the quality of the recommendations.
 
-##### Previewing the recommendations
+#### Previewing the recommendations
 
 ### On your home page
 
-##### Sending the event
+#### Sending the event
 
 In order to use the GraphQL session mutation to fetch recommendations for your home or front page, the event, in this case, must be `VIEWED_PAGE` and you should specify a <u>fully qualified URL of the home page as the target</u>. 
 
@@ -172,13 +172,13 @@ mutation {
 }
 ```
 
-##### Fetching Recos
+#### Fetching Recos
 
 The `forFrontPage` field will return the result of all the recommendations that are configured for the front page.
 
 ### On your Category pages
 
-##### Sending the event
+#### Sending the event
 
 In order to use the GraphQL session mutation to fetch recommendations for your category page, the event, in this case, must be `VIEWED_CATEGORY` and you should specify a <u>fully qualified category path of the current category</u>. For example, if you have a category called "Dresses" under the category "Women", the FQCN would be "/Women/Dresses".
 
@@ -207,13 +207,13 @@ mutation {
 }
 ```
 
-##### Fetching Recos
+#### Fetching Recos
 
 The `forCategoryPage` field will return the result of all the recommendations that are configured for the front page.
 
 ### On your Product pages
 
-##### Sending the event
+#### Sending the event
 
 In order to use the GraphQL session mutation to fetch recommendations for your search page, the event, in this case, must be `VIEWED_PRODUCT` and you should specify the <u>product-identifier of the current product being viewed</u>.
 
@@ -243,13 +243,13 @@ mutation {
 }
 ```
 
-##### Fetching Recos
+#### Fetching Recos
 
 The `forProductPage` field will return the result of all the recommendations that are configured for the product page.
 
 ### On your search page
 
-##### Sending the event
+#### Sending the event
 
 In order to use the GraphQL session mutation to fetch recommendations for your search page, the event, in this case, must be `SEARCHED_FOR` and you should specify the <u>search term of the query</u>.
 
@@ -284,7 +284,7 @@ The `forSearchPage` field will return the result of all the recommendations that
 
 ### On your cart/checkout page
 
-##### Sending the event
+#### Sending the event
 
 In order to use the GraphQL session mutation to fetch recommendations for your cart or checkout page, the event, in this case, must be `VIEWED_PAGE` and you should specify a fully qualified <u>URL of the cart page</u> as the target.
 
@@ -313,13 +313,13 @@ mutation {
 }
 ```
 
-##### Fetching Recos
+#### Fetching Recos
 
 The `forCartPage` field will return the result of all the recommendations that are configured for the front page.
 
 ### On the order page 
 
-##### Sending the event
+#### Sending the event
 
 In order to use the GraphQL session mutation to fetch recommendations for your cart or checkout page, you must use a different mutation as compared to the rest of the pages.
 
@@ -368,6 +368,6 @@ mutation {
 }
 ```
 
-##### Fetching Recos
+#### Fetching Recos
 
 The `forOrderPage` field will return the result of all the recommendations that are configured for the order-confirmation page.

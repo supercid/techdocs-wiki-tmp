@@ -58,11 +58,7 @@ mutation {
 
 In order to use Nosto the different pages, you'll need to make the appropriate mutations for the different page types.
 
-Every page-specific mutation requires you to pass the event for the specific page.
-
-These events are used to pass intelligence to Nosto's intelligence engine.
-
-Each of the page-specific mutations also allows you to fetch the recommendations for the given page type.
+Every page-specific mutation requires you to pass the event for the specific page. These events are used to pass signals to Nosto's intelligence engine. Each of the page-specific mutations also allows you to fetch the recommendations for the given page type.
 
 #### Sending the cart
 

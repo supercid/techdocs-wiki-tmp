@@ -10,7 +10,7 @@ Since the session-duration is 30 minutes from the last activity, When a customer
 
 In order to start a new session when a session-identifier doesn't exist, you'll need to use the `newSession` mutation
 
-```
+```graphql
 mutation {
   newSession(referer: "https://google.com?q=shoes")
 }
@@ -24,7 +24,7 @@ The `newSession` mutation will return a unique session-identifier that you must 
 
 If you already have a session-identifier, you can pass that using the `updateSession` mutation.
 
-The example below is a generic example of how you update a session and pass the appropriate event to Nosto but in practice you'll be using one of the page-specific mutations as shown in the section "Implementing on pages".
+The example below is a generic example of how you update a session and pass the appropriate event to Nosto but in practice, you'll be using one of the page-specific mutations as shown in the section "Implementing on pages".
 
 ```graphql
 mutation {
@@ -57,7 +57,7 @@ When you mutate a session, it is imperative that you send the <u>full</u> cart c
 
 If the current shopping cart is empty, this can be omitted.
 
-```
+```graphql
 mutation MySession {
   updateSession(by: BY_CID, id: "ad8f0d0e-1156-4df2-b385-10e03f8f8a44",
     params: {
@@ -96,7 +96,7 @@ mutation MySession {
 
 When you mutate a session, it is imperative that you send the details of the currently logged-in customer. If no customer if currently logged in, this can be omitted.
 
-```
+```graphql
 mutation MySession {
   updateSession(by: BY_CID, id: "ad8f0d0e-1156-4df2-b385-10e03f8f8a44",
     params: {
@@ -121,7 +121,7 @@ mutation MySession {
 
 When navigating between pages, if the navigation happens as a result of a click on a recommendation element, you must pass the identifier as part of the route and on the next page load, read the attribution parameter and pass it along with the event as the `ref` parameter.
 
-```
+```graphql
 mutation MySession {
   updateSession(by: BY_CID, id: "ad8f0d0e-1156-4df2-b385-10e03f8f8a44",
     params: {
@@ -182,7 +182,7 @@ The `forFrontPage` field will return the result of all the recommendations that 
 
 In order to use the GraphQL session mutation to fetch recommendations for your category page, the event, in this case, must be `VIEWED_CATEGORY` and you should specify a <u>fully qualified category path of the current category</u>. For example, if you have a category called "Dresses" under the category "Women", the FQCN would be "/Women/Dresses".
 
-```
+```graphql
 mutation {
   updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
     params: {
@@ -211,15 +211,13 @@ mutation {
 
 The `forCategoryPage` field will return the result of all the recommendations that are configured for the front page.
 
-
-
 ### On your Product pages
 
 ##### Sending the event
 
 In order to use the GraphQL session mutation to fetch recommendations for your search page, the event, in this case, must be `VIEWED_PRODUCT` and you should specify the <u>product-identifier of the current product being viewed</u>.
 
-```
+```graphql
 mutation {
   updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
     params: {
@@ -255,7 +253,7 @@ The `forProductPage` field will return the result of all the recommendations tha
 
 In order to use the GraphQL session mutation to fetch recommendations for your search page, the event, in this case, must be `SEARCHED_FOR` and you should specify the <u>search term of the query</u>.
 
-```
+```graphql
 mutation {
   updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
     params: {
@@ -290,7 +288,7 @@ The `forSearchPage` field will return the result of all the recommendations that
 
 In order to use the GraphQL session mutation to fetch recommendations for your cart or checkout page, the event, in this case, must be `VIEWED_PAGE` and you should specify a fully qualified <u>URL of the cart page</u> as the target.
 
-```
+```graphql
 mutation {
   updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
     params: {
@@ -327,7 +325,7 @@ In order to use the GraphQL session mutation to fetch recommendations for your c
 
 ⚠️ The customer, in this case, is the details of the customer making the purchase.
 
-```
+```graphql
 mutation {
   placeOrder(by:BY_CID, id: "514421fce84abcb61bd45241", params: {
     customer: {

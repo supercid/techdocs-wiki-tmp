@@ -47,11 +47,11 @@ In order to use Nosto the different pages, you'll need to make the appropriate m
 
 Every page-specific mutation requires you to pass the event for the specific page.
 
-These events are use to pass intelligence to Nosto's intelligence engine.
+These events are used to pass intelligence to Nosto's intelligence engine.
 
-Each of the page-specific mutations also allow you to fetch the recommendations for the given page type.
+Each of the page-specific mutations also allows you to fetch the recommendations for the given page type.
 
-#####Sending the cart
+##### Sending the cart
 
 When you mutate a session, it is imperative that you send the <u>full</u> cart contents.
 
@@ -92,11 +92,9 @@ mutation MySession {
 }
 ```
 
-#####Sending the customer
+##### Sending the customer
 
-When you mutate a session, it is imperative that you send the details of the currently logged-in customer. 
-
-If no customer if currently logged in, this can be omitted.
+When you mutate a session, it is imperative that you send the details of the currently logged-in customer. If no customer if currently logged in, this can be omitted.
 
 ```
 mutation MySession {
@@ -142,10 +140,6 @@ mutation MySession {
 ⚠️ If you do not pass the attribution parameter, the recommendations statistics will be inaccurate but will not affect the quality of the recommendations.
 
 ##### Previewing the recommendations
-
-
-
-
 
 ### On your home page
 
@@ -221,7 +215,7 @@ The `forCategoryPage` field will return the result of all the recommendations th
 
 ### On your Product pages
 
-#####Sending the event
+##### Sending the event
 
 In order to use the GraphQL session mutation to fetch recommendations for your search page, the event, in this case, must be `VIEWED_PRODUCT` and you should specify the <u>product-identifier of the current product being viewed</u>.
 
@@ -251,7 +245,7 @@ mutation {
 }
 ```
 
-#####Fetching Recos
+##### Fetching Recos
 
 The `forProductPage` field will return the result of all the recommendations that are configured for the product page.
 
@@ -331,7 +325,7 @@ The `forCartPage` field will return the result of all the recommendations that a
 
 In order to use the GraphQL session mutation to fetch recommendations for your cart or checkout page, you must use a different mutation as compared to the rest of the pages.
 
-⚠️ The customer in this case is the details of the customer making the purchase.
+⚠️ The customer, in this case, is the details of the customer making the purchase.
 
 ```
 mutation {

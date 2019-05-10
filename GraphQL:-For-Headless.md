@@ -1,3 +1,8 @@
+Nosto's GraphQL APIs can be used for simplified implementations for headless frontends. While recommend using our JS API for use in headless environments, there are scenarios where a GraphQL based implementation might be more fruitful.
+
+* [Using the API](/GraphQL:-Using-the-API)
+* [Testing & Debugging](/GraphQL:-Testing-&-Debugging)
+
 Each customer who visits a site is uniquely identified with a session identifier. When a new customer comes to the site, a GraphQL session mutation call must be made to initiate a session. The resultant session identifier must be persisted and reused for all consecutive calls.
 
 Since the session-duration is 30 minutes from the last activity, When a customer returns to the site

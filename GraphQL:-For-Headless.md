@@ -168,6 +168,8 @@ mutation {
 }
 ```
 
+⚠️ Any recommendation requests when the preview mode is enabled do not accrue towards the statistics or skew the product relations.
+
 ### On your home page
 
 #### Sending the event

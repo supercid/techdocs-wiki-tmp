@@ -117,7 +117,7 @@ mutation MySession {
 }
 ```
 
-##### Sending attribution parameters
+#### Sending attribution parameters
 
 When navigating between pages, if the navigation happens as a result of a click on a recommendation element, you must pass the identifier as part of the route and on the next page load, read the attribution parameter and pass it along with the event as the `ref` parameter.
 
@@ -140,6 +140,33 @@ mutation MySession {
 ⚠️ If you do not pass the attribution parameter, the recommendations statistics will be inaccurate but will not affect the quality of the recommendations.
 
 #### Previewing the recommendations
+
+All default the recommendation results are returned when the recommendations are enabled and the account is a live account. If you would like to preview the recommendations, all the recommendation fields accept a boolean `isPreview` parameter.
+
+```graphql
+mutation {
+  updateSession(by: BY_CID, id: "5b1a481060b221115c4a251e",
+    params: {
+      event: {
+        type: VIEWED_PAGE
+        target: "https://example.com"
+      }
+    }
+  ) {
+    pages {
+      forFrontPage(params: {
+        isPreview: false, imageVersion:  VERSION_8_400_400
+      }) {
+        divId
+        resultId
+        primary {
+          productId
+        }
+      }
+    }
+  }
+}
+```
 
 ### On your home page
 

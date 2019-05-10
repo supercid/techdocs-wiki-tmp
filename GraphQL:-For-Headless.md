@@ -3,6 +3,12 @@ Nosto's GraphQL APIs can be used for simplified implementations for headless fro
 * [Using the API](/GraphQL:-Using-the-API)
 * [Testing & Debugging](/GraphQL:-Testing-&-Debugging)
 
+🚨Implementing Nosto over GraphQL will not allow you to leverage the entire Nosto suite. The following features will not function:
+
+* Facebook Ads: As the pixel events aren't dispatched.
+* Content Personalisation: As the GraphQL API only handle the personalization and not onsite experiences.
+* Popups: As the GraphQL API only handle the personalization and not onsite experiences.
+
 Each customer who visits a site is uniquely identified with a session identifier. When a new customer comes to the site, a GraphQL session mutation call must be made to initiate a session. The resultant session identifier must be persisted and reused for all consecutive calls.
 
 Since the session-duration is 30 minutes from the last activity, When a customer returns to the site

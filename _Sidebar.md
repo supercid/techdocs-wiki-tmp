@@ -70,4 +70,5 @@
         * [Querying Orders](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Orders)
         * [Querying Recommendations](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Recommendations)
     * [For iOS & Android](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-For-iOS-&-Android)
+    * [For Headless](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-For-Headless)
     * [FAQ](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-FAQ)

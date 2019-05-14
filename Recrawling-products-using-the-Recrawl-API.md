@@ -10,7 +10,7 @@ Here's an example of a Curl request.
 curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw -H "Content-Type: application/json" -X POST https://api.nosto.com/products/recrawl -d '{  
   "products":[  
     {  
-      "productId":"339",
+      "product_id":"339",
       "url":"https://magento1.plugintest.nos.to/retro-chic-eyeglasses.html?___store=default"
     }
   ]

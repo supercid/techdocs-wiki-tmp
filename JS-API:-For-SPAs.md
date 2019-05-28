@@ -37,7 +37,7 @@ When viewing a product, you should send the product-id of the current product be
 nostojs(api => {
   api.defaultSession()
    .viewProduct('product-id')
-   .setElements(['frontpage-bestsellers'])
+   .setElements(['product-crosssells'])
    .load()
    .then(data => {
      console.log(data.recommendations);
@@ -53,7 +53,7 @@ When viewing a category or collection, you should send the slash-delimited and f
 nostojs(api => {
   api.defaultSession()
    .viewCategory('/Womens/Dresses')
-   .setElements(['frontpage-bestsellers'])
+   .setElements(['category-related'])
    .load()
    .then(data => {
      console.log(data.recommendations);
@@ -63,6 +63,23 @@ nostojs(api => {
 
 **Note:** You don’t need to ensure the case-sensitivity of the category being passed so long as the path is tagged in the same way as your product’s categories are.
 
+When doing a search
+
+When viewing the results of a search, you must send the exact search-term as queried for.
+
+```js
+nostojs(api => {
+  api.defaultSession()
+   .viewSearch('womens dresses')
+   .setElements(['search-related'])
+   .load()
+   .then(data => {
+     console.log(data.recommendations);
+   })
+});
+```js
+
+**Note:** You don’t need to normalize or encode the search query in any way.
 
 
 

@@ -128,7 +128,7 @@ nostojs(api => {
      console.log(data.recommendations);
    })
 });
-```js
+```
 
 
 

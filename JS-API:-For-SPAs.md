@@ -29,6 +29,23 @@ nostojs.init("account-id", { disableAutoLoad:true });
 
 ## Tracking Events
 
+### When viewing the homepage
+
+When viewing a home-page, there's no context to be provided, so invoking the `viewIndex` will suffice.
+
+```js
+nostojs(api => {
+  api.defaultSession()
+   .viewIndex()
+   .setElements(['product-crosssells'])
+   .load()
+   .then(data => {
+     console.log(data.recommendations);
+   })
+});
+```
+
+
 ### When viewing a product
 
 When viewing a product, you should send the product-id of the current product being viewed.
@@ -63,7 +80,7 @@ nostojs(api => {
 
 **Note:** You don’t need to ensure the case-sensitivity of the category being passed so long as the path is tagged in the same way as your product’s categories are.
 
-When doing a search
+### When doing a search
 
 When viewing the results of a search, you must send the exact search-term as queried for.
 
@@ -80,6 +97,39 @@ nostojs(api => {
 ```js
 
 **Note:** You don’t need to normalize or encode the search query in any way.
+
+### When going to checkout
+
+When viewing a checkout page, there's no context to be provided, so invoking the `viewCheckout` will suffice.
+
+```js
+nostojs(api => {
+  api.defaultSession()
+   .viewCheckout()
+   .setElements(['cart-related'])
+   .load()
+   .then(data => {
+     console.log(data.recommendations);
+   })
+});
+```
+
+### When placing an order
+
+```js
+nostojs(api => {
+  api.defaultSession()
+   .placeOrder({
+    ...
+   })
+   .setElements(['order-related'])
+   .load()
+   .then(data => {
+     console.log(data.recommendations);
+   })
+});
+```js
+
 
 
 

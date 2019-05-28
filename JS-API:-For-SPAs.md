@@ -94,7 +94,7 @@ nostojs(api => {
      console.log(data.recommendations);
    })
 });
-```js
+```
 
 **Note:** You don’t need to normalize or encode the search query in any way.
 

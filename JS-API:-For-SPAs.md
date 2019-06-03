@@ -105,7 +105,7 @@ nostojs(api => {
 
 ### When viewing a product
 
-When viewing a product, you should send the product-id of the current product being viewed.
+When viewing a product, you should send the product-id of the current product being viewed. Unlike the regular implementation, you do not need to pass the entirety of the product metadata.
 
 ```js
 nostojs(api => {

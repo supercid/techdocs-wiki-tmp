@@ -173,6 +173,10 @@ nostojs(api => {
 
 ### When placing an order
 
+On all thank-you and order-confirmation pages, the conversion metadata _must_ be passed. 
+
+The conversion metadata is used for sending personalised order-followup emails, personalise the recommendations e.g. order-related, for segmentation insights and conversion statistics.
+
 ```js
 nostojs(api => {
   api.defaultSession()

@@ -82,12 +82,12 @@ When viewing a home-page, there's no context to be provided, so invoking the `vi
 ```js
 nostojs(api => {
   api.defaultSession()
-   .viewIndex()
-   .setElements(['product-crosssells'])
-   .load()
-   .then(data => {
-     console.log(data.recommendations);
-   })
+    .viewIndex()
+    .setElements(['product-crosssells'])
+    .load()
+    .then(data => {
+      console.log(data.recommendations);
+    })
 });
 ```
 
@@ -99,12 +99,12 @@ When viewing a product, you should send the product-id of the current product be
 ```js
 nostojs(api => {
   api.defaultSession()
-   .viewProduct('product-id')
-   .setElements(['product-crosssells'])
-   .load()
-   .then(data => {
-     console.log(data.recommendations);
-   })
+    .viewProduct('product-id')
+    .setElements(['product-crosssells'])
+    .load()
+    .then(data => {
+      console.log(data.recommendations);
+    })
 });
 ```
 
@@ -115,12 +115,12 @@ When viewing a category or collection, you should send the slash-delimited and f
 ```js
 nostojs(api => {
   api.defaultSession()
-   .viewCategory('/Womens/Dresses')
-   .setElements(['category-related'])
-   .load()
-   .then(data => {
-     console.log(data.recommendations);
-   })
+    .viewCategory('/Womens/Dresses')
+    .setElements(['category-related'])
+    .load()
+    .then(data => {
+      console.log(data.recommendations);
+    })
 });
 ```
 
@@ -133,12 +133,12 @@ When viewing the results of a search, you must send the exact search-term as que
 ```js
 nostojs(api => {
   api.defaultSession()
-   .viewSearch('womens dresses')
-   .setElements(['search-related'])
-   .load()
-   .then(data => {
-     console.log(data.recommendations);
-   })
+    .viewSearch('womens dresses')
+    .setElements(['search-related'])
+    .load()
+    .then(data => {
+      console.log(data.recommendations);
+    })
 });
 ```
 
@@ -151,12 +151,12 @@ When viewing a checkout page, there's no context to be provided, so invoking the
 ```js
 nostojs(api => {
   api.defaultSession()
-   .viewCheckout()
-   .setElements(['cart-related'])
-   .load()
-   .then(data => {
-     console.log(data.recommendations);
-   })
+    .viewCheckout()
+    .setElements(['cart-related'])
+    .load()
+    .then(data => {
+      console.log(data.recommendations);
+    })
 });
 ```
 
@@ -165,14 +165,14 @@ nostojs(api => {
 ```js
 nostojs(api => {
   api.defaultSession()
-   .placeOrder({
-    ...
-   })
-   .setElements(['order-related'])
-   .load()
-   .then(data => {
-     console.log(data.recommendations);
-   })
+    .placeOrder({
+      ...
+    })
+    .setElements(['order-related'])
+    .load()
+    .then(data => {
+      console.log(data.recommendations);
+    })
 });
 ```
 

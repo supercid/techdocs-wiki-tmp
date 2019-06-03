@@ -1,6 +1,8 @@
-Product tagging is a series of meta attributes that describe the product for Nosto. The service incorporates a crawling mechanism that collects and stores these products in our catalogue for use within the different delivery methods of Nosto. 
+All product pages should contain the product tagging. The product tagging can be the entire metadata or only a small subset of it.
 
-Please note that the meta attributes need to exist within the page source when the page has rendered and Nosto is unable to crawl details injected via Google Tag Manager or other dynamic sources based on Javascript.
+The product tagging is used to pass the context of the current product being viewed which in turn is used to personalise the recommendations e.g. cross-sellers, and is also periodically crawled by Nosto to build an index.
+
+**Note:** The product tagging _must_ be server-side rendered as the Nosto crawler does not execute Javascript.
 
 Basic tagging
 ```html

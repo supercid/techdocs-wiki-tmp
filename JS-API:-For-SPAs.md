@@ -29,6 +29,8 @@ nostojs.init("account-id", { disableAutoLoad:true });
 
 ## Managing Sessions
 
+### Setting the cart
+
 ```js
 nostojs(api => {
   api.defaultSession()
@@ -52,6 +54,22 @@ nostojs(api => {
       }
     ]
    })
+});
+```
+
+
+### Setting the customer
+
+```js
+nostojs(api => {
+  api.defaultSession()
+    .setCustomer({
+      customer_reference: "b369f1235cf4f08153c560.82515936",
+      email: "mridang@nosto.com",
+      first_name: "Mridang",
+      last_name: "Agarwalla",
+      newsletter: true
+    })
 });
 ```
 

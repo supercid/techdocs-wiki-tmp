@@ -1,16 +1,10 @@
-Customer information allows you to annotate contact details for the current customer. This information can be outputted from your ecommerce platform, CRM system or any other mechanisms you have in place onsite that can modify the tagging.
+On every page, the customer information _should_ be tagged if the customer is logged in. If the customer isn't logged in, this but can be omitted.
 
-The customer tagging should be exposed on every page whenever we have the necessary information available in the front-end context.
+The customer information is primarily used for sending personalised triggered emails and for building multi-channel experiences.
 
 ```html
 <div class="nosto_customer" style="display:none">
   <span class="email">john.doe@example.com</span>
-</div>
-```
-
-The email address is the only required parameter in the tagging, but you can enrich the profile with other optional attributes.
-
-```html
   <span class="first_name">John</span>
   <span class="last_name">Doe</span>
   <span class="customer_reference">e18daf14-d715-4d77-82f2-93eceb4ae1ef</span>

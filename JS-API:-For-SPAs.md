@@ -27,6 +27,34 @@ nostojs.init("account-id", { disableAutoLoad:true });
 
 **Note:** This needs to exist on every page.
 
+## Managing Sessions
+
+```js
+nostojs(api => {
+  api.defaultSession()
+   .setCart({
+     items: [
+      {
+        name: "Men's Running Shirt",
+        price_currency_code: "EUR",
+        product_id: "181503",
+        quantity: 2,
+        sku_id: "181505",
+        unit_price: 123.45
+      },
+      {
+        name: "Men's Training Shoe",
+        price_currency_code: "EUR",
+        product_id: "34552",
+        quantity: 1,
+        sku_id: "39912",
+        unit_price: 999.00
+      }
+    ]
+   })
+});
+```
+
 ## Tracking Events
 
 ### When viewing the homepage

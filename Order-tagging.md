@@ -1,7 +1,7 @@
-Order tagging is a series of meta attributes that notify Nosto of what products finally ended up in a finalised order. The order tagging should be outputted on the order-thank-you page after a customer has finalized payment. If you are using a 3rd party payment provider and you do not have edit access to your order-thank-you page please reach out to Nosto support or your assigned Technical Solutions Manager for further assistance in setting up the tracking. 
+All thank-you and order-confirmation pages _must_ have the conversion tracking markup. 
 
-Please note that the meta attributes need to exist within the page source when the page has rendered and Nosto is unable to crawl details injected via Google Tag Manager or other dynamic sources based on Javascript.
-
+The conversion metadata is used for sending personalised order-followup emails, personalise the recommendations e.g. order-related, for segmentation insights and conversion statistics.
+ 
 ```html
 <div class="nosto_page_type" style="display:none">order</div>
 <div class="nosto_purchase_order" style="display:none">
@@ -33,8 +33,8 @@ Please note that the meta attributes need to exist within the page source when t
     </div>
 </div>
 ```
-> **Note:** The product ID of the product tagging, cart tagging and order tagging must match. Failure to do so 
-> will lead to a mismatch in both attribution and statistics across the Nosto product.
+
+**Note:** The product ID of the product tagging, cart tagging and order tagging must match. Failure to do so will lead to a mismatch in both attribution and statistics across the Nosto product.
 
 ### Tagging the buyer
 

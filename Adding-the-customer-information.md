@@ -9,6 +9,7 @@ The customer information is primarily used for sending personalised triggered em
   <span class="last_name">Doe</span>
   <span class="customer_reference">e18daf14-d715-4d77-82f2-93eceb4ae1ef</span>
   <span class="marketing_permission">false</span>
+</div>
 ```
 
 ## Tagging marketing permission

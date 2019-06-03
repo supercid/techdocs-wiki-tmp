@@ -1,8 +1,6 @@
-Cart tagging is a series of meta attributes that describe the contents of the shopping cart for Nosto. The service incorporates a crawling mechanism that collects and stores these products in our catalogue for use within the different delivery methods of Nosto. Cart tagging lets Nosto track add to cart events and also use the cart contents to tailor recommendations and utilise the data for other feature types like triggered emails or Facebook retargeting. 
+On every page load, the cart content must be tagged. The cart contents are the 1:1 representation of the user's mini-cart.
 
-Please note that the meta attributes need to exist within the page source when the page has rendered and Nosto is unable to crawl details injected via Google Tag Manager or other dynamic sources based on Javascript.
-
-The cart tagging should be looped out whenever the user has added something in the cart and the information is loopable into the source code. This should be looped out on all pages and not just on the cart page so Nosto can pick up abandoned cart events in all possible situations. 
+The cart information is used by the Nosto to tailor the recommendations, dispatch abandoned cart emails and fire Facebook pixel events for retargeting purposes.
 
 ```html
 <div class="nosto_cart" style="display:none">
@@ -31,9 +29,9 @@ The cart tagging should be looped out whenever the user has added something in t
 
 ### Adding support for advanced use cases
 
-Many ecommerce stores utilize SKU:s or "child" products that are sorted under the same "parent" product. To extend the above example with SKU support refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Extending-tagging-with-SKUs
+Many e-commerce stores utilize SKU:s or "child" products that are sorted under the same "parent" product. To extend the above example with SKU support refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Extending-tagging-with-SKUs
 
-In cases where a product might have multiple prices in differing currencies you can also add support for multi-currency. Refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Adding-support-for-multi-currency
+In cases where a product might have multiple prices in differing currencies, you can also add support for multi-currency. Refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Adding-support-for-multi-currency
 
 ### Tagging the cart restore link
 
@@ -47,7 +45,7 @@ The following piece of code is just a rough example on how a restore cart could 
 
 ## Troubleshooting
 
-Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see cart contents being picked up under "Tagging" → "Cart" then the cart details are correctly set up in the source code. You can further verify your session in the Nosto admin by using the live feed under: https://my.nosto.com/admin/$accountID/liveFeed to see if Nosto correctly picks up product view → product carted events. 
+Once included on all pages, you can review if the site is transmitting data using the Nosto Debug Toolbar. If you can see cart contents being picked up under "Tagging" → "Cart" then the cart details are correctly set up in the source code. You can further verify your session in the Nosto admin by using the live feed under https://my.nosto.com/admin/$accountID/liveFeed to see if Nosto correctly picks up product view → product carted events. 
 
 ![Nosto debug toolbar cart](https://nosto-campaign-assets.s3.amazonaws.com/images/nosto-embed-script-cart.png)
 ![live-feed-product-cart](https://nosto-campaign-assets.s3.amazonaws.com/images/live-feed-cart.png)

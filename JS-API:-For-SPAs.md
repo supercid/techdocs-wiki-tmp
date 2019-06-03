@@ -57,7 +57,7 @@ nostojs(api => {
 });
 ```
 
-*Note:* Passing `null` or `undefined` will prevent the cart contents from being mutated on Nosto. Passing an empty object `{}` will reset the cart contents.
+**Note:** Passing `null` or `undefined` will prevent the cart contents from being mutated on Nosto. Passing an empty object `{}` will reset the cart contents.
 
 ### Setting the customer
 
@@ -74,7 +74,7 @@ nostojs(api => {
 });
 ```
 
-*Note:* Passing `null` or `undefined` will prevent the customer information from being mutated on Nosto. Passing an empty object `{}` will reset the customer information.
+**Note:** Passing `null` or `undefined` will prevent the customer information from being mutated on Nosto. Passing an empty object `{}` will reset the customer information.
 
 ## Tracking Events
 

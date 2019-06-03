@@ -210,6 +210,15 @@ nostojs(api => {
 });
 ```
 
+## Advanced Use-Cases
+
+### Adding support for variations
+
+### Adding support for multi-currency
+
+
+
+### Adding support for customer group pricing
 
 
 

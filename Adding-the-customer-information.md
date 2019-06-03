@@ -20,17 +20,10 @@ The marketing permission is false by default but if a user has explicitly agreed
 
 The marketing-permission should be included as a part of the customer tagging and should be rendered on all pages.
 
-## Tagging customer reference (supporting cross-device sessions)
+## Tagging customer reference
 
-You can use the customer reference attribute to match the customer across Nosto stores, devices or even between offline/online sessions if you are using a unified customer loyalty program.
+The customer reference attribute to match the customer across Nosto stores, devices or even between offline/online sessions if you are using a unified customer loyalty program.
 
-```html
-– SHA-1
-– {customer_id}_{UUID}
-– {customer_id}_{merchant_specific_secret}_{customer_specific_data}_{timestamp}_{random}
-– {customer_id}_{merchant_specific_secret}_{customer_specific_data}_{timestamp}
-– {customer_id}_{merchant_specific_secret}_{timestamp}
-```
+The customer-reference should be a long, secure and a non-guessable identifier. For example, use your internal customer-id or the customer's loyalty program identifier and use a secure hash function like an HMAC-SHA256 to hash it.
 
-> **Note:** If a customer reference is in use in the customer information tagging, make sure the identifier is 
-> secure enough. Nosto recommends using a UUID or the structure in the above example if a UUID can’t be supported.
+**Note:** If a customer reference is in use in the customer information tagging, make sure the identifier is secure enough. Nosto recommends using a UUID or the structure in the above example if a UUID can’t be supported.

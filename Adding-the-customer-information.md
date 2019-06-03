@@ -14,11 +14,11 @@ The customer information is primarily used for sending personalised triggered em
 
 ## Tagging marketing permission
 
-The new `marketing_permission` flag denotes whether the customer has consented to email marketing. If the `marketing_permission` field is omitted, we assume that the current customer has not given their consent and Nosto will refrain from sending out any personalized triggered emails.
+The new marketing-permission flag denotes whether the customer has consented to email marketing. If the marketing-permission field is omitted, we assume that the current customer has not given their consent and Nosto will refrain from sending out any personalized triggered emails.
 
 The marketing permission is false by default but if a user has explicitly agreed to receive marketing then you can set it to true manually. In practice, this means reading and mapping the value from opt-in for marketing in your platform e.g. a consumer explicitly subscribed for marketing emails when checking out.
 
-The `marketing_permission` should be included as a part of the customer tagging and should be rendered on all pages.
+The marketing-permission should be included as a part of the customer tagging and should be rendered on all pages.
 
 ## Tagging customer reference (supporting cross-device sessions)
 

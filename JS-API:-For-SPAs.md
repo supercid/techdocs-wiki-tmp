@@ -176,8 +176,27 @@ nostojs(api => {
 ```js
 nostojs(api => {
   api.defaultSession()
-    .placeOrder({
-      ...
+    .placeOrder(
+      {
+        "external_order_ref": "145000006",
+        "info": {
+          "order_number": "195",
+          "email": "mridang@nosto.com",
+          "first_name": "Mridang",
+          "last_name": "Agarwalla",
+          "type": "order",
+          "newsletter": true
+      },
+      "items": [
+        {
+          "product_id": "406",
+          "sku_id": "243",
+          "name": "Linen Blazer (White, S)",
+          "quantity": 1,
+          "unit_price": 455,
+          "price_currency_code": "EUR"
+        }
+      ]
     })
     .setElements(['order-related'])
     .load()

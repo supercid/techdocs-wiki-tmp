@@ -35,10 +35,13 @@ The cart and order tagging can be left as-is but the prices must be in the custo
 Once you have amended the product metadata, you must change the session usage to also pass the active currency of the customer.
 
 ```js
-<div class="nosto_variation" style="display: none;">USD</div>
+nostojs(api => {
+  api.defaultSession()
+    .setVariation("USD")
+});
 ```
 
-For example, on the site of a US-based retailer who sells in Euros (EUR) and Sterling Pounds (GBP), if the customer changes the currency to Sterling Pounds (GBP), the `nosto_variation` element should show `GBP`. If the customer changes the currency to Euros (EUR), the `nosto_variation` element should show `EUR`. 
+For example, on the site of a US-based retailer who sells in Euros (EUR) and Sterling Pounds (GBP), if the customer changes the currency to Sterling Pounds (GBP), the `setVariation` method must be passed `GBP`. If the customer changes the currency to Euros (EUR), the `setVariation` method must be passed `EUR`. 
 
 
 ## Sending the exchange-rates

@@ -31,6 +31,10 @@ nostojs.init("account-id", { disableAutoLoad:true });
 
 ### Setting the cart
 
+On every page load, the cart content _must_ be passed. The cart contents are the 1:1 representation of the user's mini-cart.
+
+The cart information is used by the Nosto to tailor the recommendations, dispatch abandoned cart emails and fire Facebook pixel events for retargeting purposes.
+
 ```js
 nostojs(api => {
   api.defaultSession()
@@ -60,6 +64,10 @@ nostojs(api => {
 **Note:** Passing `null` or `undefined` will prevent the cart contents from being mutated on Nosto. Passing an empty object `{}` will reset the cart contents.
 
 ### Setting the customer
+
+On every page, the customer information _should_ be passed if the customer is logged in. If the customer isn't logged in, this but can be omitted.
+
+The customer information is primarily used for sending personalised triggered emails and for building multi-channel experiences.
 
 ```js
 nostojs(api => {

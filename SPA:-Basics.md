@@ -86,7 +86,7 @@ nostojs(api => {
 
 ## Tracking Events
 
-### When viewing the homepage
+### Upon viewing the homepage
 
 When viewing a home-page, there's no context to be provided, so invoking the `viewIndex` will suffice.
 
@@ -102,8 +102,7 @@ nostojs(api => {
 });
 ```
 
-
-### When viewing a product
+### Upon viewing a product
 
 When viewing a product, you should send the product-id of the current product being viewed. Unlike the regular implementation, you do not need to pass the entirety of the product metadata.
 
@@ -119,7 +118,7 @@ nostojs(api => {
 });
 ```
 
-### When viewing a category or a collection
+### Upon viewing a collection
 
 When viewing a category or collection, you should send the slash-delimited and fully-qualified path of the current category.
 
@@ -137,7 +136,7 @@ nostojs(api => {
 
 **Note:** You don’t need to ensure the case-sensitivity of the category being passed so long as the path is tagged in the same way as your product’s categories are.
 
-### When doing a search
+### Upon doing a search
 
 When viewing the results of a search, you must send the exact search-term as queried for.
 
@@ -155,7 +154,7 @@ nostojs(api => {
 
 **Note:** You don’t need to normalize or encode the search query in any way.
 
-### When going to checkout
+### Upon starting a checkout
 
 When viewing a checkout page, there's no context to be provided, so invoking the `viewCheckout` will suffice.
 
@@ -171,7 +170,7 @@ nostojs(api => {
 });
 ```
 
-### When placing an order
+### Upon placing an order
 
 On all thank-you and order-confirmation pages, the conversion metadata _must_ be passed. 
 

@@ -1,6 +1,6 @@
 In this article, you will learn how to implement multi-currency in Nosto. When the implementation is complete, you will be able to display product prices (in any feature) in different currencies.
 
-Prior to the multi-currency implementation, ensure that your implementation is correct. Some of the API call must be slightly amended to support multi-currency.
+Prior to the multi-currency implementation, ensure that your implementation is correct. Some of the API calls must be slightly amended to support multi-currency.
 
 ## Changes to the product metadata
 
@@ -8,19 +8,21 @@ The product page tagging must be amended to denote the primary currency code of 
 
 For example, a US-based retailer who sells in Euros (EUR) and Sterling Pounds (GBP) would have US Dollar (USD) as the primary currency while Euro (EUR) and Sterling Pounds (GBP) would be secondary currencies whose exchange rates would need to be sent via an API.
 
-An additional span tag must be placed within the product page tagging with a class name `variation_id`. The tag is a child element of the `nosto_product` element.
+An additional property must be placed within the product page tagging with a class name `variation_id`. The tag is a child element of the `nosto_product` element.
 
-```html
-<div class="nosto_product" style="display: none;">
-  ...
-  ...
-  ...
-  <!-- Variation ID for the primary currency --> 
-  <span class="variation_id">USD</span>
-</div>
+```json
+[
+  {
+    ...
+    ...
+    "variation_id":"EUR_1",
+    ...
+    ...
+  }
+]
 ```
 
-> **Note:** The code in the `variation_id` element must remain static, regardless of the currency active on-site. This is the primary currency of your catalog. Although `variation_id` element often has the same currency code as in the `price_currency_code` element and may seem redundant, they support different use cases and both need to be tagged.
+**Note:** The code in the `variation_id` element must remain static, regardless of the currency active on-site. This is the primary currency of your catalog. Although `variation_id` element often has the same currency code as in the `price_currency_code` element and may seem redundant, they support different use cases and both need to be tagged.
 
 ### Do child-products (SKUs) support multi-currency?
 

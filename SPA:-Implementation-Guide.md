@@ -1,14 +1,22 @@
 * [Manual Tagging - Essentials](Manual-implementation)
   * [Setting up your account](Setting-up-your-account)
   * [Adding the Nosto Script](Add-Nosto-script)
-  * [Adding the Cart Tagging](Cart-Tagging)
-  * [Adding the Customer information](Adding-the-customer-information)
-  * [Adding the Product Tagging](Product-Tagging)
-  * [Adding the Category/Brand Tagging](Category-&-Brand-tagging)
-  * [Adding the Search Tagging](Search-Tagging)
-  * [Adding the Order Tagging](Order-Tagging)
-  * [Defining Nosto placements](Defining-Nosto-placements)
-  * [Tagging your page types](Tag-your-page-types)
+  * Managing Sessions
+    * [Setting the cart
+](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-cart)
+    * [Setting the customer
+](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-customer)
+* Tracking Events
+  * [Upon viewing the homepage](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-the-homepage) 
+  * [Upon viewing a product
+](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-a-product)
+  * [Upon viewing a collection
+](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-a-collection)
+  * [Upon doing a search
+](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-doing-a-search)
+  * [Upon starting a checkout
+](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-starting-a-checkout)
+  * [Upon placing an order](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-placing-an-order)
 * Advanced Usage
   * Extending tagging with SKUs
   * [Adding support for multi-currency](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-multi-currency)

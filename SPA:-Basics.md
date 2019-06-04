@@ -222,12 +222,3 @@ nostojs(api => {
 });
 ```
 
-
-TODO:
-
-How do I consume the recommendation response?
-How do I reload the recommendations?
-How do I send a recommendation clicked event?
-How do I sent an add to cart event?
-
-

@@ -11,5 +11,5 @@
   * [Tagging your page types](Tag-your-page-types)
 * Advanced Usage
   * Extending tagging with SKUs
-  * [Adding support for multi-currency](SPA:Adding-support-for-multi-currency)
-  * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing)
+  * [Adding support for multi-currency](SPA:-Adding-support-for-multi-currency)
+  * [Adding support for customer group pricing](SPA:-Adding-support-for-customer-group-pricing)

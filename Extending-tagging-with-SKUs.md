@@ -42,7 +42,7 @@ Many e-commerce stores have a parent product with individual child products. The
 </div>
 ```
 
->**Note:** The attribute `custom_fields` can contain whatever unique information for individual SKUs that you can >consider helpful. Frequently used attributes would be size, color, material.
+**Note:** The attribute `custom_fields` can contain whatever unique information for individual SKUs that you can >consider helpful. Frequently used attributes would be size, color, material.
 
 **Extending the cart tagging with SKU metadata**
 

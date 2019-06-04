@@ -2,7 +2,7 @@ In this article, you will learn how to implement multi-currency in Nosto. When t
 
 Prior to the multi-currency implementation, ensure that your implementation is correct. Some of the API calls must be slightly amended to support multi-currency.
 
-## Changes to the product metadata
+## Sending the product metadata
 
 The product update API calls must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.
 

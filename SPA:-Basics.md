@@ -222,3 +222,16 @@ nostojs(api => {
 });
 ```
 
+## Leveraging Features
+
+### Working with recommendations
+
+The `load` method returns a promise which can be consumed to get the raw recommendation data. The raw recommendation data is an object containing the recommendation data.
+
+### Working with content
+
+The `load` method returns a promise which can be consumed to get the raw placement data. The raw recommendation data is an object containing the placement data.
+
+### Working with popups
+
+Popups are handled automatically and you do not need to control the rendering of the popups. As events are dispatched, popups will show and hide automatically. If you would like to have programmatic control over the popups, see [our guide on the Popup JS API](https://github.com/Nosto/techdocs/wiki/Popups).

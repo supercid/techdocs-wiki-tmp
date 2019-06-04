@@ -41,6 +41,10 @@ Some additional properties named `variation_id` and `variations` must be placed 
 ]'
 ```
 
+### Do child-products (SKUs) support customer groups?
+
+No. You cannot use SKUs with this feature at the time of writing.
+
 ### What about the prices in the cart and the order tagging?
 
 The cart and order tagging can be left as-is but the prices must be in the customer's currently active currency. For example, a customer shopping in Swiss Francs (CHF) should have all the cart items tagged in Swiss Francs (CHF). Failure to do so will result in incorrect prices in any triggered emails such as abandoned cart or order followup.
@@ -60,13 +64,13 @@ For example, on the site of a retailer, who has different prices for normal (GEN
 
 ## Enabling multi-variants from the admin
 
-Once the tagging changed have been done and the API implemented, you need to configure and enable it from your admin panel under **Settings** > **Other** > **Multi-Currency**. Toggle the **Use Multiple Currencies** switch on and **Use Exchange Rates** switch off and set the variation ID of the primary currency via the input field and toggle on the exchange rates switch.
+Once the product metadata changes have been done, you need to configure and enable it from your admin panel under **Settings** > **Other** > **Multi-Currency**. Toggle the **Use Multiple Currencies** switch on and **Use Exchange Rates** switch off and set the variation ID of the primary currency via the input field and toggle on the exchange rates switch.
 
 ![](https://user-images.githubusercontent.com/327432/36842403-419416ae-1d54-11e8-9bea-a979d7896977.png)
 
-> **Note:** Ensure that the Variation ID of the primary currency matches the value sent via the `variation_id` element in the product tagging.
+**Note:** Ensure that the Variation ID of the primary currency matches the value sent via the `variation_id` element in the product metadata.
 
-> **Note:** Multi-variants cannot be used in conjunction with exchange-rates based multi-currency feature. You must keep the **Use Exchange Rates** switch off.
+**Note:** Multi-variants cannot be used in conjunction with exchange-rates based multi-currency feature. You must keep the **Use Exchange Rates** switch off.
 
 You will also need to configure the price formatting for your primary and secondary currencies.
 

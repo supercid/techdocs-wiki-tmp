@@ -22,7 +22,6 @@
   * [Adding support for multi-currency](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-multi-currency)
   * [Adding support for customer group pricing](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-customer-group-pricing)
 * TODO
-
   * How do I consume the recommendation response?
   * How do I reload the recommendations?
   * How do I send a recommendation clicked event?

@@ -4,25 +4,23 @@ Prior to the multi-currency implementation, ensure that your implementation is c
 
 ## Changes to the product metadata
 
-The product page tagging must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.
+The product update API calls must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.
 
 For example, a US-based retailer who sells in Euros (EUR) and Sterling Pounds (GBP) would have US Dollar (USD) as the primary currency while Euro (EUR) and Sterling Pounds (GBP) would be secondary currencies whose exchange rates would need to be sent via an API.
 
-An additional property must be placed within the product page tagging with a class name `variation_id`. The tag is a child element of the `nosto_product` element.
+An additional property named `variation_id` must be placed within the product object.
 
 ```json
 [
   {
     ...
     ...
-    "variation_id":"EUR_1",
+    "variation_id": "EUR",
     ...
     ...
   }
 ]
 ```
-
-**Note:** The code in the `variation_id` element must remain static, regardless of the currency active on-site. This is the primary currency of your catalog. Although `variation_id` element often has the same currency code as in the `price_currency_code` element and may seem redundant, they support different use cases and both need to be tagged.
 
 ### Do child-products (SKUs) support multi-currency?
 
@@ -48,7 +46,7 @@ For example, on the site of a US-based retailer who sells in Euros (EUR) and Ste
 
 ## Sending the exchange-rates
 
-In order to send the exchange rate multipliers to Nosto, you will need to use our Exchange Rate API. The exchange rates must be included within a JSON message and an authenticated HTTP request must be executed. You will need to make an authenticated POST request to https://api.nosto.com/exchangerates with a JSON payload in the given structure:
+In order to send the exchange rate multipliers to Nosto, you will need to use our exchange-rates API. Below is a small snippet of what the payload looks like.
 
 ```json
 {
@@ -71,12 +69,6 @@ In the example above, `0.77` is the exchange rate from US Dollars (USD) to Briti
 The `valid_until` entry defines the expiration date. When the expiration date is reached, the exchange rates won't be applied anymore and prices will be hidden for all the secondary currencies to prevent displaying outdated prices.
 
 When recommendations are served, then exchange rates are dynamically applied to the product prices to reflect the active currency.
-
-Here is an example of the request above as a cURL:
-
-```
-curl -v -X POST -H 'Content-Type: application/json'-d '{"rates": {"GBP": {"rate": 0.77, "price_currency_code": "GBP"}, "EUR": {"rate": 0.91, "price_currency_code": "EUR"}}, "valid_until": "2015-02-27T12:00:00Z"}' -u ':tokenSecretHere' https://api.nosto.com/exchangerates
-```
 
 ### How can I get an API token?
 

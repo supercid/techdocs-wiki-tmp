@@ -72,7 +72,7 @@ When recommendations are served, then exchange rates are dynamically applied to 
 
 ### How can I get an API token?
 
-You can request an API token (API_RATES) by getting in touch with our support personnel. Once the token has been granted, you will be able to find it listed in the [authentication tokens section in the admin.](https://help.nosto.com/settings-and-troubleshooting-faq/settings-authentication-tokens)
+You'll find more information the [requesting access section of our API docs](https://github.com/Nosto/techdocs/wiki/APIs#requesting-access).
 
 ### How often should I send exchange-rates?
 

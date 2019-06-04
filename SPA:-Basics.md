@@ -31,9 +31,7 @@ nostojs.init("account-id", { disableAutoLoad:true });
 
 While Nosto crawls sites to replicate the product catalog, it is unable to do so on SPAs. In order to synchronise your product catalog with Nosto, you'll need to [leverage the product API](Updating-products-using-the-Products-API) to keep the Nosto catalog in sync.
 
-#### How often should I send product updates?
-
-You can send product updates as often as you like but at the bare minimum, the product updates should be sent when they are changed although, initially you'll need to send the entire catalog to populate the replica of your catalog on Nosto.
+**Note:** This step must be completed prior to proceeding with the implementation. Without this step, it will be troublesome to preview and debug the recommendations. 
 
 #### 
 

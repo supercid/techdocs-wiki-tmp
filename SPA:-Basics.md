@@ -27,6 +27,16 @@ nostojs.init("account-id", { disableAutoLoad:true });
 
 **Note:** This needs to exist on every page.
 
+### Setting up the catalog sync
+
+While Nosto crawls sites to replicate the product catalog, it is unable to do so on SPAs. In order to synchronise your product catalog with Nosto, you'll need to [leverage the product API](Updating-products-using-the-Products-API) to keep the Nosto catalog in sync.
+
+#### How often should I send product updates?
+
+You can send product updates as often as you like but at the bare minimum, the product updates should be sent when they are changed although, initially you'll need to send the entire catalog to populate the replica of your catalog on Nosto.
+
+#### 
+
 ## Managing Sessions
 
 ### Setting the cart
@@ -209,18 +219,8 @@ nostojs(api => {
 });
 ```
 
-## Advanced Use-Cases
 
-### Adding support for variations
-
-### Adding support for multi-currency
-
-
-
-### Adding support for customer group pricing
-
-
-
+TODO:
 
 How do I consume the recommendation response?
 How do I reload the recommendations?

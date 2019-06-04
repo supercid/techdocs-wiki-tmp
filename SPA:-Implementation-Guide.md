@@ -1,6 +1,6 @@
   * [Setting up your account](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#Setting-up-your-account)
-  * [Adding the Nosto Script](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#Add-Nosto-script)
   * [Setting up the catalog sync](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-up-the-catalog-sync)
+  * [Adding the Nosto Script](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#Add-Nosto-script)
   * Managing Sessions
     * [Setting the cart
 ](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-cart)

@@ -17,11 +17,15 @@
     * [Upon starting a checkout
 ](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-starting-a-checkout)
     * [Upon placing an order](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-placing-an-order)
+* Leveraging Features
+  * Working with recommendations
+  * Working with content
+  * Working with popups
 * Advanced Usage
   * Extending tagging with SKUs
   * [Adding support for multi-currency](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-multi-currency)
   * [Adding support for customer group pricing](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-customer-group-pricing)
-* TODO
+* FAQ:
   * How do I consume the recommendation response?
   * How do I reload the recommendations?
   * How do I send a recommendation clicked event?

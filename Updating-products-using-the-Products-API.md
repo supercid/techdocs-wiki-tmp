@@ -98,7 +98,7 @@ The Products API takes an array of product metadata and has no hard limit on the
 
 ### How often can I update products?
 
-You can update products as often as you need.
+You can update products as often as you need although, initially you'll need to send the entire catalog to populate the replica of your catalog on Nosto.
 
 ### When should I make an API call?
 

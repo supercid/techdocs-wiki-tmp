@@ -10,24 +10,19 @@ We recommend using a `.dev` or a `.test` TLD that is aliased to localhost. Both 
 
 To start tracking visits and content the Nosto script needs to be active on all pages within the store where the user might navigate. Replace $accountID from the code below with your own account ID and place the code within the <head> section of your sites HTML content. You can find your stores account IDs from the account list within the Nosto admin.
 
+The JS comprises of three parts - the first is the default Nosto snippet, the second is the "stub" (which allows API usage prior to the script being loaded), and last is the "autoload" configuration (which prevents Nosto from automatically initiating once loaded.)
+
 ```html
-<script type="text/javascript">
-(function(){var name="nostojs";window[name]=window[name]||function(cb){(window[name].q=window[name].q||[]).push(cb);};})();
-</script>
 <script src="//connect.nosto.com/include/$accountID" async></script>
+<script type="text/javascript">
+  (() => {const name="nostojs";window[name]=window[name]||(cb => {(window[name].q=window[name].q||[]).push(cb);});})();
+</script>
+<script type="text/javascript">
+  nostojs(api => api.setAutoLoad(false));
+</script>
 ```
 
-**Note:** The script should be added as high up in the <head> portion of the page so the connection is initialised as soon as possible. As the script is flagged async, the page load isn’t delayed.
-Note: This needs to exist on every page.
-
-
-### Disabling autoload
-
-In order to prevent Nosto from automatically initializing once the script is loaded, you’ll need to disable autoloading.
-
-```js
-nostojs.init("account-id", { disableAutoLoad:true });
-```
+**Note:** The script and the snippet should be added as high up in the `<head>` portion of the page so the connection is initialised as soon as possible. As the script is flagged `async`, the page load isn’t delayed.
 
 **Note:** This needs to exist on every page.
 

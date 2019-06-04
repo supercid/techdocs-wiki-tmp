@@ -13,41 +13,34 @@ You will need to implement the multi-variate tagging if you have any such scenar
 
 Prior to the multi-variate implementation, ensure that the Nosto tagging is correctly in place. Some of the tagging must be slightly amended to support multi-variants.
 
-## Changes to the product tagging
+## Sending the product metadata
 
-The product page tagging must be amended to denote the primary variation code of the product.
+The product update API calls must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.
 
 For example, a retailer who has different prices for normal and loyal customers would have `GENERAL` as the default variation id and `LOYAL` as an extra variation.
 
-An additional span tag must be placed within the product page tagging with a class name `variation_id`. The tag is a child element of the `nosto_product` element.
+Some additional properties named `variation_id` and `variations` must be placed within the product object.
 
-```html
-<div class="nosto_product" style="display: none;">
-  ...
-  ...
-  ...
-  <!-- Variation ID for the primary currency --> 
-  <span class="variation_id">GENRAL</span>
-  <!-- Variation block for a secondary currency -->
-  <div class="variation">
-    <span class="variation_id">LOYAL</span>
-    <span class="price_currency_code">EUR</span>
-    <span class="price">27.00</span>
-    <span class="list_price">45.19</span>
-    <span class="availability">InStock</span>
-  </div>
-  <!-- Variation block for a secondary currency -->
-  <div class="variation">
-    <span class="variation_id">B2B</span>
-    <span class="price_currency_code">GBP</span>
-    <span class="price">24.00</span>
-    <span class="list_price">41.55</span>
-    <span class="availability">OutOfStock</span>
-  </div>
-</div>
+```json
+[
+  {
+    ...
+    ...
+    "variation_id": "GENERAL",
+    "variations": {
+      "LOYAL": {
+        "price_currency_code": "USD",
+        "availability": "InStock",
+        "price": 12.00,
+        "list_price": 15.67
+      }
+    },
+    ...
+    ...
+    ]
+  }
+]'
 ```
-
-> **Note:** The code in the `variation_id` element must remain static, regardless of the current context. For example, if a loyal customer is logged in, the `variation_id` field would still `GENERAL` and not change.
 
 ### What about the prices in the cart and the order tagging?
 

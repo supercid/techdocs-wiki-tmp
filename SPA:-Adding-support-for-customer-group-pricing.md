@@ -37,7 +37,6 @@ Some additional properties named `variation_id` and `variations` must be placed 
     },
     ...
     ...
-    ]
   }
 ]'
 ```

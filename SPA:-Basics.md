@@ -2,6 +2,12 @@
 
 ## Setting Up
 
+### Setting up your account
+
+You must use a valid domain for your website. If you are creating a test account and running your store locally, you must use valid TLD as localhost is not supported.
+
+We recommend using a `.dev` or a `.test` TLD that is aliased to localhost. Both `.dev` and `.test` are reserved by Google and IANA for testing purposes. You will need to edit your operating-system dependent hosts file to add an alias for the domain you are using.
+
 ### Including the script
 
 To start tracking visits and content the Nosto script needs to be active on all pages within the store where the user might navigate. Replace $accountID from the code below with your own account ID and place the code within the <head> section of your sites HTML content. You can find your stores account IDs from the account list within the Nosto admin.

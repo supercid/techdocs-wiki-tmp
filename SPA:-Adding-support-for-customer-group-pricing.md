@@ -55,13 +55,16 @@ The cart and order tagging can be left as-is but the prices must be in the custo
 
 ## Specifying the active variation
 
-Once you have amended the product tagging, an additional DIV element must be added to all the other pages (including the product page itself). The tag should not be encapsulated in the `nosto_product` DIV tag. The information sent in the tag refers to the segment of the customer.
+Once you have amended the product metadata, you must change the session usage to also pass the active variation of the customer.
 
-```html
-<div class="nosto_variation" style="display: none;">GENERAL</div>
+```js
+nostojs(api => {
+  api.defaultSession()
+    .setVariation("GENERAL")
+});
 ```
 
-For example, on the site of a retailer, who has different prices for normal (GENERAL) and loyal (LOYAL) customers, if the customer is a logged in customer and is a known loyalty customer, the `nosto_variation` element should show `LOYAL`. If the customer logs out or a new customer visits, and there is no way to identify him as a loyal customer, the `nosto_variation` element should show `GENERAL`.
+For example, on the site of a retailer, who has different prices for normal (GENERAL) and loyal (LOYAL) customers, if the customer is a logged in customer and is a known loyalty customer, the `nosto_variation` element should show `LOYAL`. If the customer logs out or new customer visits, and there is no way to identify him as a loyal customer, the `nosto_variation` element should show `GENERAL`.
 
 ## Enabling multi-variants from the admin
 

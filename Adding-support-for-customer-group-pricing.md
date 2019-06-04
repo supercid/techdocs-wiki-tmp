@@ -1,8 +1,8 @@
-In this article, you will learn how to implement multi-variants in Nosto. When the implementation is complete, you will be able to display different products at different prices to the different customer groups. 
+In this article, you will learn how to implement multi-variants in Nosto. When the implementation is complete, you will be able to display different products at different prices to different customer groups. 
 
-> **Note:** You can only change the pricing and the availabilities using this feature.
+**Note:** You can only change the pricing and the availabilities using this feature.
 
-> **Note:** You cannot use SKUs with this feature at the time of writing.
+**Note:** You cannot use SKUs with this feature at the time of writing.
 
 You will need to implement the multi-variate tagging if you have any such scenarios:
 
@@ -83,4 +83,4 @@ You will see one or more dropdowns that contain the prices and the availability 
 
 ![](https://user-images.githubusercontent.com/327432/36842669-15cb7412-1d55-11e8-8b48-5f769bb4ecd2.png)
 
-When you have reviewed your set-up, you’re all set and ready to go live with our features. Nosto will automatically handle the different customer groups across it's feature set.
+When you have reviewed your set-up, you’re all set and ready to go live with our features. Nosto will automatically handle the different customer groups across its feature set.

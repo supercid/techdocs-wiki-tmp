@@ -1,5 +1,3 @@
-# Documentation
-
 ## Setting Up
 
 ### Setting up your account

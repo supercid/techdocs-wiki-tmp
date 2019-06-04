@@ -100,7 +100,8 @@ When viewing a home-page, there's no context to be provided, so invoking the `vi
 ```js
 nostojs(api => {
   api.defaultSession()
-    .viewIndex()
+    .newAction()
+    .setPageType('front')
     .setElements(['product-crosssells'])
     .load()
     .then(data => {
@@ -117,6 +118,7 @@ When viewing a product, you should send the product-id of the current product be
 nostojs(api => {
   api.defaultSession()
     .viewProduct('product-id')
+    .setPageType('product')
     .setElements(['product-crosssells'])
     .load()
     .then(data => {
@@ -133,6 +135,7 @@ When viewing a category or collection, you should send the slash-delimited and f
 nostojs(api => {
   api.defaultSession()
     .viewCategory('/Womens/Dresses')
+    .setPageType('category')
     .setElements(['category-related'])
     .load()
     .then(data => {
@@ -151,6 +154,7 @@ When viewing the results of a search, you must send the exact search-term as que
 nostojs(api => {
   api.defaultSession()
     .viewSearch('womens dresses')
+    .setPageType('search')
     .setElements(['search-related'])
     .load()
     .then(data => {
@@ -168,7 +172,8 @@ When viewing a checkout page, there's no context to be provided, so invoking the
 ```js
 nostojs(api => {
   api.defaultSession()
-    .viewCheckout()
+    .newAction()
+    .setPageType('cart')
     .setElements(['cart-related'])
     .load()
     .then(data => {
@@ -185,7 +190,8 @@ The conversion metadata is used for sending personalised order-followup emails, 
 
 ```js
 nostojs(api => {
-  api.defaultSession()
+    .newAction()
+    .setPageType('order')
     .placeOrder(
       {
         "external_order_ref": "145000006",

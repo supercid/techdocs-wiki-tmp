@@ -11,7 +11,7 @@
       * [Adding the Order Tagging](Order-Tagging)
       * [Defining Nosto placements](Defining-Nosto-placements)
       * [Tagging your page types](Tag-your-page-types)
-    * [Manual Tagging - Advanced](Advanced-implementation)
+    * [Advanced Usage](Advanced-implementation)
       * [Extending tagging with SKUs](Extending-tagging-with-SKUs)
       * [Adding support for multi-currency](Adding-support-for-multi-currency)
       * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing)

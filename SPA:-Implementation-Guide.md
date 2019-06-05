@@ -18,9 +18,9 @@
 ](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-starting-a-checkout)
     * [Upon placing an order](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-placing-an-order)
 * Leveraging Features
-  * Working with recommendations
-  * Working with content
-  * Working with popups
+  * [Working with recommendations](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#working-with-recommendations)
+  * [Working with content](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#working-with-content)
+  * [Working with popups](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#working-with-popups)
 * Advanced Usage
   * Extending tagging with SKUs
   * [Adding support for multi-currency](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-multi-currency)

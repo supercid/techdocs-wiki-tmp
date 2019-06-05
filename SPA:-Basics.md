@@ -246,9 +246,17 @@ nostojs(api => {
 
 The `load` method returns a promise which can be consumed to get the raw recommendation data. The raw recommendation data is an object containing the recommendation data.
 
+#### Handling attribution
+
+
+
 ### Working with content
 
 The `load` method returns a promise which can be consumed to get the raw placement data. The raw recommendation data is an object containing the placement data.
+
+#### Handling attribution
+
+When any Nosto-powered element is clicked, such as banner that is changed using the content-personalization feature, you must report
 
 ### Working with popups
 

@@ -160,6 +160,10 @@ nostojs(api => {
 
 **Note:** You don’t need to ensure the case-sensitivity of the category being passed so long as the path is tagged in the same way as your product’s categories are.
 
+### Tagging the categories
+
+Categories must always be delimited by a slash. For example, `/Home/Accessories` is a valid category while `Home > Accessories` is not.
+
 ### Upon doing a search
 
 When viewing the results of a search, you must send the exact search-term as queried for.

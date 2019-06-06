@@ -116,7 +116,7 @@ nostojs(api => {
   api.defaultSession()
     .newAction()
     .setPageType('front')
-    .setElements(['product-crosssells'])
+    .setElements(['homepage-nosto-1', 'bestseller-recs'])
     .load()
     .then(data => {
       console.log(data.recommendations);

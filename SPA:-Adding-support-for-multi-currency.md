@@ -4,7 +4,7 @@ Prior to the multi-currency implementation, ensure that your implementation is c
 
 ## Sending the product metadata
 
-The product update API calls must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.
+The [product-update API](https://github.com/Nosto/techdocs/wiki/Updating-products-using-the-Products-API) calls must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.
 
 For example, a US-based retailer who sells in Euros (EUR) and Sterling Pounds (GBP) would have US Dollar (USD) as the primary currency while Euro (EUR) and Sterling Pounds (GBP) would be secondary currencies whose exchange rates would need to be sent via an API.
 

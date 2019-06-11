@@ -26,3 +26,11 @@ curl -v -X POST https://api.nosto.com/exchangerates \
   "valid_until":"2015-02-27T12:00:00Z"
 }'
 ```
+
+### How can I get an API token?
+
+You can request an API token (API_PRODUCTS) by getting in touch with our support personnel. Once the token has been granted, you will be able to find it listed in the [authentication tokens section in the admin.](https://help.nosto.com/settings-and-troubleshooting-faq/settings-authentication-tokens)
+
+### How often should I send exchange-rates?
+
+You can send exchange rates as often as you like but at the bare minimum, the exchange rates should be sent when they are changed.

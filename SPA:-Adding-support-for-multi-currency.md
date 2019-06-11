@@ -70,14 +70,6 @@ The `valid_until` entry defines the expiration date. When the expiration date is
 
 When recommendations are served, then exchange rates are dynamically applied to the product prices to reflect the active currency.
 
-### How can I get an API token?
-
-You'll find more information the [requesting access section of our API docs](https://github.com/Nosto/techdocs/wiki/APIs#requesting-access).
-
-### How often should I send exchange-rates?
-
-You can send exchange rates as often as you like but at the bare minimum, the exchange rates should be sent when they are changed.
-
 ## Enabling multi-currency from the admin
 
 Once the tagging changed have been done and the API implemented, you need to configure and enable it from your admin panel under **Settings** > **Other** > **Multi-Currency**. Toggle the **Use Multiple Currencies** and **Use Exchange Rates** switches on and set the variation ID of the primary currency via the input field and toggle on the exchange rates switch.

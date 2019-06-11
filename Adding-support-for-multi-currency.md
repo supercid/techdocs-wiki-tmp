@@ -43,7 +43,7 @@ For example, on the site of a US-based retailer who sells in Euros (EUR) and Ste
 
 ## Sending the exchange-rates
 
-In order to send the exchange rate multipliers to Nosto, you will need to use our Exchange Rate API. The exchange rates must be included within a JSON message and an authenticated HTTP request must be executed. You will need to make an authenticated POST request to https://api.nosto.com/exchangerates with a JSON payload in the given structure:
+In order to send the exchange rate multipliers to Nosto, you will need to use [our exchange-rates API](https://github.com/Nosto/techdocs/wiki/Updating-Rates-using-the-Rates-API). Below is a small snippet of what the payload looks like.
 
 ```json
 {
@@ -66,20 +66,6 @@ In the example above, `0.77` is the exchange rate from US Dollars (USD) to Briti
 The `valid_until` entry defines the expiration date. When the expiration date is reached, the exchange rates won't be applied anymore and prices will be hidden for all the secondary currencies to prevent displaying outdated prices.
 
 When recommendations are served, then exchange rates are dynamically applied to the product prices to reflect the active currency.
-
-Here is an example of the request above as a cURL:
-
-```
-curl -v -X POST -H 'Content-Type: application/json'-d '{"rates": {"GBP": {"rate": 0.77, "price_currency_code": "GBP"}, "EUR": {"rate": 0.91, "price_currency_code": "EUR"}}, "valid_until": "2015-02-27T12:00:00Z"}' -u ':tokenSecretHere' https://api.nosto.com/exchangerates
-```
-
-### How can I get an API token?
-
-You can request an API token (API_RATES) by getting in touch with our support personnel. Once the token has been granted, you will be able to find it listed in the [authentication tokens section in the admin.](https://help.nosto.com/settings-and-troubleshooting-faq/settings-authentication-tokens)
-
-### How often should I send exchange-rates?
-
-You can send exchange rates as often as you like but at the bare minimum, the exchange rates should be sent when they are changed.
 
 ## Enabling multi-currency from the admin
 

@@ -208,9 +208,7 @@ The conversion metadata is used for sending personalised order-followup emails, 
 
 ```js
 nostojs(api => {
-    .newAction()
-    .setPageType('order')
-    .placeOrder(
+    .addOrder(
       {
         "external_order_ref": "145000006",
         "info": {
@@ -232,6 +230,7 @@ nostojs(api => {
         }
       ]
     })
+    .setPageType('order')
     .setElements(['order-related'])
     .load()
     .then(data => {

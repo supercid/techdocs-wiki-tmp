@@ -22,7 +22,7 @@ The following snippet disables the specified popup.
 
 ```js
 nostojs(function(api) {
-  api.enablePopup("popupCampaignId");
+  api.disablePopup("popupCampaignId");
 });
 ```
 

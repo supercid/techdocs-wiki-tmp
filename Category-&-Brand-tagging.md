@@ -4,7 +4,7 @@ The category tagging should be exposed whenever a user is viewing a certain cate
 
 ```html
 <div class="nosto_page_type" style="display:none">category</div>
-<div class="nosto_category" style="display:none">/Boats/Canoes</div>
+<div class="nosto_category" style="display:none">/Mens/Jackets/Ski Jackets</div>
 ```
 
 The brand tagging should be exposed whenever a user is viewing a certain brand or vendor. 

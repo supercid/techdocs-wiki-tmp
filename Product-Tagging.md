@@ -15,8 +15,8 @@ Basic tagging
   <span class="availability">Instock</span>
   <span class="price">999.50</span>
   <span class="price_currency_code">USD</span>
-  <span class="category">/interior</span>
-  <span class="category">/interior/towels</span>
+  <span class="category">/Mens/Jackets</span>
+  <span class="category">/Mens/Jackets/Ski Jackets</span>
 </div>
 ```
 

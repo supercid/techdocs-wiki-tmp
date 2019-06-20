@@ -43,10 +43,7 @@
       * Extending tagging with SKUs
       * [Adding support for multi-currency](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-multi-currency)
       * [Adding support for customer group pricing](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-customer-group-pricing)
-    * FAQ:
-      * How do I reload the recommendations?
-      * How do I send a recommendation clicked event?
-      * How do I send an add to cart event?
+    * [https://github.com/Nosto/techdocs/wiki/SPA:-FAQ](FAQ)
 * [Data Exchange](Data-exchange)
   * [How does the Nosto crawler work?](Nosto-crawler)
 * [3rd party data integrations](3rd-party-data-integrations)

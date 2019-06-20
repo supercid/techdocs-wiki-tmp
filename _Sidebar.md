@@ -53,8 +53,6 @@
   * [Tracking Nosto with Google Analytics Enhanced Ecommerce](Tracking-Nosto-with-Google-Analytics)
 * [Physical Retail](Physical-Retail)
   * [Sending Offline Orders](Sending-Offline-Orders)
-* [SPAs & PWAs](SPAs-&-PWAs)
-  * [Implementing on a Vue SPA](VueJS)
 * [Native Mobile](Native-Mobile)
   * [Implementing on iOS and Android](Implementing-on-iOS-and-Android)
 * [JS API](JS-APIs)

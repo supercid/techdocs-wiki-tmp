@@ -25,16 +25,16 @@
         * [Setting the customer
 ](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-customer)
        * Tracking Events
-        * [Upon viewing the homepage](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-the-homepage) 
-        * [Upon viewing a product
+         * [Upon viewing the homepage](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-the-homepage) 
+         * [Upon viewing a product
 ](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-a-product)
-        * [Upon viewing a collection
+         * [Upon viewing a collection
 ](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-a-collection)
-        * [Upon doing a search
+         * [Upon doing a search
 ](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-doing-a-search)
-        * [Upon starting a checkout
+         * [Upon starting a checkout
 ](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-starting-a-checkout)
-        * [Upon placing an order](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-placing-an-order)
+         * [Upon placing an order](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-placing-an-order)
     * Leveraging Features
       * [Working with recommendations](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#working-with-recommendations)
       * [Working with content](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#working-with-content)

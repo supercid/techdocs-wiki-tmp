@@ -15,6 +15,7 @@
       * [Extending tagging with SKUs](Extending-tagging-with-SKUs)
       * [Adding support for multi-currency](Adding-support-for-multi-currency)
       * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing)
+    * [FAQ](https://github.com/Nosto/techdocs/wiki/Basic:-FAQ)
   * On a single-page application
       * [Setting up your account](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#Setting-up-your-account)
       * [Setting up the catalog sync](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-up-the-catalog-sync)

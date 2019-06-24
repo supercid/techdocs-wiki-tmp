@@ -25,5 +25,3 @@ The marketing-permission should be included as a part of the customer tagging an
 The customer-reference can be leveraged to unify sessions across channels such as between online and offline. It is a unique identifier provided by you that is used in conjunction with the Nosto cookie. The customer-reference can also be used to uniquely identify users in lieu of an email address.
 
 The customer-reference should be a long, secure and a non-guessable identifier. For example, use your internal customer-id or the customer's loyalty program identifier and use a secure hash function like an HMAC-SHA256 to hash it.
-
-**Note:** If a customer reference is in use in the customer information tagging, make sure the identifier is secure enough. Nosto recommends using a UUID or the structure in the above example if a UUID can’t be supported.

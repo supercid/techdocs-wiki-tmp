@@ -40,6 +40,8 @@ The JS comprises of three parts - the first is the default Nosto snippet, the se
 
 On every page load, the cart content _must_ be passed. The cart contents are the 1:1 representation of the user's mini-cart.
 
+You may also pass `null` or `undefined` to signify that there was no change in the cart.
+
 The cart information is used by the Nosto to tailor the recommendations, dispatch abandoned cart emails and fire Facebook pixel events for retargeting purposes.
 
 ```js

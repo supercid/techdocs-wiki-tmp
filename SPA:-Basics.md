@@ -115,7 +115,7 @@ When viewing a home-page, there's no context to be provided, so invoking the `vi
 nostojs(api => {
   api.defaultSession()
     .viewFrontPage()
-    .setElements(['homepage-nosto-1', 'bestseller-recs'])
+    .setPlacements(['homepage-nosto-1', 'bestseller-recs'])
     .load()
     .then(data => {
       console.log(data.recommendations);
@@ -131,7 +131,7 @@ When viewing a product, you should send the product-id of the current product be
 nostojs(api => {
   api.defaultSession()
     .viewProduct('product-id')
-    .setElements(['product-crosssells'])
+    .setPlacements(['product-crosssells'])
     .load()
     .then(data => {
       console.log(data.recommendations);
@@ -147,7 +147,7 @@ When viewing a category or collection, you should send the slash-delimited and f
 nostojs(api => {
   api.defaultSession()
     .viewCategory('/Womens/Dresses')
-    .setElements(['category-related'])
+    .setPlacements(['category-related'])
     .load()
     .then(data => {
       console.log(data.recommendations);
@@ -169,8 +169,7 @@ When viewing the results of a search, you must send the exact search-term as que
 nostojs(api => {
   api.defaultSession()
     .viewSearch('womens dresses')
-    .setPageType('search')
-    .setElements(['search-related'])
+    .setPlacements(['search-related'])
     .load()
     .then(data => {
       console.log(data.recommendations);
@@ -187,9 +186,8 @@ When viewing a checkout page, there's no context to be provided, so invoking the
 ```js
 nostojs(api => {
   api.defaultSession()
-    .newAction()
-    .setPageType('cart')
-    .setElements(['cart-related'])
+    .viewCart()
+    .setPlacements(['cart-related'])
     .load()
     .then(data => {
       console.log(data.recommendations);
@@ -227,7 +225,7 @@ nostojs(api => {
         }
       ]
     })
-    .setElements(['order-related'])
+    .setPlacements(['order-related'])
     .load()
     .then(data => {
       console.log(data.recommendations);

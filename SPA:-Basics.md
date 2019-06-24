@@ -243,7 +243,7 @@ The `load` method returns a promise which can be consumed to get the raw recomme
 
 #### Handling attribution
 
-
+When a recommendation placement is clicked, you must redirect to the next page using the `nosto` query parameter and the value must be the `result_id` from the response.
 
 ### Working with content
 
@@ -251,7 +251,7 @@ The `load` method returns a promise which can be consumed to get the raw placeme
 
 #### Handling attribution
 
-When any Nosto-powered element is clicked, such as banner that is changed using the content-personalization feature, you must report
+When a content placement is clicked, you must redirect to the next page using the `nosto` query parameter and the value must be the `result_id` from the response.
 
 ### Working with popups
 

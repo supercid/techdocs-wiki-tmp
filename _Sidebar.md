@@ -47,8 +47,6 @@
       * [Adding support for multi-currency](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-multi-currency)
       * [Adding support for customer group pricing](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-customer-group-pricing)
     * [FAQ](https://github.com/Nosto/techdocs/wiki/SPA:-FAQ)
-* [Data Exchange](Data-exchange)
-  * [How does the Nosto crawler work?](Nosto-crawler)
 * [3rd party data integrations](3rd-party-data-integrations)
   * [Tracking Nosto with Google Analytics Enhanced Ecommerce](Tracking-Nosto-with-Google-Analytics)
 * [Physical Retail](Physical-Retail)

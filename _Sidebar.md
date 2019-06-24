@@ -6,6 +6,7 @@
       * [Adding the Cart Tagging](Cart-Tagging)
       * [Adding the Customer information](Adding-the-customer-information)
       * [Adding the Product Tagging](Product-Tagging)
+        * [Default Product Tagging](https://github.com/Nosto/techdocs/wiki/Basic:-Default-Product-Tagging)
         * [Basic Tagging](https://github.com/Nosto/techdocs/wiki/Basic:-Minimum-Product-Tagging)
       * [Adding the Category/Brand Tagging](Category-&-Brand-tagging)
       * [Adding the Search Tagging](Search-Tagging)

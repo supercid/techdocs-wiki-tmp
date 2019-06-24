@@ -114,8 +114,7 @@ When viewing a home-page, there's no context to be provided, so invoking the `vi
 ```js
 nostojs(api => {
   api.defaultSession()
-    .newAction()
-    .setPageType('front')
+    .viewFrontPage()
     .setElements(['homepage-nosto-1', 'bestseller-recs'])
     .load()
     .then(data => {
@@ -132,7 +131,6 @@ When viewing a product, you should send the product-id of the current product be
 nostojs(api => {
   api.defaultSession()
     .viewProduct('product-id')
-    .setPageType('product')
     .setElements(['product-crosssells'])
     .load()
     .then(data => {
@@ -149,7 +147,6 @@ When viewing a category or collection, you should send the slash-delimited and f
 nostojs(api => {
   api.defaultSession()
     .viewCategory('/Womens/Dresses')
-    .setPageType('category')
     .setElements(['category-related'])
     .load()
     .then(data => {
@@ -230,7 +227,6 @@ nostojs(api => {
         }
       ]
     })
-    .setPageType('order')
     .setElements(['order-related'])
     .load()
     .then(data => {

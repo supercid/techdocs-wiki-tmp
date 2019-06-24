@@ -2,7 +2,6 @@ In the event that you are unable to expose the entire subset of the product tagg
 
 **Note:** The product tagging _must_ be server-side rendered as the Nosto crawler does not execute Javascript.
 
-Basic tagging
 ```html
 <div class="nosto_page_type" style="display:none">product</div>
 <div class="nosto_product nosto_basic" style="display:none"> 
@@ -11,6 +10,8 @@ Basic tagging
 ```
 
 When the entirety of the product metadata is tagged, Nosto is able to crawl your site and build a 1:1 replica of your product catalog but in this basic example, you will need to use an alternative mechanism for synchronising your catalog with Nosto.
+
+**Note:** If you do use this approach, your account-manager must disable crawling for your account. Failure to do so will result in a broken catalog replica.
 
 ### Via an API
 

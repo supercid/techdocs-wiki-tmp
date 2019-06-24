@@ -72,7 +72,7 @@ nostojs(api => {
 
 ### Setting the customer
 
-On every page, the customer information _should_ be passed if the customer is logged in. If the customer isn't logged in, this but can be omitted.
+On every page, the customer information _should_ be passed if the customer is logged in. If the customer isn't logged in, this can be omitted.
 
 The customer information is primarily used for sending personalised triggered emails and for building multi-channel experiences.
 

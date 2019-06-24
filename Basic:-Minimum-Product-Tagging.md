@@ -5,7 +5,7 @@ In the event that you are unable to expose the entire subset of the product tagg
 Basic tagging
 ```html
 <div class="nosto_page_type" style="display:none">product</div>
-<div class="nosto_product" style="display:none"> 
+<div class="nosto_product nosto_basic" style="display:none"> 
   <span class="product_id">Canoe123</span>
 </div>
 ```

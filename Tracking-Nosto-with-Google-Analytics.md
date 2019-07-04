@@ -1,6 +1,6 @@
 # Outline
 
-This document describes how to implement basic Enchanced Ecommerce tracking (product list impressions, product clicks and add to cart events) for Nosto recommendations using Google Analytics. This guide has been written with the assumption that your store uses [Google Tag Manger (GTM)](http://tagmanager.google.com/) and `dataLayer`.
+This document describes how to implement basic Enhanced Ecommerce tracking (product list impressions, product clicks and add to cart events) for Nosto recommendations using Google Analytics. This guide has been written with the assumption that your store uses [Google Tag Manger (GTM)](http://tagmanager.google.com/) and `dataLayer`.
 
 The basic idea of the implementation is that product lists are created in Nosto’s templates, then moved to the global scope (_targetWindow) and finally pushed to the dataLayer via GTM and tracked with Google Analytics (GA).
 

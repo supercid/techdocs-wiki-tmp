@@ -7,7 +7,7 @@ The basic idea of the implementation is that product lists are created in Nostoâ
 You should have basic knowledge about javascript and GTM in order to use this guide efficiently.
 
 # Configuration
-GTM must be installed into your store. Also make sure the Enchanced Ecommerce is enabled in your GA account.
+GTM must be installed into your store. Also make sure the Enhanced Ecommerce is enabled in your GA account.
 
 # Implementation - Nosto
 

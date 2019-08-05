@@ -1,5 +1,4 @@
-When a user places an order onsite, you must send the conversion tracking information to Nosto. 
-
+If you would like to update the order-status for a given order, you can do so using the following request.
 
 ```graphql
 mutation {

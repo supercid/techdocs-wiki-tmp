@@ -205,6 +205,7 @@ The conversion metadata is used for sending personalised order-followup emails, 
 
 ```js
 nostojs(api => {
+  api.defaultSession()
     .addOrder(
       {
         "external_order_ref": "145000006",

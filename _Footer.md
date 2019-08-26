@@ -1,1 +1,1 @@
-![v1](https://user-images.githubusercontent.com/327432/63690366-1d1fc300-c815-11e9-8b87-2e33a863fda9.png)
+[![Apply Now](https://user-images.githubusercontent.com/327432/63690367-1d1fc300-c815-11e9-885d-b297be91dc52.png)](https://www.nosto.com/join-us/)

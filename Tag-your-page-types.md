@@ -1,4 +1,4 @@
-The page-type tagging enables Nosto to trigger actions, such as showing popups, depending upon a page type. Tagg the page types is optional but you won't be able to avail the use of page type based triggers. 
+The page-type tagging enables Nosto to trigger actions, such as showing popups, depending upon a page type. Tagging the page types is optional but without the page-type tagging, you will not be able to avail the use of page type based triggers. 
 
 Here is a list of all the valid page types:
 

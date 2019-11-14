@@ -235,6 +235,22 @@ nostojs(api => {
     })
 });
 ```
+### Upon viewing a page that was not found (404) 
+
+When viewing a page / view that was not found, there's no context to be provided, so invoking the `viewNotFound` will suffice.
+
+```js
+nostojs(api => {
+  api.defaultSession()
+    .viewNotFound()
+    .setPlacements(['notfound-nosto-1', 'bestseller-recs'])
+    .load()
+    .then(data => {
+      console.log(data.recommendations);
+    })
+});
+```
+
 
 ## Leveraging Features
 

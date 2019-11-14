@@ -38,6 +38,7 @@
          * [Upon starting a checkout
 ](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-starting-a-checkout)
          * [Upon placing an order](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-placing-an-order)
+         * [Upon a not found page](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-a-page-that-was-not-found-404)
     * Leveraging Features
       * [Working with recommendations](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#working-with-recommendations)
       * [Working with content](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#working-with-content)

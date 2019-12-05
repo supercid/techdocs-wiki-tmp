@@ -2,6 +2,9 @@ In this article, you will learn how to implement multi-currency in Nosto. When t
 
 Prior to the multi-currency implementation, ensure that the Nosto tagging is correctly in place. Some of the tagging must be slightly amended to support multi-currency.
 
+## Shopify Multi-Currency
+For instructions on integrating with Shopify's multi-currency, please go [here](https://github.com/Nosto/nosto-shopify/wiki/Multi-Currency-Support).
+
 ## Changes to the product tagging
 
 The product page tagging must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.

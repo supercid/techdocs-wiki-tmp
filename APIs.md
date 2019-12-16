@@ -27,7 +27,7 @@ To get access to our APIs, please log in to your Nosto account at [https://my.no
 
 ##### Token types
 
-You can get token values from [authentication tokens](https://help.nosto.com/manuals/authentication-tokens/) page under your Nosto Account. Each set of endpoints are secured using different token types.
+You can get token values from [authentication tokens](https://help.nosto.com/en/articles/613616-settings-authentication-tokens) page under your Nosto Account. Each set of endpoints are secured using different token types.
 
 | Token type      | Description                                                  |
 | --------------- | ------------------------------------------------------------ |

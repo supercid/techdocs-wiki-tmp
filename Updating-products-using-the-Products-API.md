@@ -16,6 +16,8 @@ curl -v --user :WI0j2oN7TgG42tlblX3yzOQ5xvCYc2oYj9eWg79lghVq8R0nKQXlVE9wvihBUFOw
     "image_url":"http://cdn.example.com/product_123.jpg",
     "price_currency_code":"EUR",
     "availability":"InStock",
+    "rating_value":"3.8",
+    "review_count":"15",
     "categories":[
       "sale/summer",
       "shirts"

@@ -9,8 +9,6 @@ Basic tagging
   <span class="availability">Instock</span>
   <span class="price">999.50</span>
   <span class="price_currency_code">USD</span>
-  <span class="category">/Mens/Jackets</span>
-  <span class="category">/Mens/Jackets/Ski Jackets</span>
 </div>
 ```
 
@@ -18,6 +16,8 @@ Nosto also supports multiple optional values which may enrich the usage of the s
 
 Tagging attribute extension
 ```html
+<span class="category">/Mens/Jackets</span>
+<span class="category">/Mens/Jackets/Ski Jackets</span>
 <span class="brand">Acme</span>
 <span class="description">This is a great product!</span>
 <span class="google_category">Interior > Towels</span>

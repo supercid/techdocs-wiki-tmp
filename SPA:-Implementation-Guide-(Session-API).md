@@ -28,10 +28,7 @@ If you have a website, that is built atop JavaScript frameworks, such as Angular
   * [Working with content](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#working-with-content)
   * [Working with popups](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#working-with-popups)
 * Advanced Usage
-  * Extending tagging with SKUs
   * [Adding support for multi-currency](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-multi-currency)
   * [Adding support for customer group pricing](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-customer-group-pricing)
 * FAQ:
-  * How do I reload the recommendations?
-  * How do I send a recommendation clicked event?
-  * How do I send an add to cart event?
+  * How do I track recommendation clicks?

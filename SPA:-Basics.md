@@ -10,7 +10,7 @@ We do not recommend using a `.dev` or a `.test` TLD that is aliased to localhost
 
 While Nosto crawls sites to replicate the product catalog, it is unable to do so on SPAs. In order to synchronise your product catalog with Nosto, you'll need to [leverage the product API](Updating-products-using-the-Products-API) to keep the Nosto catalog in sync.
 
-**Note:** This step must be completed prior to proceeding with the implementation. Without this step, it will be troublesome to preview and debug the recommendations. 
+**Note:** This step must be completed prior to proceeding with the implementation. Without this step, it will be troublesome to preview and debug the recommendations.
 
 ### Including the script
 
@@ -32,13 +32,13 @@ The JS comprises of three parts - the first is the default Nosto snippet, the se
 
 **Note:** This needs to exist on every page.
 
-#### 
+####
 
 ## Managing Sessions
 
 ### Setting the cart
 
-On every page load, the cart content _must_ be passed. The cart contents are the 1:1 representation of the user's mini-cart.
+The cart content _must_ updated whenever the cart contents change. The cart contents are the 1:1 representation of the user's cart. Also note that the cart contents is only send to Nosto when you perform [Action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action). If you want to send the cart contents to Nosto right away, you add `.viewCart().update()` to your call. See full example below.
 
 You may also pass `null` or `undefined` to signify that there was no change in the cart.
 
@@ -70,11 +70,41 @@ nostojs(api => {
 });
 ```
 
+or when sending the contents to Nosto right away
+
+```js
+nostojs(api => {
+  api.defaultSession()
+   .setCart({
+     items: [
+      {
+        name: "Men's Running Shirt",
+        price_currency_code: "EUR",
+        product_id: "181503",
+        quantity: 2,
+        sku_id: "181505",
+        unit_price: 123.45
+      },
+      {
+        name: "Men's Training Shoe",
+        price_currency_code: "EUR",
+        product_id: "34552",
+        quantity: 1,
+        sku_id: "39912",
+        unit_price: 999.00
+      }
+    ]
+   })
+   .viewCart()
+   .update()
+});
+```
+
 **Note:** Passing `null` or `undefined` will prevent the cart contents from being mutated on Nosto. Passing an empty object `{}` will reset the cart contents.
 
 ### Setting the customer
 
-On every page, the customer information _should_ be passed if the customer is logged in. If the customer isn't logged in, this can be omitted.
+When a visitor logs in customer information _should_ be passed. If the customer isn't logged in, this can be omitted. Similar to setting the [cart contents](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-cart), customer data is only sent to Nosto when [Action]([Action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action)) is performed.
 
 The customer information is primarily used for sending personalised triggered emails and for building multi-channel experiences.
 
@@ -83,9 +113,9 @@ nostojs(api => {
   api.defaultSession()
     .setCustomer({
       customer_reference: "b369f1235cf4f08153c560.82515936",
-      email: "mridang@nosto.com",
-      first_name: "Mridang",
-      last_name: "Agarwalla",
+      email: "devnull@nosto.com",
+      first_name: "Nosto",
+      last_name: "Test",
       newsletter: true
     })
 });
@@ -199,9 +229,12 @@ nostojs(api => {
 
 ### Upon placing an order
 
-On all thank-you and order-confirmation pages, the conversion metadata _must_ be passed. 
+On all thank-you and order-confirmation views, the order confirmation metadata _must_ be passed.
 
-The conversion metadata is used for sending personalised order-followup emails, personalise the recommendations e.g. order-related, for segmentation insights and conversion statistics.
+The order confirmation metadata is used for sending personalised order-followup emails, personalise the recommendations e.g. order-related, for segmentation insights and conversion statistics.
+
+**Important**
+Even if you would not display any recommendations in your order-confirmation view you must still set placements (`.setPlacements(...)`) and load (`.load()`) the results. Setting the order works in a similar manner than [cart](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-cart) and [customer](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-customer) and [Action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action) must be performed for the data to be sent to Nosto.
 
 ```js
 nostojs(api => {
@@ -235,7 +268,7 @@ nostojs(api => {
     })
 });
 ```
-### Upon viewing a page that was not found (404) 
+### Upon viewing a page that was not found (404)
 
 When viewing a page / view that was not found, there's no context to be provided, so invoking the `viewNotFound` will suffice.
 
@@ -279,7 +312,7 @@ nostojs(api => {
     })
 });
 ```
-Please note that Nosto will not inject the returned HTML into the DOM even if the response mode is set to HTML. The logic for injecting the recommendations must be implemented in the application side.  
+Please note that Nosto will not inject the returned HTML into the DOM even if the response mode is set to HTML. The logic for injecting the recommendations must be implemented in the application side.
 
 ### Working with content
 
@@ -288,6 +321,12 @@ The `load` method returns a promise which can be consumed to get the raw placeme
 #### Handling attribution
 
 When a content placement is clicked, you must redirect to the next page using the `nosto` query parameter and the value must be the `result_id` from the response.
+
+**Example**
+If a product route is `/product/nike-sneakers-1` with `result_id` having value _nosto-frontpage-1_ the route would be `/product/nike-sneakers-1/?nosto=nosto-frontpage-1`.
+
+**Important**
+In order for the attribution to work you must perform [Action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action) after the product route change. Most likely you would be fetching [product related recommendations](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-a-product).
 
 ### Working with popups
 

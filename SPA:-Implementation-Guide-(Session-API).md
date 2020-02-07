@@ -4,6 +4,7 @@ If you have a website, that is built atop JavaScript frameworks, such as Angular
 
 **Note:** The examples in the documentation are written in [ES5](https://www.ecma-international.org/ecma-262/5.1/) and leverage advanced browser features such as [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
+  * [Terminology](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology)
   * [Setting up your account](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#Setting-up-your-account)
   * [Setting up the catalog sync](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-up-the-catalog-sync)
   * [Adding the Nosto Script](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#Add-Nosto-script)

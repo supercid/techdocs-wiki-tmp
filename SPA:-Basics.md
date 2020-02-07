@@ -38,7 +38,7 @@ The JS comprises of three parts - the first is the default Nosto snippet, the se
 
 ### Setting the cart
 
-The cart content _must_ updated whenever the cart contents change. The cart contents are the 1:1 representation of the user's cart. Also note that the cart contents is only send to Nosto when you perform [Action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action). If you want to send the cart contents to Nosto right away, you add `.viewCart().update()` to your call. See full example below.
+The cart content _must_ updated whenever the cart contents change. The cart contents are the 1:1 representation of the user's cart. Also note that the cart contents is only send to Nosto when you perform an [action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action). If you want to send the cart contents to Nosto right away, you add `.viewCart().update()` to your call. See full example below.
 
 You may also pass `null` or `undefined` to signify that there was no change in the cart.
 
@@ -104,7 +104,7 @@ nostojs(api => {
 
 ### Setting the customer
 
-When a visitor logs in customer information _should_ be passed. If the customer isn't logged in, this can be omitted. Similar to setting the [cart contents](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-cart), customer data is only sent to Nosto when [Action]([Action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action)) is performed.
+When a visitor logs in customer information _should_ be passed. If the customer isn't logged in, this can be omitted. Similar to setting the [cart contents](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-cart), customer data is only sent to Nosto when an [action](an [action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action)) is performed.
 
 The customer information is primarily used for sending personalised triggered emails and for building multi-channel experiences.
 
@@ -234,7 +234,7 @@ On all thank-you and order-confirmation views, the order confirmation metadata _
 The order confirmation metadata is used for sending personalised order-followup emails, personalise the recommendations e.g. order-related, for segmentation insights and conversion statistics.
 
 **Important**
-Even if you would not display any recommendations in your order-confirmation view you must still set placements (`.setPlacements(...)`) and load (`.load()`) the results. Setting the order works in a similar manner than [cart](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-cart) and [customer](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-customer) and [Action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action) must be performed for the data to be sent to Nosto.
+Even if you would not display any recommendations in your order-confirmation view you must still set placements (`.setPlacements(...)`) and load (`.load()`) the results. Setting the order works in a similar manner than [cart](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-cart) and [customer](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-the-customer) and an [action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action) must be performed for the data to be sent to Nosto.
 
 ```js
 nostojs(api => {
@@ -326,7 +326,7 @@ When a content placement is clicked, you must redirect to the next page using th
 If a product route is `/product/nike-sneakers-1` with `result_id` having value _nosto-frontpage-1_ the route would be `/product/nike-sneakers-1/?nosto=nosto-frontpage-1`.
 
 **Important**
-In order for the attribution to work you must perform [Action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action) after the product route change. Most likely you would be fetching [product related recommendations](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-a-product).
+In order for the attribution to work you must perform an [action](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology#action) after the product route change. Most likely you would be fetching [product related recommendations](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#upon-viewing-a-product).
 
 ### Working with popups
 

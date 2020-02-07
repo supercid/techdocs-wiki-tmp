@@ -32,4 +32,5 @@ If you have a website, that is built atop JavaScript frameworks, such as Angular
   * [Adding support for multi-currency](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-multi-currency)
   * [Adding support for customer group pricing](https://github.com/Nosto/techdocs/wiki/SPA:-Adding-support-for-customer-group-pricing)
 * FAQ:
-  * How do I track recommendation clicks?
+  * [How do I track recommendation clicks?](https://github.com/Nosto/techdocs/wiki/SPA:-FAQ#how-do-i-track-clicks-on-recommendations)
+  * [How do I track external ad campaigns?](https://github.com/Nosto/techdocs/wiki/SPA:-FAQ#tracking-external-advertisement-campaigns)

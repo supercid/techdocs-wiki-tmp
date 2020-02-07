@@ -19,6 +19,7 @@
       * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing)
     * [FAQ](https://github.com/Nosto/techdocs/wiki/Basic:-FAQ)
   * [On a Single-Page App (Session API)](https://github.com/Nosto/techdocs/wiki/SPA:-Implementation-Guide-(Session-API))
+      * [Terminology](https://github.com/Nosto/techdocs/wiki/Session-API---Terminology)
       * [Setting up your account](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#Setting-up-your-account)
       * [Setting up the catalog sync](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#setting-up-the-catalog-sync)
       * [Adding the Nosto Script](https://github.com/Nosto/techdocs/wiki/SPA:-Basics#Add-Nosto-script)

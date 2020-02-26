@@ -14,6 +14,9 @@ The conversion metadata is used for sending personalised order-followup emails, 
         <span class="marketing_permission">false</span>
     </div>
  
+    <span class="payment_provider">checkmo</span>
+    <span class="order_status_code">pending</span>
+
     <div class="purchased_items">
         <div class="line_item">
             <span class="product_id">Canoe123</span>
@@ -43,6 +46,15 @@ You can omit the buyer tagging either partially, or completely if you do not wan
 ### Tagging the currencies
 
 Currencies should always be represented in the ISO-4471 three-letter format. For example, use the code `USD` instead of `$` to represent the United States Dollar.
+
+### Tagging the payment provider
+
+Payment provider is the payment method or provider used by a shopper to pay the purchase.
+Omit the payment provider detail if you do not want Nosto to crawl this information.
+
+### Tagging the order status code
+
+Status code will be used to track the order state.  Different payment providers may use different status codes. 
 
 ### Adding support for advanced use cases
 

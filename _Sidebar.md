@@ -105,6 +105,7 @@
         * [Querying Orders](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Orders)
         * [Querying Recommendations](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-Querying-Recommendations)
         * [Querying Segments](https://github.com/Nosto/techdocs/wiki/GraphQL:-Querying-Segments)
+        * [Querying Category Merchandising Products](https://github.com/Nosto/techdocs/wiki/GraphQL:-Querying-Category-Merchandising-Products)
     * [For iOS & Android](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-For-iOS-&-Android)
     * [For Headless](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-For-Headless)
     * [FAQ](https://github.com/Nosto/docs-nosto-com/wiki/GraphQL:-FAQ)

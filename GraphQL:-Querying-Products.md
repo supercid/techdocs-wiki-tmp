@@ -1,5 +1,28 @@
-You can query products using the GraphQL products endpoint. So long as you are able to specify the product id, you will be able to query the product.
+## List Products
+```graphql
+curl -0 -v -X POST https://api.nosto.com/v1/graphql \
+-u ":<token>" \
+-H 'Content-Type: application/graphql' \
+-d @- << EOF
+query {
+  products(
+    limit: 5
+    offset: 0
+    sort: {field: PRICE, reverse:true},
+    filter: {categories: "shoes"}
+  ) {
+    products {
+      productId
+      url
+      price
+      categories
+    }
+  }
+}
+EOF
+```
 
+## Query by Product ID
 ```graphql
 curl -0 -v -X POST https://api.nosto.com/v1/graphql \
 -u ":<token>" \

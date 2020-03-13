@@ -24,7 +24,7 @@
       * [Setting up the catalog sync](SPA/Basics.md#setting-up-the-catalog-sync)
       * [Adding the Nosto Script](SPA/Basics.md#Add-Nosto-script)
       * [Managing Sessions](SPA/Basics.md)
-        * [Setting the cart](SPA/Basics.md#setting-the-cart)
+        * [Setting the cart](implement-nosto/on-a-single-page-app-session-api/basics-1#managing-sessions)
         * [Setting the customer](SPA/Basics.md#setting-the-customer)
        * Tracking Events
          * [Upon viewing the homepage](SPA/Basics.md#upon-viewing-the-homepage)

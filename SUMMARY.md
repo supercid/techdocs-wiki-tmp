@@ -18,7 +18,7 @@
       * [Adding support for multi-currency](Adding-support-for-multi-currency.md)
       * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing.md)
     * [FAQ](Basic/FAQ.md)
-  * [On a Single-Page App (Session API.md)](SPA/Implementation-Guide-(Session-API.md))
+  * [On a Single-Page App (Session Api)](SPA/Implementation-Guide-(Session-API.md))
       * [Terminology](Session-API---Terminology.md)
       * [Setting up your account](SPA/Basics.md#Setting-up-your-account)
       * [Setting up the catalog sync](SPA/Basics.md#setting-up-the-catalog-sync)
@@ -29,9 +29,9 @@
        * Tracking Events
          * [Upon viewing the homepage](SPA/Basics.md#upon-viewing-the-homepage)
          * [Upon viewing a product](SPA/Basics.md#upon-viewing-a-product)
-         * [Upon viewing a collection ](SPA/Basics.md#upon-viewing-a-collection)
-         * [Upon doing a search ](SPA/Basics.md#upon-doing-a-search)
-         * [Upon starting a checkout ](SPA/Basics.md#upon-starting-a-checkout)
+         * [Upon viewing a collection](SPA/Basics.md#upon-viewing-a-collection)
+         * [Upon doing a search](SPA/Basics.md#upon-doing-a-search)
+         * [Upon starting a checkout](SPA/Basics.md#upon-starting-a-checkout)
          * [Upon placing an order](SPA/Basics.md#upon-placing-an-order)
          * [Upon a not found page](SPA/Basics.md#upon-viewing-a-page-that-was-not-found-404)
     * Leveraging Features

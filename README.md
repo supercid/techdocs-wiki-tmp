@@ -5,7 +5,7 @@ First its important to understand a few of the concepts before delving in to the
 * Nosto initializes by using a [snippet of Javascript](Add-Nosto-script.md) that starts the dialogue to your dedicated account. 
 * Nosto depends on structured data that we extract from your site. At the bare minimum you need to go through all the steps listed under [Manual Implementation - Essentials](Manual-implementation.md).
 * You can augment and extend the product tagging and the data collection process with the help of other articles found under this guide. 
-* You can access your own account in the Nosto admin UI ([https://my.nosto.com/admin](my.nosto.com/admin)) where you can enable/configure/modify features. All templating and layouts are handled within your account.
+* You can access your own account in the Nosto admin UI [my.nosto.com/admin](https://my.nosto.com/admin) where you can enable/configure/modify features. All templating and layouts are handled within your account.
 
 In case you have already implemented Nosto and established continuous data exchange you can find more information related to troubleshooting or setting up features at [help.nosto.com](https://help.nosto.com/). 
 

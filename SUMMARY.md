@@ -1,5 +1,7 @@
-* Implement Nosto
-  * On a regular site
+# Implement Nosto
+
+  ## On a regular site
+
     * [Manual Tagging - Essentials](Manual-implementation.md)
       * [Setting up your account](Setting-up-your-account.md)
       * [Adding the Nosto Script](Add-Nosto-script.md)
@@ -18,7 +20,8 @@
       * [Adding support for multi-currency](Adding-support-for-multi-currency.md)
       * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing.md)
     * [FAQ](Basic/FAQ.md)
-  * [On a Single-Page App - Session Api](Implementation-Guide-Session-API.md)
+
+  ## [On a Single-Page App - Session Api](Implementation-Guide-Session-API.md)
       * [Terminology](Session-API---Terminology.md)
       * [Setting up your account](SPA/Basics.md#Setting-up-your-account)
       * [Setting up the catalog sync](SPA/Basics.md#setting-up-the-catalog-sync)
@@ -43,13 +46,17 @@
       * [Adding support for multi-currency](SPA/Adding-support-for-multi-currency.md)
       * [Adding support for customer group pricing](SPA/Adding-support-for-customer-group-pricing.md)
     * [FAQ](SPA/FAQ.md)
-* [3rd party data integrations](3rd-party-data-integrations.md)
+
+# [3rd party data integrations](3rd-party-data-integrations.md)
   * [Tracking Nosto with Google Analytics Enhanced Ecommerce](Tracking-Nosto-with-Google-Analytics.md)
-* [Physical Retail](Physical-Retail.md)
+
+# [Physical Retail](Physical-Retail.md)
   * [Sending Offline Orders](Sending-Offline-Orders.md)
-* [Native Mobile](Native-Mobile.md)
+
+# [Native Mobile](Native-Mobile.md)
   * Implementing on iOS and Android
-* [JS API](JS-APIs.md)
+
+# [JS API](JS-APIs.md)
   * [Initializing Nosto](Initializing-Nosto.md)
   * Recommendations
     * [Loading Recommendations](Loading-Recommendations.md)
@@ -66,7 +73,8 @@
     * [Sending Customer Information](Sending-customer-information.md)
     * [Sending email addresses to Nosto](Sending-email-addresses-to-Nosto.md)
     * [Manually segmenting users](Manually-Segmenting-Users.md)
-* [APIs](APIs.md)
+
+# [APIs](APIs.md)
   * GDPR
     * [Redacting customer data](Sanitizing-customer-data-using-the-Redaction-API.md)
     * [Initiating data takeouts](Initiating-data-takeouts-via-the-Takeout-APIs.md)
@@ -79,7 +87,8 @@
     * [Recrawling Products](Recrawling-products-using-the-Recrawl-API.md)
   * Other
     * [Updating Rates](Updating-Rates-using-the-Rates-API.md)
-* [GraphQL](GraphQL/An-Introduction.md)
+
+# [GraphQL](GraphQL/An-Introduction.md)
     * [The Playground](GraphQL/The-Playground.md)
     * [Using the API](GraphQL/Using-the-API.md)
     * [Testing and Debugging](GraphQL/Testing-&-Debugging.md)

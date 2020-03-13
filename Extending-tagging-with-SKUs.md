@@ -1,4 +1,4 @@
-Nosto supports individual product SKUs under parent products. If you have not set up [Product tagging](https://github.com/Nosto/docs-nosto-com/wiki/Product-Tagging) you should start there and extend the tagging if needed. 
+Nosto supports individual product SKUs under parent products. If you have not set up [Product tagging](Product-Tagging.md) you should start there and extend the tagging if needed. 
 
 The SKU attributes should be listed on the last row of the `nosto_product` block that you have already implemented on the product pages. 
 

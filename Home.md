@@ -2,8 +2,8 @@ This guide introduces you how to implement Nosto on a e-commerce store that does
 
 First its important to understand a few of the concepts before delving in to the documentation, to make sure that you as a integrator understand the different steps and tools required. 
 
-* Nosto initializes by using a [snippet of Javascript](https://github.com/Nosto/docs-nosto-com/wiki/Add-Nosto-script) that starts the dialogue to your dedicated account. 
-* Nosto depends on structured data that we extract from your site. At the bare minimum you need to go through all the steps listed under [Manual Implementation - Essentials](https://github.com/Nosto/docs-nosto-com/wiki/Manual-implementation).
+* Nosto initializes by using a [snippet of Javascript](Add-Nosto-script.md) that starts the dialogue to your dedicated account. 
+* Nosto depends on structured data that we extract from your site. At the bare minimum you need to go through all the steps listed under [Manual Implementation - Essentials](Manual-implementation.md).
 * You can augment and extend the product tagging and the data collection process with the help of other articles found under this guide. 
 * You can access your own account in the Nosto admin UI ([https://my.nosto.com/admin](my.nosto.com/admin)) where you can enable/configure/modify features. All templating and layouts are handled within your account.
 

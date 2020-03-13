@@ -6,6 +6,6 @@ The product tagging is used to pass the context of the current product being vie
 
 You can tag your product pages in two different ways:
 
-1. [Tagging all the metadata (Recommended):](https://github.com/Nosto/techdocs/wiki/Basic:-Default-Product-Tagging) This approach is the recommended way to tag your product pages. It contains the entirety of the product metadata and leverages the crawler to build a 1:1 replica of your catalog.
+1. [Tagging all the metadata (Recommended):](Basic:-Default-Product-Tagging.md) This approach is the recommended way to tag your product pages. It contains the entirety of the product metadata and leverages the crawler to build a 1:1 replica of your catalog.
 
-2. [Tagging the bare minimum:](https://github.com/Nosto/techdocs/wiki/Basic:-Minimum-Product-Tagging) This approach entails tagging just the product-id and requires you to leverage an API to build a 1:1 replica of your catalog. This is an advanced use-case and requires that your account-manager disables crawling for your website.
+2. [Tagging the bare minimum:](Basic:-Minimum-Product-Tagging.md) This approach entails tagging just the product-id and requires you to leverage an API to build a 1:1 replica of your catalog. This is an advanced use-case and requires that your account-manager disables crawling for your website.

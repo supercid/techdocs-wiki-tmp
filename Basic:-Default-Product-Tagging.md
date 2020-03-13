@@ -72,9 +72,9 @@ Nosto also supports two attributes that are not crawlable through tagging. This 
 
 ### Adding support for advanced use cases
 
-Many ecommerce stores utilize SKU:s or "child" products that are sorted under the same "parent" product. To extend the above example with SKU support refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Extending-tagging-with-SKUs
+Many ecommerce stores utilize SKU:s or "child" products that are sorted under the same "parent" product. To extend the above example with SKU support refer to [this article](Extending-tagging-with-SKUs.md)
 
-In cases where a product might have multiple prices in differing currencies, you can also add support for multi-currency. Refer to this article: https://github.com/Nosto/docs-nosto-com/wiki/Adding-support-for-multi-currency
+In cases where a product might have multiple prices in differing currencies, you can also add support for multi-currency. Refer to [this article](Adding-support-for-multi-currency.md)
 
 ## Troubleshooting
 

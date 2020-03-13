@@ -4,7 +4,7 @@ Prior to the multi-currency implementation, ensure that your implementation is c
 
 ## Sending the product metadata
 
-The [product-update API](https://github.com/Nosto/techdocs/wiki/Updating-products-using-the-Products-API) calls must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.
+The [product-update API](Updating-products-using-the-Products-API.md) calls must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.
 
 For example, a US-based retailer who sells in Euros (EUR) and Sterling Pounds (GBP) would have US Dollar (USD) as the primary currency while Euro (EUR) and Sterling Pounds (GBP) would be secondary currencies whose exchange rates would need to be sent via an API.
 
@@ -46,7 +46,7 @@ For example, on the site of a US-based retailer who sells in Euros (EUR) and Ste
 
 ## Sending the exchange-rates
 
-In order to send the exchange rate multipliers to Nosto, you will need to use [our exchange-rates API](https://github.com/Nosto/techdocs/wiki/Updating-Rates-using-the-Rates-API). Below is a small snippet of what the payload looks like.
+In order to send the exchange rate multipliers to Nosto, you will need to use [our exchange-rates API](Updating-Rates-using-the-Rates-API.md). Below is a small snippet of what the payload looks like.
 
 ```json
 {

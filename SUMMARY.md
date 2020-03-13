@@ -23,7 +23,7 @@
       * [Setting up your account](SPA/Basics.md#Setting-up-your-account)
       * [Setting up the catalog sync](SPA/Basics.md#setting-up-the-catalog-sync)
       * [Adding the Nosto Script](SPA/Basics.md#Add-Nosto-script)
-      * Managing Sessions
+      * [Managing Sessions](SPA/Basics.md)
         * [Setting the cart](SPA/Basics.md#setting-the-cart)
         * [Setting the customer](SPA/Basics.md#setting-the-customer)
        * Tracking Events

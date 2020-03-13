@@ -18,7 +18,7 @@
       * [Adding support for multi-currency](Adding-support-for-multi-currency.md)
       * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing.md)
     * [FAQ](Basic/FAQ.md)
-  * [On a Single-Page App (Session Api)](SPA/Implementation-Guide-(Session-API).md)
+  * [On a Single-Page App - Session Api](Implementation-Guide-Session-API.md)
       * [Terminology](Session-API---Terminology.md)
       * [Setting up your account](SPA/Basics.md#Setting-up-your-account)
       * [Setting up the catalog sync](SPA/Basics.md#setting-up-the-catalog-sync)

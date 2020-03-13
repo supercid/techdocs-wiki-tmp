@@ -3,14 +3,14 @@
     * [Manual Tagging - Essentials](Manual-implementation.md)
       * [Setting up your account](Setting-up-your-account.md)
       * [Adding the Nosto Script](Add-Nosto-script.md)
-      * [Adding the Cart Tagging](Cart-Tagging.md)
+      * [Adding the Cart Tagging](Cart-tagging.md)
       * [Adding the Customer information](Adding-the-customer-information.md)
       * [Adding the Product Tagging](Product-Tagging.md)
         * [Default Product Tagging](Basic/Default-Product-Tagging.md)
         * [Basic Tagging](Basic/Minimum-Product-Tagging.md)
       * [Adding the Category/Brand Tagging](Category-&-Brand-tagging.md)
       * [Adding the Search Tagging](Search-Tagging.md)
-      * [Adding the Order Tagging](Order-Tagging.md)
+      * [Adding the Order Tagging](Order-tagging.md)
       * [Defining Nosto placements](Defining-Nosto-placements.md)
       * [Tagging your page types](Tag-your-page-types.md)
     * [Advanced Usage](Advanced-implementation.md)
@@ -18,32 +18,26 @@
       * [Adding support for multi-currency](Adding-support-for-multi-currency.md)
       * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing.md)
     * [FAQ](Basic/FAQ.md)
-  * [On a Single-Page App (Session API.md)](SPA/Implementation-Guide-(Session-API.md).md)
+  * [On a Single-Page App (Session API.md)](SPA/Implementation-Guide-(Session-API.md))
       * [Terminology](Session-API---Terminology.md)
-      * [Setting up your account](SPA/Basics#Setting-up-your-account.md)
-      * [Setting up the catalog sync](SPA/Basics#setting-up-the-catalog-sync.md)
-      * [Adding the Nosto Script](SPA/Basics#Add-Nosto-script.md)
+      * [Setting up your account](SPA/Basics.md#Setting-up-your-account)
+      * [Setting up the catalog sync](SPA/Basics.md#setting-up-the-catalog-sync)
+      * [Adding the Nosto Script](SPA/Basics.md#Add-Nosto-script)
       * Managing Sessions
-        * [Setting the cart
-](SPA/Basics#setting-the-cart.md)
-        * [Setting the customer
-](SPA/Basics#setting-the-customer.md)
+        * [Setting the cart](SPA/Basics.md#setting-the-cart)
+        * [Setting the customer](SPA/Basics.md#setting-the-customer)
        * Tracking Events
-         * [Upon viewing the homepage](SPA/Basics#upon-viewing-the-homepage.md) 
-         * [Upon viewing a product
-](SPA/Basics#upon-viewing-a-product.md)
-         * [Upon viewing a collection
-](SPA/Basics#upon-viewing-a-collection.md)
-         * [Upon doing a search
-](SPA/Basics#upon-doing-a-search.md)
-         * [Upon starting a checkout
-](SPA/Basics#upon-starting-a-checkout.md)
-         * [Upon placing an order](SPA/Basics#upon-placing-an-order.md)
-         * [Upon a not found page](SPA/Basics#upon-viewing-a-page-that-was-not-found-404.md)
+         * [Upon viewing the homepage](SPA/Basics.md#upon-viewing-the-homepage)
+         * [Upon viewing a product](SPA/Basics.md#upon-viewing-a-product)
+         * [Upon viewing a collection ](SPA/Basics.md#upon-viewing-a-collection)
+         * [Upon doing a search ](SPA/Basics.md#upon-doing-a-search)
+         * [Upon starting a checkout ](SPA/Basics.md#upon-starting-a-checkout)
+         * [Upon placing an order](SPA/Basics.md#upon-placing-an-order)
+         * [Upon a not found page](SPA/Basics.md#upon-viewing-a-page-that-was-not-found-404)
     * Leveraging Features
-      * [Working with recommendations](SPA/Basics#working-with-recommendations.md)
-      * [Working with content](SPA/Basics#working-with-content.md)
-      * [Working with popups](SPA/Basics#working-with-popups.md)
+      * [Working with recommendations](SPA/Basics.md#working-with-recommendations)
+      * [Working with content](SPA/Basics.md#working-with-content)
+      * [Working with popups](SPA/Basics.md#working-with-popups)
     * Advanced Usage
       * Extending tagging with SKUs
       * [Adding support for multi-currency](SPA/Adding-support-for-multi-currency.md)
@@ -54,10 +48,10 @@
 * [Physical Retail](Physical-Retail.md)
   * [Sending Offline Orders](Sending-Offline-Orders.md)
 * [Native Mobile](Native-Mobile.md)
-  * [Implementing on iOS and Android](Implementing-on-iOS-and-Android.md)
+  * Implementing on iOS and Android
 * [JS API](JS-APIs.md)
   * [Initializing Nosto](Initializing-Nosto.md)
-  * [Recommendations](Recommendations.md)
+  * Recommendations
     * [Loading Recommendations](Loading-Recommendations.md)
     * [Recommendation Callbacks](Recommendation-Callbacks.md)
     * [Setting up dynamic filtering](Setting-up-dynamic-filtering.md)
@@ -92,13 +86,10 @@
     * [Using Mutations](GraphQL/Using-Mutations.md)
         * [Updating Products](GraphQL/Updating-Products.md)
         * [Updating Identities](GraphQL/Updating-Identities.md)
-        * [GraphQL: Onsite Sessions
-](GraphQL/Onsite-Sessions.md)
+        * [GraphQL: Onsite Sessions](GraphQL/Onsite-Sessions.md)
         * Working with Orders
-          * [GraphQL: Placing Orders
-](GraphQL/Placing-Orders.md)
-          * [GraphQL: Updating Order Statuses
-](GraphQL/Updating-Order-Statuses.md)
+          * [GraphQL: Placing Orders](GraphQL/Placing-Orders.md)
+          * [GraphQL: Updating Order Statuses](GraphQL/Updating-Order-Statuses.md)
     * [Using Queries](GraphQL/Using-Queries.md)
         * [Querying Products](GraphQL/Querying-Products.md)
         * [Querying Identities](GraphQL/Querying-Identities.md)

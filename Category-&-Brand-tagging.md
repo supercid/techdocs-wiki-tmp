@@ -20,7 +20,7 @@ Categories must always be delimited by a slash. For example, `/Home/Accessories`
 
 ### Faceting by other attributes
 
-With Nosto you can also expose other attributes that should be used for category/brand page filtering. For example when a user clicks on a certain color, only products with that certain color attribute should be exposed by both the category list, and Nosto Onsite Recommendations. Available values correspond to custom fields tagged as part of the [Product Tagging](Basic:-Default-Product-Tagging.md). 
+With Nosto you can also expose other attributes that should be used for category/brand page filtering. For example when a user clicks on a certain color, only products with that certain color attribute should be exposed by both the category list, and Nosto Onsite Recommendations. Available values correspond to custom fields tagged as part of the [Product Tagging](Basic/Default-Product-Tagging.md). 
 ```html
 <span class="nosto_tag" style="display:none">color: Red</span>
 <span class="nosto_tag" style="display:none">gender: Mens</span>

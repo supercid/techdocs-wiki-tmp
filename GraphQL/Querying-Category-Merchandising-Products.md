@@ -31,7 +31,7 @@ EOF
 ```
 
 ## Session Lookup
-In order to be able to provide personalized results, we will need to look up a session either by id or by reference. You read more about managing sessions on our [onsite sessions](GraphQL:-Onsite-Sessions.md) wiki page.
+In order to be able to provide personalized results, we will need to look up a session either by id or by reference. You read more about managing sessions on our [onsite sessions](GraphQL/Onsite-Sessions.md) wiki page.
 
 ## Attribution Parameters
 Setting the `addAttributionParameters` parameter to `true`, causes attribution parameters to be automatically rendered in product URLs. For example, the url `https://example.com/product` becomes `https://example.com/product?nosto_source=cmp&amp;nosto=5e5e09f060b232790cbbccbf`. These parameters allow our client script to track the performance of Category Merchandising results.

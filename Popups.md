@@ -2,7 +2,7 @@ In the event that you are using Nosto's Onsite Popups, you can leverage the JS A
 
 See the following articles on how to use the JS API to interact with popups:
 
-  * [Listing Popup Campaigns](Listing-Popup-Campaigns)
-  * [Opening a Popup](Opening-a-Popup)
-  * [Enabling & Disabling Popups](Enabling-&-Disabling-Popups)
-  * [Popup Callbacks](Popup-Callbacks)
+  * [Listing Popup Campaigns](Listing-Popup-Campaigns.md)
+  * [Opening a Popup](Opening-a-Popup.md)
+  * [Enabling & Disabling Popups](Enabling-&-Disabling-Popups.md)
+  * [Popup Callbacks](Popup-Callbacks.md)

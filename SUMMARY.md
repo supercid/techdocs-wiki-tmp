@@ -77,7 +77,7 @@
       * [Manually segmenting users](Manually-Segmenting-Users.md)
 
 ## APIs
-  * APIs Introduction](APIs.md)
+  * [APIs Introduction](APIs.md)
     * GDPR
       * [Redacting customer data](Sanitizing-customer-data-using-the-Redaction-API.md)
       * [Initiating data takeouts](Initiating-data-takeouts-via-the-Takeout-APIs.md)

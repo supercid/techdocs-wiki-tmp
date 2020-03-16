@@ -6,8 +6,8 @@ To implement Nosto manually you will need to go through the following steps to e
   * [Adding the Cart Tagging](Cart-tagging.md)
   * [Adding the Customer information](Adding-the-customer-information.md)
   * [Adding the Product Tagging](Product-Tagging.md)
-    * [Default Product Tagging](Basic/Default-Product-Tagging.md)
-    * [Basic Tagging](Basic/Minimum-Product-Tagging.md)
+    * [Default Product Tagging](Default-Product-Tagging.md)
+    * [Basic Tagging](Minimum-Product-Tagging.md)
   * [Adding the Category/Brand Tagging](Category-&-Brand-tagging.md)
   * [Adding the Search Tagging](Search-Tagging.md)
   * [Adding the Order Tagging](Order-tagging.md)
@@ -17,6 +17,6 @@ To implement Nosto manually you will need to go through the following steps to e
   * [Extending tagging with SKUs](Extending-tagging-with-SKUs.md)
   * [Adding support for multi-currency](Adding-support-for-multi-currency.md)
   * [Adding support for customer group pricing](Adding-support-for-customer-group-pricing.md)
-* [FAQ](Basic/FAQ.md)
+* [FAQ](FAQ.md)
 
 If the store is built on explicitly supported platforms like Magento, Magento 2, Shopify, Prestashop or Shopware you should go through their platform specific guides instead.

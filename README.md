@@ -1,13 +1,15 @@
+# Introduction
+
 This guide introduces you how to implement Nosto on a e-commerce store that does not yet have a dedicated plugin solution. The articles are designed as digestable step-by-step guides that walk you through how to establish the data exchange between the site and Nosto.
 
-First its important to understand a few of the concepts before delving in to the documentation, to make sure that you as a integrator understand the different steps and tools required. 
+First its important to understand a few of the concepts before delving in to the documentation, to make sure that you as a integrator understand the different steps and tools required.
 
-* Nosto initializes by using a [snippet of Javascript](Add-Nosto-script.md) that starts the dialogue to your dedicated account. 
-* Nosto depends on structured data that we extract from your site. At the bare minimum you need to go through all the steps listed under [Manual Implementation - Essentials](Manual-implementation.md).
+* Nosto initializes by using a [snippet of Javascript](implement-nosto-on-a-regular-site/manual-implementation/add-nosto-script.md) that starts the dialogue to your dedicated account. 
+* Nosto depends on structured data that we extract from your site. At the bare minimum you need to go through all the steps listed under [Manual Implementation - Essentials](implement-nosto-on-a-regular-site/manual-implementation/).
 * You can augment and extend the product tagging and the data collection process with the help of other articles found under this guide. 
 * You can access your own account in the Nosto admin UI [my.nosto.com/admin](https://my.nosto.com/admin) where you can enable/configure/modify features. All templating and layouts are handled within your account.
 
-In case you have already implemented Nosto and established continuous data exchange you can find more information related to troubleshooting or setting up features at [help.nosto.com](https://help.nosto.com/). 
+In case you have already implemented Nosto and established continuous data exchange you can find more information related to troubleshooting or setting up features at [help.nosto.com](https://help.nosto.com/).
 
 **Implementation Checklist**
 
@@ -18,3 +20,4 @@ Second, make sure that you have a Nosto account and if not, sign up on Nosto hom
 Every Nosto account has a unique identifier known as accountID, which is required in the implementation. If you know that you have an account, but don’t know your accountID, log-in to your Nosto admin panel and learn where you can find it!
 
 Third, if you first implement Nosto on a local device or on a development environment, bookmark this article about implementing Nosto on a test environment for later reading. No need to jump there yet, as it is also featured as the last article in this series.
+

@@ -4,8 +4,8 @@ Nosto also supports some advanced use-cases depending on how your store is curre
   * [Adding the Nosto Script](Add-Nosto-script.md)
   * [Adding the Product Tagging](Product-Tagging.md)
   * [Adding the Category/Brand Tagging](Category-&-Brand-tagging.md)
-  * [Adding the Cart Tagging](Cart-Tagging.md)
-  * [Adding the Order Tagging](Order-Tagging.md)
+  * [Adding the Cart Tagging](Cart-tagging.md)
+  * [Adding the Order Tagging](Order-tagging.md)
   * [Adding the Customer information](Adding-the-customer-information.md)
 
 The topics listed below extend the essential tagging with support for SKUs, Multi-currency and Customer group pricing. 

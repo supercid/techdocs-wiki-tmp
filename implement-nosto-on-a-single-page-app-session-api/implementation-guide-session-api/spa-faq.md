@@ -2,9 +2,9 @@
 
 ## How do I track clicks on recommendations
 
-This is done automatically by Nosto as long as you follow the [Handling attribution- topic](https://github.com/supercid/techdocs-wiki-tmp/tree/be0af440e1b2ef7bde5ca68ed6c7a6bfd2baaf0b/SPA/Basics.md#handling-attribution-1).
+This is done automatically by Nosto as long as you follow the [Handling attribution- topic](spa-basics-leveraging-features.md#handling-attribution-1).
 
-Alternatively you can define the recommendation \(`result_id`\) after an [action](session-api-terminology.md#action) by adding `.setRef(productId, result_id)` to your call. In practise you would only do this when performing [the action for product view](https://github.com/supercid/techdocs-wiki-tmp/tree/be0af440e1b2ef7bde5ca68ed6c7a6bfd2baaf0b/SPA/Basics.md#upon-viewing-a-product).
+Alternatively you can define the recommendation \(`result_id`\) after an [action](session-api-terminology.md#action) by adding `.setRef(productId, result_id)` to your call. In practise you would only do this when performing [the action for product view](spa-basics-tracking-events.md#upon-viewing-a-product).
 
 Example when productId 123 was clicked on a recommendation _nosto-frontpage-1_:
 

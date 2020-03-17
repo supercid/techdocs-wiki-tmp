@@ -28,7 +28,7 @@
     * Advanced Usage
       * [Adding support for multi-currency](SPA-Adding-support-for-multi-currency.md)
       * [Adding support for customer group pricing](SPA-Adding-support-for-customer-group-pricing.md)
-    * [FAQ](SPA/FAQ.md)
+    * [FAQ](SPA-FAQ.md)
 
 ## 3rd party data integrations
   * [3rd party data integrations](3rd-party-data-integrations.md)

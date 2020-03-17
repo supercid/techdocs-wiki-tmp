@@ -21,29 +21,14 @@
 ### Implement Nosto On a Single-Page App - Session Api
   * [Session Api](Implementation-Guide-Session-API.md)
     * [Terminology](Session-API---Terminology.md)
-    * [Setting up your account](SPA/Basics.md#Setting-up-your-account)
-    * [Setting up the catalog sync](SPA/Basics.md#setting-up-the-catalog-sync)
-    * [Adding the Nosto Script](SPA/Basics.md#Add-Nosto-script)
-    * [Managing Sessions](SPA/Basics.md)
-      * [Setting the cart](implement-nosto-on-a-single-page-app-session-api/session-api/basics-1#setting-the-cart)
-      * [Setting the customer](SPA/Basics.md#setting-the-customer)
-     * Tracking Events
-       * [Upon viewing the homepage](SPA/Basics.md#upon-viewing-the-homepage)
-       * [Upon viewing a product](SPA/Basics.md#upon-viewing-a-product)
-       * [Upon viewing a collection](SPA/Basics.md#upon-viewing-a-collection)
-       * [Upon doing a search](SPA/Basics.md#upon-doing-a-search)
-       * [Upon starting a checkout](SPA/Basics.md#upon-starting-a-checkout)
-       * [Upon placing an order](SPA/Basics.md#upon-placing-an-order)
-       * [Upon a not found page](SPA/Basics.md#upon-viewing-a-page-that-was-not-found-404)
-  * Leveraging Features
-    * [Working with recommendations](SPA/Basics.md#working-with-recommendations)
-    * [Working with content](SPA/Basics.md#working-with-content)
-    * [Working with popups](SPA/Basics.md#working-with-popups)
-  * Advanced Usage
-    * Extending tagging with SKUs
-    * [Adding support for multi-currency](SPA-Adding-support-for-multi-currency.md)
-    * [Adding support for customer group pricing](SPA-Adding-support-for-customer-group-pricing.md)
-  * [FAQ](SPA/FAQ.md)
+    * [Setting up](SPA-Basics-Setting-Up.md)
+    * [Managing Sessions](SPA-Basics-Managing-Sessions.md)
+    * [Tracking Events](SPA-Basics-Tracking-Events.md)
+    * [Leveraging Features](SPA-Basics-Leveraging-Features.md)
+    * Advanced Usage
+      * [Adding support for multi-currency](SPA-Adding-support-for-multi-currency.md)
+      * [Adding support for customer group pricing](SPA-Adding-support-for-customer-group-pricing.md)
+    * [FAQ](SPA/FAQ.md)
 
 ## 3rd party data integrations
   * [3rd party data integrations](3rd-party-data-integrations.md)

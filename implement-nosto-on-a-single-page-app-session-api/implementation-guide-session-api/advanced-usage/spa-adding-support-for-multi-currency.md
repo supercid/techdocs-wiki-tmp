@@ -6,7 +6,7 @@ Prior to the multi-currency implementation, ensure that your implementation is c
 
 ## Sending the product metadata
 
-The [product-update API](https://github.com/supercid/techdocs-wiki-tmp/tree/ef7a4cff0adde56b5746f8f6e8033ce913190810/SPA/Updating-products-using-the-Products-API.md) calls must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.
+The [product-update API](../../../apis/apis/products/updating-products-using-the-products-api.md) calls must be amended to denote the primary currency code of the product. Typically, most retailers have a primary currency which is the default currency of the inventory.
 
 For example, a US-based retailer who sells in Euros \(EUR\) and Sterling Pounds \(GBP\) would have US Dollar \(USD\) as the primary currency while Euro \(EUR\) and Sterling Pounds \(GBP\) would be secondary currencies whose exchange rates would need to be sent via an API.
 
@@ -47,7 +47,7 @@ For example, on the site of a US-based retailer who sells in Euros \(EUR\) and S
 
 ## Sending the exchange-rates
 
-In order to send the exchange rate multipliers to Nosto, you will need to use [our exchange-rates API](https://github.com/supercid/techdocs-wiki-tmp/tree/ef7a4cff0adde56b5746f8f6e8033ce913190810/SPA/Updating-Rates-using-the-Rates-API.md). Below is a small snippet of what the payload looks like.
+In order to send the exchange rate multipliers to Nosto, you will need to use [our exchange-rates API](../../../apis/apis/other/updating-rates-using-the-rates-api.md). Below is a small snippet of what the payload looks like.
 
 ```javascript
 {
@@ -89,7 +89,7 @@ Once you enabled multi-currency and made an API call, you can review the exchang
 
 You can also preview the product prices for different currencies by navigating to **Tools** &gt; **Products** and choosing a product.
 
-You will see one or more dropdowns that contain the prices and price calculation for the currency.
+You will see one or more drop-downs that contain the prices and price calculation for the currency.
 
 ![](https://user-images.githubusercontent.com/327432/36842669-15cb7412-1d55-11e8-8b48-5f769bb4ecd2.png)
 

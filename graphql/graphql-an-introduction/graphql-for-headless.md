@@ -2,8 +2,8 @@
 
 Nosto's GraphQL APIs can be used for simplified implementations for headless frontends. While we recommend using our JS API for use in headless environments, there are scenarios where a GraphQL based implementation might be more fruitful.
 
-* [Using the API](https://github.com/supercid/techdocs-wiki-tmp/tree/425af2491d67c5b6e46dd88c810cd13daadf6da4/GraphQL-Using-the-API/README.md)
-* [Testing & Debugging](https://github.com/supercid/techdocs-wiki-tmp/tree/425af2491d67c5b6e46dd88c810cd13daadf6da4/GraphQL-Testing-&-Debugging/README.md)
+* [Using the API](graphql-using-the-api.md)
+* [Testing & Debugging](graphql-testing-and-debugging.md)
 
 🚨Implementing Nosto over GraphQL will not allow you to leverage the entire Nosto suite. The following features will not function:
 

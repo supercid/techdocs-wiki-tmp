@@ -38,9 +38,9 @@ When a content placement is clicked, you must redirect to the next page using th
 
 **Example** If a product route is `/product/nike-sneakers-1` with `result_id` having value _nosto-frontpage-1_ the route would be `/product/nike-sneakers-1/?nosto=nosto-frontpage-1`.
 
-**Important** In order for the attribution to work you must perform an [action](session-api-terminology.md#action) after the product route change. Most likely you would be fetching [product related recommendations](https://github.com/supercid/techdocs-wiki-tmp/tree/566ec56c8b0dad28a876edc1999b7e9c94b4cdbe/SPA/Basics.md#upon-viewing-a-product).
+**Important** In order for the attribution to work you must perform an [action](session-api-terminology.md#action) after the product route change. Most likely you would be fetching [product related recommendations](spa-basics-tracking-events.md#upon-viewing-a-product).
 
 ## Working with popups
 
-Popups are handled automatically and you do not need to control the rendering of the popups. As events are dispatched, popups will show and hide automatically. If you would like to have programmatic control over the popups, see [our guide on the Popup JS API](https://github.com/supercid/techdocs-wiki-tmp/tree/566ec56c8b0dad28a876edc1999b7e9c94b4cdbe/Popups/README.md).
+Popups are handled automatically and you do not need to control the rendering of the popups. As events are dispatched, popups will show and hide automatically. If you would like to have programmatic control over the popups, see [our guide on the Popup JS API](../../js-api/js-apis/popups/).
 

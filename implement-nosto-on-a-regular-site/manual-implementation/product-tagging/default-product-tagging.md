@@ -72,13 +72,13 @@ Custom fields accept a key:value pair where the `class` of the attribute is the 
 
 ### Fields that are not exposable in tagging
 
-Nosto also supports two attributes that are not crawlable through tagging. This is due to the sensitive nature of the attributes. They are: `supplier_cost` and `inventory level`. To send these two values to Nosto you will need to use the [Products API](https://github.com/supercid/techdocs-wiki-tmp/tree/ef7a4cff0adde56b5746f8f6e8033ce913190810/Basic/Updating-products-using-the-Products-API/README.md).
+Nosto also supports two attributes that are not crawlable through tagging. This is due to the sensitive nature of the attributes. They are: `supplier_cost` and `inventory level`. To send these two values to Nosto you will need to use the [Products API](../../../apis/apis/products/updating-products-using-the-products-api.md).
 
 ### Adding support for advanced use cases
 
-Many ecommerce stores utilize SKU:s or "child" products that are sorted under the same "parent" product. To extend the above example with SKU support refer to [this article](https://github.com/supercid/techdocs-wiki-tmp/tree/ef7a4cff0adde56b5746f8f6e8033ce913190810/Basic/Extending-tagging-with-SKUs.md)
+Many e-commerce stores utilize SKU:s or "child" products that are sorted under the same "parent" product. To extend the above example with SKU support refer to [this article](../../advanced-implementation/extending-tagging-with-skus.md)
 
-In cases where a product might have multiple prices in differing currencies, you can also add support for multi-currency. Refer to [this article](https://github.com/supercid/techdocs-wiki-tmp/tree/ef7a4cff0adde56b5746f8f6e8033ce913190810/Basic/Adding-support-for-multi-currency.md)
+In cases where a product might have multiple prices in differing currencies, you can also add support for multi-currency. Refer to [this article](../../advanced-implementation/adding-support-for-multi-currency.md)
 
 ## Troubleshooting
 

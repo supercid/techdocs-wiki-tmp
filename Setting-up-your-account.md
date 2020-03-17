@@ -7,4 +7,4 @@ We recommend using a `.dev` or a `.test` TLD that is aliased to localhost. Both 
 Nosto periodically crawls your website to keep the catalog data in sync and therefore if you run your webshop locally, Nosto will be unable to crawl your website. In order to overcome this, you will either need to:
 
 1. make it publicly available using a service such as [Pagekite](https://pagekite.net/) or [Ngrok](https://ngrok.com/)
-2. Use the [Products API](Updating-products-using-the-Products-API) to keep your catalog in sync
+2. Use the [Products API](Updating-products-using-the-Products-API.md) to keep your catalog in sync

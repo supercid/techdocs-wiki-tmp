@@ -2,7 +2,7 @@
 
 ### Action
 
-_Action_ in Session API context means fetching recommendations for a specific view. For example when visitor navigates from front page to a product view you would most likely fetch recommendations related to a [product](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/spa-basics-tracking-events#upon-viewing-a-product). This would be considered as _Action_. Setting the [cart contents](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/spa-basics-managing-sessions#setting-the-cart) however would not be considered as action.  
+_Action_ in Session API context means fetching recommendations for a specific view. For example when visitor navigates from front page to a product view you would most likely fetch recommendations related to a [product](/implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/spa-basics-tracking-events#upon-viewing-a-product). This would be considered as _Action_. Setting the [cart contents](/implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/spa-basics-managing-sessions#setting-the-cart) however would not be considered as action.  
 
 ### Route change
 

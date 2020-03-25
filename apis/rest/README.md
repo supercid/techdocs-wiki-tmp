@@ -1,4 +1,4 @@
-# APIs Introduction
+# REST
 
 Nosto offers a multitude of APIs for different use cases. The APIs are not entirely RESTful but provide lightweight endpoints that expose similar usability.
 

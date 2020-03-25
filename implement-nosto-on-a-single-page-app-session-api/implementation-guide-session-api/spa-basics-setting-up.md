@@ -8,7 +8,7 @@ We do not recommend using a `.dev` or a `.test` TLD that is aliased to localhost
 
 ## Setting up the catalog sync
 
-While Nosto crawls sites to replicate the product catalog, it is unable to do so on SPAs. In order to synchronise your product catalog with Nosto, you'll need to [leverage the product API](../../apis/apis/products/updating-products-using-the-products-api.md) to keep the Nosto catalog in sync.
+While Nosto crawls sites to replicate the product catalog, it is unable to do so on SPAs. In order to synchronise your product catalog with Nosto, you'll need to [leverage the product API](../../apis/rest/products/updating-products-using-the-products-api.md) to keep the Nosto catalog in sync.
 
 **Note:** This step must be completed prior to proceeding with the implementation. Without this step, it will be troublesome to preview and debug the recommendations.
 

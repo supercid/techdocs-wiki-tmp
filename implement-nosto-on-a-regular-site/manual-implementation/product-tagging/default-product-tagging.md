@@ -72,7 +72,7 @@ Custom fields accept a key:value pair where the `class` of the attribute is the 
 
 ### Fields that are not exposable in tagging
 
-Nosto also supports two attributes that are not crawlable through tagging. This is due to the sensitive nature of the attributes. They are: `supplier_cost` and `inventory level`. To send these two values to Nosto you will need to use the [Products API](../../../apis/apis/products/updating-products-using-the-products-api.md).
+Nosto also supports two attributes that are not crawlable through tagging. This is due to the sensitive nature of the attributes. They are: `supplier_cost` and `inventory level`. To send these two values to Nosto you will need to use the [Products API](../../../apis/rest/products/updating-products-using-the-products-api.md).
 
 ### Adding support for advanced use cases
 

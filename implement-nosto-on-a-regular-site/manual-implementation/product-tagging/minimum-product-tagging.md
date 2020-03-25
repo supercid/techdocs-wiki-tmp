@@ -17,7 +17,7 @@ When the entirety of the product metadata is tagged, Nosto is able to crawl your
 
 ### Via an API
 
-In order to keep your product catalog in Nosto up to date, you must leverage the [Products API](../../../apis/apis/products/updating-products-using-the-products-api.md).
+In order to keep your product catalog in Nosto up to date, you must leverage the [Products API](../../../apis/rest/products/updating-products-using-the-products-api.md).
 
 ### Via a Feed
 

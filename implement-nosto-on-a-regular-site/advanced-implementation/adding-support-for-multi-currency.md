@@ -48,7 +48,7 @@ For example, on the site of a US-based retailer who sells in Euros \(EUR\) and S
 
 ## Sending the exchange-rates
 
-In order to send the exchange rate multipliers to Nosto, you will need to use [our exchange-rates API](../../apis/apis/other/updating-rates-using-the-rates-api.md). Below is a small snippet of what the payload looks like.
+In order to send the exchange rate multipliers to Nosto, you will need to use [our exchange-rates API](../../apis/rest/other/updating-rates-using-the-rates-api.md). Below is a small snippet of what the payload looks like.
 
 ```javascript
 {

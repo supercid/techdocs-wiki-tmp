@@ -53,24 +53,6 @@
 
 ## JS API
 
-* [JS API](js-api/js-apis/README.md)
-  * [Initializing Nosto](js-api/js-apis/initializing-nosto.md)
-  * [Recommendations](js-api/js-apis/recommendations/README.md)
-    * [Loading Recommendations](js-api/js-apis/recommendations/loading-recommendations.md)
-    * [Recommendation Callbacks](js-api/js-apis/recommendations/recommendation-callbacks.md)
-    * [Setting up dynamic filtering](js-api/js-apis/recommendations/setting-up-dynamic-filtering.md)
-  * [Popups](js-api/js-apis/popups/README.md)
-    * [Listing Popup Campaigns](js-api/js-apis/popups/listing-popup-campaigns.md)
-    * [Opening a Popup](js-api/js-apis/popups/opening-a-popup.md)
-    * [Enabling & Disabling Popups](js-api/js-apis/popups/enabling-and-disabling-popups.md)
-    * [Popup Callbacks](js-api/js-apis/popups/popup-callbacks.md)
-  * [Common Examples](js-api/js-apis/common-examples/README.md)
-    * [Sending Product-View Events](js-api/js-apis/common-examples/sending-product-view-events.md)
-    * [Sending Add-To-Cart Events](js-api/js-apis/common-examples/sending-add-to-cart-events.md)
-    * [Sending Customer Information](js-api/js-apis/common-examples/sending-customer-information.md)
-    * [Sending email addresses to Nosto](js-api/js-apis/common-examples/sending-email-addresses-to-nosto.md)
-    * [Manually segmenting users](js-api/js-apis/common-examples/manually-segmenting-users.md)
-
 ## APIs
 
 * [APIs Introduction](apis/apis/README.md)
@@ -86,6 +68,23 @@
     * [Recrawling Products](apis/apis/products/recrawling-products-using-the-recrawl-api.md)
   * [Other](apis/apis/other/README.md)
     * [Updating Rates](apis/apis/other/updating-rates-using-the-rates-api.md)
+* [JS API](apis/js-apis/README.md)
+  * [Initializing Nosto](apis/js-apis/initializing-nosto.md)
+  * [Recommendations](apis/js-apis/recommendations/README.md)
+    * [Loading Recommendations](apis/js-apis/recommendations/loading-recommendations.md)
+    * [Recommendation Callbacks](apis/js-apis/recommendations/recommendation-callbacks.md)
+    * [Setting up dynamic filtering](apis/js-apis/recommendations/setting-up-dynamic-filtering.md)
+  * [Popups](apis/js-apis/popups/README.md)
+    * [Listing Popup Campaigns](apis/js-apis/popups/listing-popup-campaigns.md)
+    * [Opening a Popup](apis/js-apis/popups/opening-a-popup.md)
+    * [Enabling & Disabling Popups](apis/js-apis/popups/enabling-and-disabling-popups.md)
+    * [Popup Callbacks](apis/js-apis/popups/popup-callbacks.md)
+  * [Common Examples](apis/js-apis/common-examples/README.md)
+    * [Sending Product-View Events](apis/js-apis/common-examples/sending-product-view-events.md)
+    * [Sending Add-To-Cart Events](apis/js-apis/common-examples/sending-add-to-cart-events.md)
+    * [Sending Customer Information](apis/js-apis/common-examples/sending-customer-information.md)
+    * [Sending email addresses to Nosto](apis/js-apis/common-examples/sending-email-addresses-to-nosto.md)
+    * [Manually segmenting users](apis/js-apis/common-examples/manually-segmenting-users.md)
 
 ## GraphQL
 

@@ -34,10 +34,10 @@
     * [Adding support for multi-currency](implementing-nosto/implementation-guide-session-api/advanced-usage/spa-adding-support-for-multi-currency.md)
     * [Adding support for customer group pricing](implementing-nosto/implementation-guide-session-api/advanced-usage/spa-adding-support-for-customer-group-pricing.md)
   * [FAQ](implementing-nosto/implementation-guide-session-api/spa-faq.md)
-* [Native Mobile](implementing-nosto/native-mobile/README.md)
-  * [Implementing on iOS and Android](implementing-nosto/native-mobile/implementing-on-ios-and-android.md)
-* [Physical Retail](implementing-nosto/physical-retail/README.md)
-  * [Sending Offline Orders](implementing-nosto/physical-retail/sending-offline-orders.md)
+* [Implement on native mobile](implementing-nosto/implement-on-native-mobile/README.md)
+  * [Implementing on iOS and Android](implementing-nosto/implement-on-native-mobile/implementing-on-ios-and-android.md)
+* [Implement on a physical store](implementing-nosto/implement-on-physical-store/README.md)
+  * [Sending Offline Orders](implementing-nosto/implement-on-physical-store/sending-offline-orders.md)
 
 ## APIs
 

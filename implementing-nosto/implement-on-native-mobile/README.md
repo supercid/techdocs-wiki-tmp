@@ -1,4 +1,4 @@
-# Native Mobile
+# Implement on native mobile
 
 Implementing Nosto on a native mobile application allows a retailer to collect behavioral events similarly as within a traditional web page. This information will then be merged with Nosto data across other sources, impacting product relationships and real-time statistics across the board.
 

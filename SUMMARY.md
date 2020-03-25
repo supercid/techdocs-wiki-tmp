@@ -2,8 +2,6 @@
 
 * [Introduction](README.md)
 
-## Implement Nosto On a Regular Site
-
 ## Implementing Nosto
 
 * [Implement on your website](implementing-nosto/implement-on-your-website/README.md)

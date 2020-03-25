@@ -68,7 +68,7 @@ nostojs(api => {
 
 ## Setting the customer
 
-When a visitor logs in customer information _should_ be passed. If the customer isn't logged in, this can be omitted. Similar to setting the [cart contents](../../../implementing-nosto/implement-on-site/manual-implementation/cart-tagging.md), customer data is only sent to Nosto when an [action](session-api-terminology.md#action) is performed.
+When a visitor logs in customer information _should_ be passed. If the customer isn't logged in, this can be omitted. Similar to setting the [cart contents](../../../implementing-nosto/implement-on-your-website/manual-implementation/cart-tagging.md), customer data is only sent to Nosto when an [action](session-api-terminology.md#action) is performed.
 
 The customer information is primarily used for sending personalised triggered emails and for building multi-channel experiences.
 

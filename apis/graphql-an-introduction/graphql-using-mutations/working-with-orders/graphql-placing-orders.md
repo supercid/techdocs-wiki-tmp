@@ -33,7 +33,7 @@ mutation {
 }
 ```
 
-Orders can be associated with a customer either by [customer reference](../../../../implementing-nosto/implement-on-site/manual-implementation/adding-the-customer-information.md) or by customer id. The customer id matches the Nosto cookie \(this cookie is typically called `2c.cId`\).
+Orders can be associated with a customer either by [customer reference](../../../../implementing-nosto/implement-on-your-website/manual-implementation/adding-the-customer-information.md) or by customer id. The customer id matches the Nosto cookie \(this cookie is typically called `2c.cId`\).
 
 Tracking orders by customer id looks like the following:
 

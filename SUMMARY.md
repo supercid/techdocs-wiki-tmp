@@ -23,33 +23,22 @@
   * [Adding support for customer group pricing](implement-nosto-on-a-regular-site/advanced-implementation/adding-support-for-customer-group-pricing.md)
 * [FAQ](implement-nosto-on-a-regular-site/faq.md)
 
-## Implement Nosto On a Single-Page App - Session Api
+## Implementing Nosto
 
-* [Session Api](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/README.md)
-  * [Terminology](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/session-api-terminology.md)
-  * [Setting up](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/spa-basics-setting-up.md)
-  * [Managing Sessions](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/spa-basics-managing-sessions.md)
-  * [Tracking Events](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/spa-basics-tracking-events.md)
-  * [Leveraging Features](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/spa-basics-leveraging-features.md)
-  * [Advanced Usage](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/advanced-usage/README.md)
-    * [Adding support for multi-currency](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/advanced-usage/spa-adding-support-for-multi-currency.md)
-    * [Adding support for customer group pricing](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/advanced-usage/spa-adding-support-for-customer-group-pricing.md)
-  * [FAQ](implement-nosto-on-a-single-page-app-session-api/implementation-guide-session-api/spa-faq.md)
-
-## 3rd party data integrations
-
-* [3rd party data integrations](3rd-party-data-integrations/3rd-party-data-integrations/README.md)
-  * [Tracking Nosto with Google Analytics Enhanced Ecommerce](3rd-party-data-integrations/3rd-party-data-integrations/tracking-nosto-with-google-analytics.md)
-
-## Physical Retail
-
-* [Physical Retail](physical-retail/physical-retail/README.md)
-  * [Sending Offline Orders](physical-retail/physical-retail/sending-offline-orders.md)
-
-## Native Mobile
-
-* [Native Mobile](native-mobile/native-mobile/README.md)
-  * [Implementing on iOS and Android](native-mobile/native-mobile/implementing-on-ios-and-android.md)
+* [Session Api](implementing-nosto/implementation-guide-session-api/README.md)
+  * [Terminology](implementing-nosto/implementation-guide-session-api/session-api-terminology.md)
+  * [Setting up](implementing-nosto/implementation-guide-session-api/spa-basics-setting-up.md)
+  * [Managing Sessions](implementing-nosto/implementation-guide-session-api/spa-basics-managing-sessions.md)
+  * [Tracking Events](implementing-nosto/implementation-guide-session-api/spa-basics-tracking-events.md)
+  * [Leveraging Features](implementing-nosto/implementation-guide-session-api/spa-basics-leveraging-features.md)
+  * [Advanced Usage](implementing-nosto/implementation-guide-session-api/advanced-usage/README.md)
+    * [Adding support for multi-currency](implementing-nosto/implementation-guide-session-api/advanced-usage/spa-adding-support-for-multi-currency.md)
+    * [Adding support for customer group pricing](implementing-nosto/implementation-guide-session-api/advanced-usage/spa-adding-support-for-customer-group-pricing.md)
+  * [FAQ](implementing-nosto/implementation-guide-session-api/spa-faq.md)
+* [Native Mobile](implementing-nosto/native-mobile/README.md)
+  * [Implementing on iOS and Android](implementing-nosto/native-mobile/implementing-on-ios-and-android.md)
+* [Physical Retail](implementing-nosto/physical-retail/README.md)
+  * [Sending Offline Orders](implementing-nosto/physical-retail/sending-offline-orders.md)
 
 ## APIs
 
@@ -104,4 +93,9 @@
     * [Sending Customer Information](apis/js-apis/common-examples/sending-customer-information.md)
     * [Sending email addresses to Nosto](apis/js-apis/common-examples/sending-email-addresses-to-nosto.md)
     * [Manually segmenting users](apis/js-apis/common-examples/manually-segmenting-users.md)
+
+## 3rd party data integrations
+
+* [3rd party data integrations](3rd-party-data-integrations/3rd-party-data-integrations/README.md)
+  * [Tracking Nosto with Google Analytics Enhanced Ecommerce](3rd-party-data-integrations/3rd-party-data-integrations/tracking-nosto-with-google-analytics.md)
 

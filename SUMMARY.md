@@ -51,8 +51,6 @@
 * [Native Mobile](native-mobile/native-mobile/README.md)
   * [Implementing on iOS and Android](native-mobile/native-mobile/implementing-on-ios-and-android.md)
 
-## JS API
-
 ## APIs
 
 * [GraphQL](apis/graphql-an-introduction/README.md)
@@ -106,6 +104,4 @@
     * [Sending Customer Information](apis/js-apis/common-examples/sending-customer-information.md)
     * [Sending email addresses to Nosto](apis/js-apis/common-examples/sending-email-addresses-to-nosto.md)
     * [Manually segmenting users](apis/js-apis/common-examples/manually-segmenting-users.md)
-
-## GraphQL
 
